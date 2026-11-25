@@ -527,7 +527,7 @@
   "az": "Aşıq Hamayıl",
   "en": "Ashiq Hamayil",
   "ru": "Ашуг Гамайыл",
-  "born": 1850,
+  "born": null,
   "died": null,
   "period": "XIX əsr",
   "type": "POET",
@@ -723,6 +723,29 @@
    "lat": 40.9922,
    "lng": 45.6289
   }
+ },
+ {
+  "slug": "asiq-novruz-sekili",
+  "az": "Şəkili Aşıq Novruz",
+  "en": "Ashiq Novruz of Shaki",
+  "ru": "Ашуг Новруз из Шеки",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 3,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q234783",
+   "az": "Şəki",
+   "en": "Shaki",
+   "ru": "Шеки",
+   "lat": 41.1919,
+   "lng": 47.1706,
+   "from": "name"
+  },
+  "death": null
  },
  {
   "slug": "asiq-omer",
@@ -926,6 +949,29 @@
    "lat": 41.7225,
    "lng": 44.7925
   }
+ },
+ {
+  "slug": "baba-remzi",
+  "az": "Təbrizli Baba (Rəmzi)",
+  "en": "Baba (Ramzi) of Tabriz",
+  "ru": "Баба (Рамзи) из Тебриза",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 1,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q80053",
+   "az": "Təbriz",
+   "en": "Tabriz",
+   "ru": "Тебриз",
+   "lat": 38.0739,
+   "lng": 46.2961,
+   "from": "name"
+  },
+  "death": null
  },
  {
   "slug": "bahar-sirvani",
@@ -1399,6 +1445,52 @@
   }
  },
  {
+  "slug": "deli-beyir",
+  "az": "Şəkili Dəli Bəyir",
+  "en": "Deli Beyir of Shaki",
+  "ru": "Дели Бейир из Шеки",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 1,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q234783",
+   "az": "Şəki",
+   "en": "Shaki",
+   "ru": "Шеки",
+   "lat": 41.1919,
+   "lng": 47.1706,
+   "from": "name"
+  },
+  "death": null
+ },
+ {
+  "slug": "derbendli-agabey",
+  "az": "Dərbəndli Ağabəy",
+  "en": "Aghabey of Derbent",
+  "ru": "Агабей из Дербента",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 1,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q131416",
+   "az": "Dərbənd",
+   "en": "Derbent",
+   "ru": "Дербент",
+   "lat": 42.0578,
+   "lng": 48.2889,
+   "from": "name"
+  },
+  "death": null
+ },
+ {
   "slug": "dide",
   "az": "Mirzə Nəsrullah bəy Didə",
   "en": "Mirza Nasrullah bey Dide",
@@ -1535,6 +1627,29 @@
    "lat": 38.8567,
    "lng": 46.4861
   }
+ },
+ {
+  "slug": "eherli-mirze-agacan",
+  "az": "Əhərli Mirzə Ağacan",
+  "en": "Mirza Aghajan of Ahar",
+  "ru": "Мирза Агаджан из Ахара",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 1,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q911727",
+   "az": "Əhər",
+   "en": "Ahar",
+   "ru": "Ахар",
+   "lat": 38.4775,
+   "lng": 47.0662,
+   "from": "name"
+  },
+  "death": null
  },
  {
   "slug": "ehmed-bey-agaoglu",
@@ -1839,7 +1954,7 @@
   "az": "Əndəlib Qaracadaği",
   "en": "Andalib Garajadaghi",
   "ru": "Андалиб Караджадаги",
-  "born": 1850,
+  "born": null,
   "died": null,
   "period": "XVIII-XIX əsr",
   "type": "POET",
@@ -1891,6 +2006,28 @@
    "lat": 40.3667,
    "lng": 49.8352
   }
+ },
+ {
+  "slug": "eresli-covri",
+  "az": "Ərəşli Cövri",
+  "en": "Jovri of Arash",
+  "ru": "Джеври из Ереша",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 1,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q8083806",
+   "az": "Ərəş",
+   "en": "Ərəş",
+   "lat": 40.7381,
+   "lng": 47.2283,
+   "from": "mumtaz"
+  },
+  "death": null
  },
  {
   "slug": "esger-aga-gorani",
@@ -2197,6 +2334,29 @@
   }
  },
  {
+  "slug": "genceli-hesen",
+  "az": "Gəncəli Həsən",
+  "en": "Hasan of Ganja",
+  "ru": "Хасан из Гянджи",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 2,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q131290",
+   "az": "Gəncə",
+   "en": "Ganja",
+   "ru": "Гянджа",
+   "lat": 40.6828,
+   "lng": 46.3606,
+   "from": "name"
+  },
+  "death": null
+ },
+ {
   "slug": "habibi",
   "az": "Həbibi",
   "en": "Habibi",
@@ -2479,6 +2639,29 @@
   }
  },
  {
+  "slug": "hemam",
+  "az": "Həmam Təbrizi",
+  "en": "Homam Tabrizi",
+  "ru": "Хумам Табризи",
+  "born": 1238,
+  "died": 1314,
+  "period": "XIII-XIV əsr",
+  "type": "POET",
+  "works": 382,
+  "wikidata": "Q2639771",
+  "match": "origin",
+  "birth": {
+   "id": "Q80053",
+   "az": "Təbriz",
+   "en": "Tabriz",
+   "ru": "Тебриз",
+   "lat": 38.0739,
+   "lng": 46.2961,
+   "from": "name"
+  },
+  "death": null
+ },
+ {
   "slug": "heyran",
   "az": "Heyran xanım",
   "en": "Heyran Khanum",
@@ -2622,6 +2805,52 @@
    "lat": 38.6667,
    "lng": 39.2167
   }
+ },
+ {
+  "slug": "ilisulu-molla-cume",
+  "az": "İlisulu Molla Cümə",
+  "en": "Molla Cuma of Ilisu",
+  "ru": "Молла Джума из Илису",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 1,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q2672033",
+   "az": "İlisu",
+   "en": "İlisu",
+   "ru": "Илису",
+   "lat": 41.468,
+   "lng": 47.0536,
+   "from": "name"
+  },
+  "death": null
+ },
+ {
+  "slug": "ilisulu-molla-mehemmed-nazim",
+  "az": "İlisulu Molla Məhəmməd Nazim",
+  "en": "Molla Mohammad Nazim of Ilisu",
+  "ru": "Молла Мухаммед Назим из Илису",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 2,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q2672033",
+   "az": "İlisu",
+   "en": "İlisu",
+   "ru": "Илису",
+   "lat": 41.468,
+   "lng": 47.0536,
+   "from": "name"
+  },
+  "death": null
  },
  {
   "slug": "ilyas-efendiyev",
@@ -2801,8 +3030,8 @@
   "az": "İzzəddin Həsənoğlu",
   "en": "Izzeddin Hasanoghlu",
   "ru": "Иззеддин Гасаноглы",
-  "born": 1250,
-  "died": 1400,
+  "born": null,
+  "died": null,
   "period": "XIII-XIV əsr",
   "type": "POET",
   "works": 10,
@@ -2841,6 +3070,29 @@
   "death": null
  },
  {
+  "slug": "keliberli-asiq-eli",
+  "az": "Kəlibərli Aşıq Əli",
+  "en": "Ashiq Ali of Kalibar",
+  "ru": "Ашуг Али из Келибера",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 1,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q862556",
+   "az": "Kəleybər",
+   "en": "Kaleybar",
+   "ru": "Келейбер",
+   "lat": 38.8667,
+   "lng": 47.0333,
+   "from": "mumtaz"
+  },
+  "death": null
+ },
+ {
   "slug": "kemine",
   "az": "Fatma xanım Kəminə",
   "en": "Fatma Khanum Kamina",
@@ -2874,8 +3126,8 @@
   "az": "Kişvəri",
   "en": "Kishvari",
   "ru": "Кишвери",
-  "born": 1450,
-  "died": 1600,
+  "born": null,
+  "died": null,
   "period": "XV əsr",
   "type": "POET",
   "works": 312,
@@ -2928,12 +3180,35 @@
   }
  },
  {
+  "slug": "letif-qas",
+  "az": "Şəkili Lətif Naqqaş",
+  "en": "Latif Naqqash of Shaki",
+  "ru": "Латиф Наггаш из Шеки",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 1,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q234783",
+   "az": "Şəki",
+   "en": "Shaki",
+   "ru": "Шеки",
+   "lat": 41.1919,
+   "lng": 47.1706,
+   "from": "name"
+  },
+  "death": null
+ },
+ {
   "slug": "lezgi-ehmed",
   "az": "Ləzgi Əhməd",
   "en": "Lezgi Ahmed",
   "ru": "Лезги Ахмед",
   "born": null,
-  "died": 1800,
+  "died": null,
   "period": null,
   "type": "POET",
   "works": 2,
@@ -2977,6 +3252,29 @@
    "lat": 40.6828,
    "lng": 46.3606
   }
+ },
+ {
+  "slug": "mahtab-xanim",
+  "az": "Mahtab xanım Şəkili",
+  "en": "Mahtab khanum of Shaki",
+  "ru": "Махтаб-ханум Шекинская",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 2,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q234783",
+   "az": "Şəki",
+   "en": "Shaki",
+   "ru": "Шеки",
+   "lat": 41.1919,
+   "lng": 47.1706,
+   "from": "name"
+  },
+  "death": null
  },
  {
   "slug": "manaf-suleymanov",
@@ -3088,6 +3386,28 @@
   }
  },
  {
+  "slug": "meghribi",
+  "az": "Şəms Məğribi",
+  "en": "Shams Maghrebi",
+  "ru": "Шамс Магриби",
+  "born": 1349,
+  "died": 1408,
+  "period": "XIV əsr",
+  "type": "POET",
+  "works": 262,
+  "wikidata": "Q3275376",
+  "match": "override",
+  "birth": {
+   "id": "Q80053",
+   "az": "Təbriz",
+   "en": "Tabriz",
+   "ru": "Тебриз",
+   "lat": 38.0739,
+   "lng": 46.2961
+  },
+  "death": null
+ },
+ {
   "slug": "mehdi-huseyn",
   "az": "Mehdi Hüseyn",
   "en": "Mehdi Huseyn",
@@ -3173,6 +3493,29 @@
    "lat": 38.9047,
    "lng": 46.0231
   }
+ },
+ {
+  "slug": "mehemmedeli-bey-mecruh",
+  "az": "Qaradonlu Məhəmmədəli bəy Məcruh",
+  "en": "Mohammadali bey Majrukh of Qaradonlu",
+  "ru": "Мухаммедали бек Маджрух из Карадонлу",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 1,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q4213761",
+   "az": "Qaradonlu",
+   "en": "Qaradonlu",
+   "ru": "Карадонлу",
+   "lat": 39.7899,
+   "lng": 48.042,
+   "from": "mumtaz"
+  },
+  "death": null
  },
  {
   "slug": "memmed-araz",
@@ -4048,6 +4391,74 @@
   }
  },
  {
+  "slug": "molla-ehmed-faiz",
+  "az": "Dərbəndli Molla Əhməd Faiz",
+  "en": "Molla Ahmed Faiz of Derbent",
+  "ru": "Молла Ахмед Фаиз из Дербента",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 2,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q131416",
+   "az": "Dərbənd",
+   "en": "Derbent",
+   "ru": "Дербент",
+   "lat": 42.0578,
+   "lng": 48.2889,
+   "from": "name"
+  },
+  "death": null
+ },
+ {
+  "slug": "molla-mehemmed-sefili",
+  "az": "Molla Məhəmməd Səfili",
+  "en": "Molla Mohammad Safili",
+  "ru": "Молла Мухаммед Сафили",
+  "born": 1870,
+  "died": null,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 23,
+  "wikidata": "Q136766466",
+  "match": "origin",
+  "birth": {
+   "id": "Q212546",
+   "az": "Axalsıx",
+   "en": "Akhaltsikhe",
+   "ru": "Ахалцихе",
+   "lat": 41.6389,
+   "lng": 42.9861,
+   "from": "name"
+  },
+  "death": null
+ },
+ {
+  "slug": "molla-niyaz-niyazi",
+  "az": "Ərəşli Molla Niyaz Niyazi",
+  "en": "Molla Niyaz Niyazi of Arash",
+  "ru": "Молла Ниаз Ниязи из Эреша",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 1,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q8083806",
+   "az": "Ərəş",
+   "en": "Ərəş",
+   "lat": 40.7381,
+   "lng": 47.2283,
+   "from": "name"
+  },
+  "death": null
+ },
+ {
   "slug": "movlud-suleymanli",
   "az": "Mövlud Süleymanlı",
   "en": "Movlud Suleymanli",
@@ -4139,7 +4550,7 @@
   "az": "Mustafa Zərir",
   "en": "Mustafa Darir",
   "ru": "Мустафа Дарир",
-  "born": 1301,
+  "born": null,
   "died": 1350,
   "period": "XIV əsr",
   "type": "POET",
@@ -4293,6 +4704,29 @@
    "lat": 39.7602,
    "lng": 46.7504
   }
+ },
+ {
+  "slug": "naxcivanli-allahverdi",
+  "az": "Naxçıvanlı Allahverdi",
+  "en": "Allahverdi of Nakhchivan",
+  "ru": "Аллахверди из Нахичевани",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 1,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q230104",
+   "az": "Naxçıvan",
+   "en": "Nakhchivan",
+   "ru": "Нахичевань",
+   "lat": 39.2089,
+   "lng": 45.4122,
+   "from": "name"
+  },
+  "death": null
  },
  {
   "slug": "nebi-xezri",
@@ -4469,6 +4903,29 @@
   }
  },
  {
+  "slug": "neyyir",
+  "az": "Nəyyir Təbrizi",
+  "en": "Nayyir Tabrizi",
+  "ru": "Найир Табризи",
+  "born": null,
+  "died": null,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 345,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q80053",
+   "az": "Təbriz",
+   "en": "Tabriz",
+   "ru": "Тебриз",
+   "lat": 38.0739,
+   "lng": 46.2961,
+   "from": "name"
+  },
+  "death": null
+ },
+ {
   "slug": "nezmi",
   "az": "Əli Nəzmi",
   "en": "Ali Nazmi",
@@ -4612,7 +5069,7 @@
   "en": "Novras Iman",
   "ru": "Новрес Иман",
   "born": 1903,
-  "died": 2000,
+  "died": null,
   "period": "XX əsr",
   "type": "POET",
   "works": 127,
@@ -4918,6 +5375,29 @@
   }
  },
  {
+  "slug": "qazaxli-ebdurrehman-aga",
+  "az": "Qazaxlı Əbdürrəhman ağa Şair",
+  "en": "Abdurrahman Agha Shair of Qazakh",
+  "ru": "Абдуррахман ага Шаир из Казаха",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 1,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q586758",
+   "az": "Qazax",
+   "en": "Gazakh",
+   "ru": "Газах",
+   "lat": 41.0933,
+   "lng": 45.3661,
+   "from": "name"
+  },
+  "death": null
+ },
+ {
   "slug": "qemkusar",
   "az": "Əliqulu Qəmküsar",
   "en": "Aligulu Gamgusar",
@@ -4945,6 +5425,29 @@
    "lat": 41.7225,
    "lng": 44.7925
   }
+ },
+ {
+  "slug": "qemnak",
+  "az": "Şəkili Hüseyn Qəmnak",
+  "en": "Huseyn Gamnak of Shaki",
+  "ru": "Гусейн Гамнак из Шеки",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 1,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q234783",
+   "az": "Şəki",
+   "en": "Shaki",
+   "ru": "Шеки",
+   "lat": 41.1919,
+   "lng": 47.1706,
+   "from": "name"
+  },
+  "death": null
  },
  {
   "slug": "qenizade",
@@ -5025,7 +5528,7 @@
   "en": "Gul Garani",
   "ru": "Гул Гараны",
   "born": 1750,
-  "died": 1900,
+  "died": null,
   "period": "XVIII-XIX əsr",
   "type": "POET",
   "works": 6,
@@ -5231,6 +5734,29 @@
   }
  },
  {
+  "slug": "resul-dulger",
+  "az": "Şəkili Rəsul (Dülgər)",
+  "en": "Rasul (Dulgar) of Shaki",
+  "ru": "Расул (Дюльгер) из Шеки",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 1,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q234783",
+   "az": "Şəki",
+   "en": "Shaki",
+   "ru": "Шеки",
+   "lat": 41.1919,
+   "lng": 47.1706,
+   "from": "name"
+  },
+  "death": null
+ },
+ {
   "slug": "resul-rza",
   "az": "Rəsul Rza",
   "en": "Rasul Rza",
@@ -5396,6 +5922,29 @@
    "lat": 40.3667,
    "lng": 49.8352
   }
+ },
+ {
+  "slug": "sabuncu-qizi",
+  "az": "Sabunçu qızı",
+  "en": "Sabunchu qizi",
+  "ru": "Сабунчу гызы",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 1,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q1623359",
+   "az": "Sabunçu (Zaqatala)",
+   "en": "Sabunçu",
+   "ru": "Сабунчи",
+   "lat": 41.5871,
+   "lng": 46.7934,
+   "from": "mumtaz"
+  },
+  "death": null
  },
  {
   "slug": "sadiq-bey-efsar",
@@ -5572,6 +6121,52 @@
   }
  },
  {
+  "slug": "salahli-eli-aga-alem",
+  "az": "Salahlı Əli ağa Aləm",
+  "en": "Ali Agha Alam of Salahli",
+  "ru": "Али ага Алям из Салахлы",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 1,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q4535490",
+   "az": "Yuxarı Salahlı",
+   "en": "Yukhary Salahly",
+   "ru": "Юхары-Салахлы",
+   "lat": 41.2423,
+   "lng": 45.2658,
+   "from": "name"
+  },
+  "death": null
+ },
+ {
+  "slug": "salahli-peri",
+  "az": "Salahlı Ağ Qız Oğlu Pəri",
+  "en": "Peri Ag Qiz Oglu of Salahli",
+  "ru": "Пери, сын Аг Гыз, из Салахлы",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 1,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q4535490",
+   "az": "Yuxarı Salahlı",
+   "en": "Yukhary Salahly",
+   "ru": "Юхары-Салахлы",
+   "lat": 41.2423,
+   "lng": 45.2658,
+   "from": "mumtaz"
+  },
+  "death": null
+ },
+ {
   "slug": "salam-qedirzade",
   "az": "Salam Qədirzadə",
   "en": "Salam Qadirzada",
@@ -5657,6 +6252,29 @@
    "lat": 52.9686,
    "lng": 36.0694
   }
+ },
+ {
+  "slug": "salmasli-ertun",
+  "az": "Salmaslı Ərtun",
+  "en": "Ertun of Salmas",
+  "ru": "Эртун из Салмаса",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 1,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q765806",
+   "az": "Salmas",
+   "en": "Salmas",
+   "ru": "Сельмас",
+   "lat": 38.2,
+   "lng": 44.7667,
+   "from": "name"
+  },
+  "death": null
  },
  {
   "slug": "sam-mirze",
@@ -5889,6 +6507,236 @@
    "lat": 35.6889,
    "lng": 51.3897
   }
+ },
+ {
+  "slug": "sekili-hatim",
+  "az": "Şəkili Hatim",
+  "en": "Hatim of Shaki",
+  "ru": "Хатим из Шеки",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 1,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q234783",
+   "az": "Şəki",
+   "en": "Shaki",
+   "ru": "Шеки",
+   "lat": 41.1919,
+   "lng": 47.1706,
+   "from": "name"
+  },
+  "death": null
+ },
+ {
+  "slug": "sekili-lele",
+  "az": "Şəkili Lələ",
+  "en": "Lala of Shaki",
+  "ru": "Лела из Шеки",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 1,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q234783",
+   "az": "Şəki",
+   "en": "Shaki",
+   "ru": "Шеки",
+   "lat": 41.1919,
+   "lng": 47.1706,
+   "from": "name"
+  },
+  "death": null
+ },
+ {
+  "slug": "sekili-mehemmed",
+  "az": "Şəkili Məhəmməd",
+  "en": "Mohammad of Shaki",
+  "ru": "Мухаммед из Шеки",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 1,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q234783",
+   "az": "Şəki",
+   "en": "Shaki",
+   "ru": "Шеки",
+   "lat": 41.1919,
+   "lng": 47.1706,
+   "from": "name"
+  },
+  "death": null
+ },
+ {
+  "slug": "sekili-molla-cami",
+  "az": "Şəkili Molla Cami",
+  "en": "Molla Jami of Shaki",
+  "ru": "Молла Джами из Шеки",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 1,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q234783",
+   "az": "Şəki",
+   "en": "Shaki",
+   "ru": "Шеки",
+   "lat": 41.1919,
+   "lng": 47.1706,
+   "from": "name"
+  },
+  "death": null
+ },
+ {
+  "slug": "sekili-molla-qasim-zakir",
+  "az": "Şəkili Molla Qasım Zakir",
+  "en": "Molla Qasim Zakir of Shaki",
+  "ru": "Молла Гасым Закир из Шеки",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 5,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q234783",
+   "az": "Şəki",
+   "en": "Shaki",
+   "ru": "Шеки",
+   "lat": 41.1919,
+   "lng": 47.1706,
+   "from": "name"
+  },
+  "death": null
+ },
+ {
+  "slug": "sekili-molla-turab",
+  "az": "Şəkili Molla Turab Bərci",
+  "en": "Molla Turab Barji of Shaki",
+  "ru": "Молла Тураб (Берджи) из Шеки",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 2,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q234783",
+   "az": "Şəki",
+   "en": "Shaki",
+   "ru": "Шеки",
+   "lat": 41.1919,
+   "lng": 47.1706,
+   "from": "name"
+  },
+  "death": null
+ },
+ {
+  "slug": "sekili-muezzin-turab",
+  "az": "Şəkili Müəzzin Turab",
+  "en": "Muezzin Turab of Shaki",
+  "ru": "Муэдзин Тураб из Шеки",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 1,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q234783",
+   "az": "Şəki",
+   "en": "Shaki",
+   "ru": "Шеки",
+   "lat": 41.1919,
+   "lng": 47.1706,
+   "from": "name"
+  },
+  "death": null
+ },
+ {
+  "slug": "sekili-mustafa-aga-suxi",
+  "az": "Şəkili Mustafa ağa Şuxi",
+  "en": "Mustafa Agha Shukhi of Shaki",
+  "ru": "Мустафа ага Шухи из Шеки",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 2,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q234783",
+   "az": "Şəki",
+   "en": "Shaki",
+   "ru": "Шеки",
+   "lat": 41.1919,
+   "lng": 47.1706,
+   "from": "name"
+  },
+  "death": null
+ },
+ {
+  "slug": "sekili-osman-bicare",
+  "az": "Şəkili Osman Biçarə",
+  "en": "Osman Bicara of Shaki",
+  "ru": "Осман (Бичаре) из Шеки",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 1,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q234783",
+   "az": "Şəki",
+   "en": "Shaki",
+   "ru": "Шеки",
+   "lat": 41.1919,
+   "lng": 47.1706,
+   "from": "name"
+  },
+  "death": null
+ },
+ {
+  "slug": "sekili-suleyman",
+  "az": "Şəkili Süleyman",
+  "en": "Suleyman of Shaki",
+  "ru": "Сулейман из Шеки",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 1,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q234783",
+   "az": "Şəki",
+   "en": "Shaki",
+   "ru": "Шеки",
+   "lat": 41.1919,
+   "lng": 47.1706,
+   "from": "name"
+  },
+  "death": null
  },
  {
   "slug": "semed-behrengi",
@@ -6869,6 +7717,29 @@
   }
  },
  {
+  "slug": "xoylu-kor-teqi",
+  "az": "Xoylu Kor Təqi",
+  "en": "Kor Taghi of Khoy",
+  "ru": "Кор Тахи из Хоя",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 1,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q605105",
+   "az": "Xoy",
+   "en": "Khoy",
+   "ru": "Хой",
+   "lat": 38.5517,
+   "lng": 44.9595,
+   "from": "name"
+  },
+  "death": null
+ },
+ {
   "slug": "yehya-bey-dilqem",
   "az": "Yəhya bəy Dilqəm",
   "en": "Yahya Beg Dilgam",
@@ -7036,6 +7907,52 @@
   }
  },
  {
+  "slug": "zencanli-molla-mehemmed-hideci",
+  "az": "Zəncanlı Molla Məhəmməd Hidəci",
+  "en": "Molla Mohammad Hidaji of Zanjan",
+  "ru": "Молла Мухаммед Хиджи из Зенджана",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 3,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q2629142",
+   "az": "Hidəc",
+   "en": "Hidaj",
+   "ru": "Хидедж",
+   "lat": 36.2497,
+   "lng": 49.1272,
+   "from": "mumtaz"
+  },
+  "death": null
+ },
+ {
+  "slug": "zernigar",
+  "az": "Zərnigar Dərbəndi",
+  "en": "Zarnigar of Derbent",
+  "ru": "Зарнигяр Дербенди",
+  "born": null,
+  "died": null,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 1,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q131416",
+   "az": "Dərbənd",
+   "en": "Derbent",
+   "ru": "Дербент",
+   "lat": 42.0578,
+   "lng": 48.2889,
+   "from": "name"
+  },
+  "death": null
+ },
+ {
   "slug": "zeynal-cabbarzade",
   "az": "Zeynal Cabbarzadə",
   "en": "Zeynal Jabbarzade",
@@ -7128,7 +8045,7 @@
   "en": "Zikri Ardabili",
   "ru": "Зикри Ардебили",
   "born": 1790,
-  "died": 1900,
+  "died": null,
   "period": "XVIII-XIX əsr",
   "type": "POET",
   "works": 9,

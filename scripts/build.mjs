@@ -60,11 +60,11 @@ for (const wiki of ['az', 'en']) {
 // 2. Wikidata: person?, birth/death years, places with coordinates
 const facts = new Map();
 for (const part of chunks([...new Set([...candidates.values()].map((c) => c.qid))], 120)) {
-  const q = `SELECT ?item ?human ?born ?died ?bp ?bpAz ?bpEn ?bpRu ?bpC ?dp ?dpAz ?dpEn ?dpRu ?dpC WHERE {
+  const q = `SELECT ?item ?human ?born ?bornP ?died ?diedP ?bp ?bpAz ?bpEn ?bpRu ?bpC ?dp ?dpAz ?dpEn ?dpRu ?dpC WHERE {
     VALUES ?item { ${part.map((x) => 'wd:' + x).join(' ')} }
     BIND(EXISTS { ?item wdt:P31 wd:Q5 } AS ?human)
-    OPTIONAL { ?item wdt:P569 ?born }
-    OPTIONAL { ?item wdt:P570 ?died }
+    OPTIONAL { ?item p:P569/psv:P569 [ wikibase:timeValue ?born; wikibase:timePrecision ?bornP ] }
+    OPTIONAL { ?item p:P570/psv:P570 [ wikibase:timeValue ?died; wikibase:timePrecision ?diedP ] }
     OPTIONAL { ?item wdt:P19 ?bp . ?bp wdt:P625 ?bpC .
       OPTIONAL { ?bp rdfs:label ?bpAz FILTER(lang(?bpAz) = "az") }
       OPTIONAL { ?bp rdfs:label ?bpEn FILTER(lang(?bpEn) = "en") }
@@ -78,9 +78,10 @@ for (const part of chunks([...new Set([...candidates.values()].map((c) => c.qid)
   for (const b of j.results.bindings) {
     const id = b.item.value.split('/').pop();
     const f = facts.get(id) ?? { human: b.human?.value === 'true', born: null, died: null, birth: null, death: null };
-    const year = (v) => (v ? parseInt(v.value.replace(/^\+?(-?\d+).*/, '$1'), 10) : null);
-    f.born ??= year(b.born);
-    f.died ??= year(b.died);
+    // a year only when Wikidata knows it to the year: "XX century" is stored as 2000 at precision 7
+    const year = (v, p) => (v && +p?.value >= 9 ? parseInt(v.value.replace(/^\+?(-?\d+).*/, '$1'), 10) : null);
+    f.born ??= year(b.born, b.bornP);
+    f.died ??= year(b.died, b.diedP);
     const place = (p) => {
       if (!b[p]) return null;
       const [lng, lat] = b[p + 'C'].value.replace(/Point\(|\)/g, '').split(' ').map(Number);
@@ -106,6 +107,26 @@ function agrees(a, f) {
   return cs.length > 0 && [f.born, f.died].some((y) => y != null && cs.includes(centuryOf(y)));
 }
 
+// 4. Where a folk poet came from, for those with no birthplace on record: the place in their name
+// ("Şəkili", "Dərbəndli") or in Salman Mümtaz's note on them. Set by hand in overrides.json as
+// { "from": <Wikidata place>, "basis": "name" | "mumtaz" }; shown as an origin, not a birthplace.
+const origins = new Map();
+const fromIds = [...new Set(Object.values(overrides).map((o) => o.from).filter(Boolean))];
+if (fromIds.length) {
+  const q = `SELECT ?p ?c ?az ?en ?ru WHERE { VALUES ?p { ${fromIds.map((x) => 'wd:' + x).join(' ')} } ?p wdt:P625 ?c .
+    OPTIONAL { ?p rdfs:label ?az FILTER(lang(?az) = "az") } OPTIONAL { ?p rdfs:label ?en FILTER(lang(?en) = "en") }
+    OPTIONAL { ?p rdfs:label ?ru FILTER(lang(?ru) = "ru") } }`;
+  const j = await get('https://query.wikidata.org/sparql?format=json&query=' + encodeURIComponent(q));
+  for (const b of j.results.bindings) {
+    const id = b.p.value.split('/').pop();
+    if (origins.has(id)) continue;
+    const [lng, lat] = b.c.value.replace(/Point\(|\)/g, '').split(' ').map(Number);
+    origins.set(id, { id, az: b.az?.value, en: b.en?.value, ru: b.ru?.value, lat: +lat.toFixed(4), lng: +lng.toFixed(4) });
+  }
+  const lost = fromIds.filter((id) => !origins.has(id));
+  if (lost.length) throw new Error(`no coordinates on Wikidata for ${lost.join(', ')}`);
+}
+
 const out = [];
 let rejected = 0;
 for (const a of authors) {
@@ -114,14 +135,15 @@ for (const a of authors) {
   const ok = f && (c.how !== 'name' || agrees(a, f));
   if (c && !ok) rejected++;
   const o = overrides[a.slug] ?? {};
-  const birth = o.birth ?? (ok ? f.birth : null);
+  let birth = o.birth ?? (ok ? f.birth : null);
   const death = o.death ?? (ok ? f.death : null);
+  if (!birth && o.from) birth = { ...origins.get(o.from), from: o.basis };
   if (!birth && !death) continue;
   out.push({
     slug: a.slug, az: a.nameAz, en: a.nameEn, ru: a.nameRu,
     born: a.bornYear ?? (ok ? f.born : null), died: a.diedYear ?? (ok ? f.died : null),
     period: a.period, type: a.type, works: a.works,
-    wikidata: ok ? c.qid : null, match: o.birth || o.death ? 'override' : c.how,
+    wikidata: ok ? c.qid : null, match: o.birth || o.death ? 'override' : birth?.from ? 'origin' : c.how,
     birth, death,
   });
 }

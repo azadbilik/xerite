@@ -139,6 +139,9 @@ const centuryOf = (a) => {
 };
 const label = (p) => p.az || p.en || p.ru;
 const years = (a) => a.born || a.died ? `${a.born ?? '?'}–${a.died ?? ''}` : (a.period ?? '');
+// A folk poet placed by where they came from, not by a recorded birthplace
+const origin = (a) => ({ name: 'adından <span lang="en">· by name</span>', mumtaz: 'S. Mümtaza görə <span lang="en">· per S. Mümtaz</span>' })[a.birth?.from] ?? '';
+const meta = (...xs) => xs.filter(Boolean).join(' · ');
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
 
 const TOTAL = 472;
@@ -234,7 +237,7 @@ function renderList(gs, sel) {
       <h2>${esc(sel.name)} <small>${sel.authors.length} müəllif</small></h2>
       <ol>${sel.authors.sort((a, b) => (a.born ?? a.died ?? 9999) - (b.born ?? b.died ?? 9999)).map((a) => `<li><a href="https://kitabxana.az/authors/${a.slug}">
         <span class="name">${esc(a.az)}</span><span class="num">${a.works}</span>
-        <span class="meta">${esc(years(a))}${a[other] && a[other].id !== sel.id ? ` · ${other === 'death' ? '†' : '*'} ${esc(label(a[other]))}` : ''}</span></a></li>`).join('')}</ol>
+        <span class="meta">${meta(esc(years(a)), a[other] && a[other].id !== sel.id && `${other === 'death' ? '†' : '*'} ${esc(label(a[other]))}`, origin(a))}</span></a></li>`).join('')}</ol>
       <p class="note">Rəqəm: saytdakı əsərlərin sayı. <span lang="en">Number: works on kitabxana.az.</span></p>`;
     document.getElementById('back').onclick = () => select(null);
     return;
@@ -242,8 +245,8 @@ function renderList(gs, sel) {
   el.innerHTML = `<h2>${century ? `${roman(century)} əsr` : 'Bütün yerlər'} <small>${n} müəllif · ${gs.length} yer</small></h2>
     <ol>${gs.slice(0, 60).map((g) => `<li><button type="button" data-id="${g.id}"><span class="name">${esc(g.name)}</span><span class="num">${g.authors.length}</span>
       <span class="meta">${esc(g.authors.slice(0, 3).map((a) => a.az).join(', '))}${g.authors.length > 3 ? '…' : ''}</span></button></li>`).join('')}</ol>
-    <p class="note">Yerlər Wikidata-dan: ${authors.length} müəllif, saytdakı ${TOTAL} müəllifdən. Yalnız ləqəbi ilə tanınan el şairlərinin çoxunun yeri məlum deyil. <a href="https://github.com/azadbilik/xerite/issues">Səhv tapdınız?</a>
-      <span lang="en">Places from Wikidata for ${authors.length} of the site's ${TOTAL} authors; many folk poets known by a single name have no recorded place.</span></p>`;
+    <p class="note">${authors.length} müəllif, saytdakı ${TOTAL} müəllifdən. Yerlər Wikidata-dandır; doğulduğu yeri bilinməyən el şairlərinin bir qismi gəldiyi yerdə göstərilir: adından (Şəkili, Dərbəndli) və ya Salman Mümtazın «El şairləri»ndəki qeydinə görə. Yalnız ləqəbi ilə tanınanların çoxunun yeri məlum deyil. <a href="https://github.com/azadbilik/xerite/issues">Səhv tapdınız?</a>
+      <span lang="en">${authors.length} of the site's ${TOTAL} authors. Places are from Wikidata; folk poets with no recorded birthplace are shown where they came from, by their name (Şəkili, “of Shaki”) or Salman Mümtaz's note in «El şairləri». Most of those known by a single name have no known place.</span></p>`;
   el.querySelectorAll('button[data-id]').forEach((b) => b.onclick = () => select(b.dataset.id));
 }
 

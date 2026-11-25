@@ -1,1 +1,161 @@
-{}
+{
+ "asiq-novruz-sekili": {
+  "from": "Q234783",
+  "basis": "name"
+ },
+ "baba-remzi": {
+  "from": "Q80053",
+  "basis": "name"
+ },
+ "deli-beyir": {
+  "from": "Q234783",
+  "basis": "name"
+ },
+ "derbendli-agabey": {
+  "from": "Q131416",
+  "basis": "name"
+ },
+ "eherli-mirze-agacan": {
+  "from": "Q911727",
+  "basis": "name"
+ },
+ "eresli-covri": {
+  "from": "Q8083806",
+  "basis": "mumtaz"
+ },
+ "genceli-hesen": {
+  "from": "Q131290",
+  "basis": "name"
+ },
+ "hemam": {
+  "from": "Q80053",
+  "basis": "name"
+ },
+ "ilisulu-molla-cume": {
+  "from": "Q2672033",
+  "basis": "name"
+ },
+ "ilisulu-molla-mehemmed-nazim": {
+  "from": "Q2672033",
+  "basis": "name"
+ },
+ "keliberli-asiq-eli": {
+  "from": "Q862556",
+  "basis": "mumtaz"
+ },
+ "letif-qas": {
+  "from": "Q234783",
+  "basis": "name"
+ },
+ "mahtab-xanim": {
+  "from": "Q234783",
+  "basis": "name"
+ },
+ "meghribi": {
+  "wikidataId": "Q3275376"
+ },
+ "mehemmedeli-bey-mecruh": {
+  "from": "Q4213761",
+  "basis": "mumtaz"
+ },
+ "molla-ehmed-faiz": {
+  "from": "Q131416",
+  "basis": "name"
+ },
+ "molla-mehemmed-sefili": {
+  "from": "Q212546",
+  "basis": "name"
+ },
+ "molla-niyaz-niyazi": {
+  "from": "Q8083806",
+  "basis": "name"
+ },
+ "naxcivanli-allahverdi": {
+  "from": "Q230104",
+  "basis": "name"
+ },
+ "neyyir": {
+  "from": "Q80053",
+  "basis": "name"
+ },
+ "qazaxli-ebdurrehman-aga": {
+  "from": "Q586758",
+  "basis": "name"
+ },
+ "qemnak": {
+  "from": "Q234783",
+  "basis": "name"
+ },
+ "resul-dulger": {
+  "from": "Q234783",
+  "basis": "name"
+ },
+ "sabuncu-qizi": {
+  "from": "Q1623359",
+  "basis": "mumtaz"
+ },
+ "salahli-eli-aga-alem": {
+  "from": "Q4535490",
+  "basis": "name"
+ },
+ "salahli-peri": {
+  "from": "Q4535490",
+  "basis": "mumtaz"
+ },
+ "salmasli-ertun": {
+  "from": "Q765806",
+  "basis": "name"
+ },
+ "sekili-hatim": {
+  "from": "Q234783",
+  "basis": "name"
+ },
+ "sekili-lele": {
+  "from": "Q234783",
+  "basis": "name"
+ },
+ "sekili-mehemmed": {
+  "from": "Q234783",
+  "basis": "name"
+ },
+ "sekili-molla-cami": {
+  "from": "Q234783",
+  "basis": "name"
+ },
+ "sekili-molla-qasim-zakir": {
+  "from": "Q234783",
+  "basis": "name"
+ },
+ "sekili-molla-turab": {
+  "from": "Q234783",
+  "basis": "name"
+ },
+ "sekili-muezzin-turab": {
+  "from": "Q234783",
+  "basis": "name"
+ },
+ "sekili-mustafa-aga-suxi": {
+  "from": "Q234783",
+  "basis": "name"
+ },
+ "sekili-osman-bicare": {
+  "from": "Q234783",
+  "basis": "name"
+ },
+ "sekili-suleyman": {
+  "from": "Q234783",
+  "basis": "name"
+ },
+ "xoylu-kor-teqi": {
+  "from": "Q605105",
+  "basis": "name"
+ },
+ "zencanli-molla-mehemmed-hideci": {
+  "from": "Q2629142",
+  "basis": "mumtaz"
+ },
+ "zernigar": {
+  "from": "Q131416",
+  "basis": "name"
+ }
+}

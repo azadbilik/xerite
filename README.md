@@ -9,12 +9,16 @@ Part of [Azad Bilik](https://github.com/azadbilik), open knowledge about Azerbai
 | File | What it is |
 |---|---|
 | `data/kitabxana-authors.json` | The published authors on kitabxana.az: names, dates, period, Wikidata id, number of works |
-| `data/overrides.json` | Hand corrections, keyed by author slug: `{ "wikidataId": "Q…" }`, or `birth` / `death` as `{ "az", "en", "lat", "lng" }` |
+| `data/overrides.json` | Hand corrections, keyed by author slug: `{ "wikidataId": "Q…" }`; `birth` / `death` as `{ "az", "en", "lat", "lng" }`; or `{ "from": "Q…", "basis": "name" \| "mumtaz" }` for where a folk poet came from (below) |
 | `data/authors.json` | The output: each placed author with `birth` and `death` places and coordinates |
 
 `node scripts/build.mjs` (Node 22+) rebuilds `data/authors.json` from Wikidata. Authors with a Wikidata id on kitabxana.az use it. The rest are looked up by name on Azerbaijani Wikipedia, and a match is kept only when the item is a person whose dates (±3 years) or century agree with the site's. `match` in the output says which way each author was placed.
 
-Of 472 authors, 259 have a place. Most of the rest are folk poets known by a single name, with no dates or recorded place.
+Years are taken from Wikidata only when it knows them to the year; a date recorded as "19th century" is not read as 1900.
+
+**Origins.** Many folk poets in Salman Mümtaz's «El şairləri» (1927–28) have no recorded birthplace, but their name or Mümtaz's note says where they came from: Şəkili Hatim is "Hatim of Shaki", and Mümtaz writes that Molla Məhəmməd Hidəci was born in Hidəc near Zanjan. Those are set by hand in `overrides.json` with `basis` `name` or `mumtaz`, come out as `birth` with a `from` field and `match: "origin"`, and the map labels them so. Only unambiguous towns and villages are used: tribe names (Bayatlı, Əfşarlı), regions (Qarabağlı, Şirvanlı) and village names shared by several places (Kəbirli, Sarıcalı) are left out.
+
+Of 472 authors, 299 have a place (39 of them by origin). Most of the rest are folk poets known by a single name, with no dates or known place.
 
 To refresh the author list, export it from the kitabxana database:
 
