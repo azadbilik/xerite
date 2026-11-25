@@ -121,7 +121,7 @@
 
 <aside class="panel">
   <div class="head">
-    <div class="top"><a class="brand" href="/"><svg viewBox="0 0 512 512" aria-hidden="true"><g class="star"><rect x="126" y="126" width="260" height="260"/><polygon points="256,72 440,256 256,440 72,256"/></g><polygon class="gem" points="256,196 316,256 256,316 196,256"/></svg>Azad Bilik</a><nav><a href="/qalereya/" data-i18n="gallery" data-lang-href>Qalereya</a><a href="https://kitabxana.az" data-i18n="library" id="kx">Kitabxana</a><span class="langs" role="group" aria-label="Dil · Язык · Language"><button type="button" data-lang="az">AZ</button><button type="button" data-lang="ru">RU</button><button type="button" data-lang="en">EN</button></span></nav></div>
+    <div class="top"><a class="brand" href="/"><svg viewBox="0 0 512 512" aria-hidden="true"><g class="star"><rect x="126" y="126" width="260" height="260"/><polygon points="256,72 440,256 256,440 72,256"/></g><polygon class="gem" points="256,196 316,256 256,316 196,256"/></svg>Azad Bilik</a><nav><a href="/xeriteler/" data-i18n="maps" data-maps-href>Xəritələr</a><a href="/qalereya/" data-i18n="gallery" data-lang-href>Qalereya</a><a href="https://kitabxana.az" data-i18n="library" id="kx">Kitabxana</a><span class="langs" role="group" aria-label="Dil · Язык · Language"><button type="button" data-lang="az">AZ</button><button type="button" data-lang="ru">RU</button><button type="button" data-lang="en">EN</button></span></nav></div>
     <h1 data-i18n="title">Ədəbiyyat xəritəsi</h1>
     <p class="sub" data-i18n="sub">Azərbaycan yazıçılarının doğulduğu və vəfat etdiyi yerlər</p>
   </div>
@@ -160,15 +160,15 @@ let lang = (() => {
   return 'az';
 })();
 const T = {
-  az: { doc: 'Ədəbiyyat xəritəsi · Azad Bilik', title: 'Ədəbiyyat xəritəsi', sub: 'Azərbaycan yazıçılarının doğulduğu və vəfat etdiyi yerlər', map: 'Xəritə', place: 'Yer', born: 'Doğulduğu yer', died: 'Vəfat etdiyi yer', century: 'Əsr', all: 'Hamısı', gallery: 'Qalereya', library: 'Kitabxana', allPlaces: 'Bütün yerlər',
+  az: { doc: 'Ədəbiyyat xəritəsi · Azad Bilik', title: 'Ədəbiyyat xəritəsi', sub: 'Azərbaycan yazıçılarının doğulduğu və vəfat etdiyi yerlər', map: 'Xəritə', place: 'Yer', born: 'Doğulduğu yer', died: 'Vəfat etdiyi yer', century: 'Əsr', all: 'Hamısı', gallery: 'Qalereya', maps: 'Xəritələr', library: 'Kitabxana', allPlaces: 'Bütün yerlər',
     cent: (c) => `${roman(c)} əsr`, authors: (n) => `${n} müəllif`, places: (n) => `${n} yer`, works: (n) => `${n} əsər kitabxana.az-da`,
     origin: { name: 'adından', mumtaz: 'S. Mümtaza görə', source: 'əslən buradan' }, wrong: 'Səhv tapdınız?',
     note: (n, t) => `${n} müəllif, saytdakı ${t} müəllifdən. Yerlər Wikidata-dandır; doğulduğu yeri bilinməyən el şairlərinin bir qismi gəldiyi yerdə göstərilir: adından (Şəkili, Dərbəndli) və ya Salman Mümtazın «El şairləri»ndəki qeydinə görə. Yalnız ləqəbi ilə tanınanların çoxunun yeri məlum deyil.` },
-  ru: { doc: 'Литературная карта · Azad Bilik', title: 'Литературная карта', sub: 'Где родились и умерли азербайджанские писатели', map: 'Карта', place: 'Место', born: 'Место рождения', died: 'Место смерти', century: 'Век', all: 'Все', gallery: 'Галерея', library: 'Библиотека', allPlaces: 'Все места',
+  ru: { doc: 'Литературная карта · Azad Bilik', title: 'Литературная карта', sub: 'Где родились и умерли азербайджанские писатели', map: 'Карта', place: 'Место', born: 'Место рождения', died: 'Место смерти', century: 'Век', all: 'Все', gallery: 'Галерея', maps: 'Карты', library: 'Библиотека', allPlaces: 'Все места',
     cent: (c) => `${roman(c)} век`, authors: (n) => `${n} ${plural(n, 'автор', 'автора', 'авторов')}`, places: (n) => `${n} ${plural(n, 'место', 'места', 'мест')}`, works: (n) => `${n} ${plural(n, 'произведение', 'произведения', 'произведений')} на kitabxana.az`,
     origin: { name: 'по имени', mumtaz: 'по С. Мумтазу', source: 'родом отсюда' }, wrong: 'Нашли ошибку?',
     note: (n, t) => `${n} из ${t} авторов сайта. Места взяты из Викиданных; часть народных поэтов, чьё место рождения неизвестно, показана там, откуда они родом: по имени (Шекили — «из Шеки») или по заметке Салмана Мумтаза в «Эл шаирлери». У большинства известных лишь по прозвищу место неизвестно.` },
-  en: { doc: 'Literary map · Azad Bilik', title: 'Literary map', sub: 'Where Azerbaijani writers were born and died', map: 'Map', place: 'Place', born: 'Born', died: 'Died', century: 'Century', all: 'All', gallery: 'Gallery', library: 'Library', allPlaces: 'All places',
+  en: { doc: 'Literary map · Azad Bilik', title: 'Literary map', sub: 'Where Azerbaijani writers were born and died', map: 'Map', place: 'Place', born: 'Born', died: 'Died', century: 'Century', all: 'All', gallery: 'Gallery', maps: 'Maps', library: 'Library', allPlaces: 'All places',
     cent: (c) => `${c}${[, 'st', 'nd', 'rd'][c % 10 * (c % 100 > 3 && c % 100 < 21 ? 0 : 1)] ?? 'th'} century`, authors: (n) => `${n} author${n === 1 ? '' : 's'}`, places: (n) => `${n} place${n === 1 ? '' : 's'}`, works: (n) => `${n} work${n === 1 ? '' : 's'} on kitabxana.az`,
     origin: { name: 'by name', mumtaz: 'per S. Mümtaz', source: 'family origin' }, wrong: 'Found a mistake?',
     note: (n, t) => `${n} of the site's ${t} authors. Places are from Wikidata; folk poets with no recorded birthplace are shown where they came from, by their name (Şəkili, “of Shaki”) or Salman Mümtaz's note in «El şairləri». Most of those known by a single name have no known place.` },
@@ -221,6 +221,7 @@ function applyLang() {
   document.querySelectorAll('[data-i18n-label]').forEach((el) => el.setAttribute('aria-label', t(el.dataset.i18nLabel)));
   document.querySelectorAll('[data-lang]').forEach((b) => b.setAttribute('aria-pressed', b.dataset.lang === lang));
   document.querySelector('[data-lang-href]').href = `/qalereya/${lang === 'az' ? '' : '?lang=' + lang}`;
+  document.querySelector('[data-maps-href]').href = `/xeriteler/${lang === 'az' ? '' : '?lang=' + lang}`;
   document.getElementById('kx').href = kitabxana();
 }
 applyLang();
