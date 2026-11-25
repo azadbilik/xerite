@@ -73,6 +73,7 @@
   .list li a, .list li button { display: grid; grid-template-columns: 1fr auto; gap: .1rem 1rem; width: 100%; text-align: left; padding: .45rem 1.5rem; text-decoration: none; }
   .list li a:hover, .list li button:hover { background: var(--rule); }
   .list .name { font-weight: 500; }
+  .list li.focus a { background: var(--rule); box-shadow: inset 2px 0 var(--accent); }
   .list .meta { grid-column: 1; font-size: .8125rem; color: var(--muted); }
   .list .num { grid-row: 1 / span 2; grid-column: 2; align-self: center; font-size: .8125rem; color: var(--muted); font-variant-numeric: tabular-nums; }
   .back { margin: 0 1.5rem .5rem; font-size: .8125rem; color: var(--muted); }
@@ -146,6 +147,8 @@ const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&l
 
 const TOTAL = 471;
 let authors = [], mode = 'birth', century = null, place = null;
+// ?author=<slug> (linked from kitabxana.az): open on that author's place, their name marked
+let focus = new URLSearchParams(location.search).get('author');
 
 const map = new maplibregl.Map({
   container: 'map',
@@ -194,8 +197,14 @@ map.on('load', async () => {
   map.on('click', 'places', (e) => select(e.features[0].properties.id));
   map.on('click', (e) => { if (!map.queryRenderedFeatures(e.point, { layers: ['places'] }).length && place) select(null); });
 
+  const a = focus && authors.find((x) => x.slug === focus);
+  if (!a) focus = null;
+  else {
+    mode = a.birth ? 'birth' : 'death';
+    document.querySelectorAll('.seg button').forEach((x) => x.setAttribute('aria-pressed', x.dataset.mode === mode));
+  }
   drawHistogram();
-  render();
+  if (a) select(a[mode].id); else render();
 });
 
 function empty() { return { type: 'FeatureCollection', features: [] }; }
@@ -235,7 +244,7 @@ function renderList(gs, sel) {
     const other = mode === 'birth' ? 'death' : 'birth';
     el.innerHTML = `<button type="button" class="back" id="back">← Bütün yerlər <span lang="en">· All places</span></button>
       <h2>${esc(sel.name)} <small>${sel.authors.length} müəllif</small></h2>
-      <ol>${sel.authors.sort((a, b) => (a.born ?? a.died ?? 9999) - (b.born ?? b.died ?? 9999)).map((a) => `<li><a href="https://kitabxana.az/authors/${a.slug}">
+      <ol>${sel.authors.sort((a, b) => (a.born ?? a.died ?? 9999) - (b.born ?? b.died ?? 9999)).map((a) => `<li${a.slug === focus ? ' class="focus"' : ''}><a href="https://kitabxana.az/authors/${a.slug}"${a.slug === focus ? ' aria-current="true"' : ''}>
         <span class="name">${esc(a.az)}</span><span class="num">${a.works}</span>
         <span class="meta">${meta(esc(years(a)), a[other] && a[other].id !== sel.id && `${other === 'death' ? '†' : '*'} ${esc(label(a[other]))}`, origin(a))}</span></a></li>`).join('')}</ol>
       <p class="note">Rəqəm: saytdakı əsərlərin sayı. <span lang="en">Number: works on kitabxana.az.</span></p>`;
@@ -255,7 +264,9 @@ function select(id) {
   render();
   const g = groups().find((x) => x.id === id);
   if (g) map.easeTo({ center: [g.lng, g.lat], zoom: Math.max(map.getZoom(), 6), padding: pad(), duration: matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 600 });
-  document.getElementById('list').scrollTop = 0;
+  const list = document.getElementById('list');
+  list.scrollTop = 0;
+  list.querySelector('li.focus')?.scrollIntoView({ block: 'nearest' });
 }
 
 function drawHistogram() {
