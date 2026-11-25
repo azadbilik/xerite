@@ -32,7 +32,9 @@
   a:hover { text-decoration-color: currentColor; }
   button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; }
   :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
-  [lang="en"] { color: var(--muted); }
+  .langs { display: inline-flex; gap: .15rem; margin-left: .25rem; }
+  .langs button { font-size: .6875rem; letter-spacing: .04em; padding: .1rem .3rem; border-radius: 2px; color: var(--muted); }
+  .langs button[aria-pressed="true"] { color: var(--ink); box-shadow: inset 0 -1px currentColor; }
 
   #map { position: fixed; inset: 0; background: var(--water); }
 
@@ -56,7 +58,6 @@
   .seg { display: grid; grid-template-columns: 1fr 1fr; border: 1px solid var(--rule); border-radius: 3px; padding: 2px; }
   .seg button { padding: .4rem .5rem; border-radius: 2px; font-size: .8125rem; color: var(--muted); }
   .seg button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
-  .seg button[aria-pressed="true"] [lang="en"] { color: inherit; opacity: .7; }
 
   .hist-label { display: flex; justify-content: space-between; font-size: .75rem; color: var(--muted); }
   .hist-label button { font-size: .75rem; text-decoration: underline; text-decoration-color: var(--rule); text-underline-offset: .2em; }
@@ -86,7 +87,6 @@
   .card-places small { color: var(--muted); font-size: .75rem; }
   .card-link { display: block; margin-top: .65rem; padding-top: .55rem; border-top: 1px solid var(--rule); font-weight: 500; text-decoration: none; }
   .card-link:hover { color: var(--accent); }
-  .card-link [lang="en"] { display: block; font-weight: 400; font-size: .75rem; }
   .list .meta { grid-column: 1; font-size: .8125rem; color: var(--muted); }
   .list .num { grid-row: 1 / span 2; grid-column: 2; align-self: center; font-size: .8125rem; color: var(--muted); font-variant-numeric: tabular-nums; }
   .back { margin: 0 1.5rem .5rem; font-size: .8125rem; color: var(--muted); }
@@ -117,21 +117,21 @@
 </style>
 </head>
 <body>
-<div id="map" role="region" aria-label="Xəritə · Map"></div>
+<div id="map" role="region" data-i18n-label="map"></div>
 
 <aside class="panel">
   <div class="head">
-    <div class="top"><a class="brand" href="/"><svg viewBox="0 0 512 512" aria-hidden="true"><g class="star"><rect x="126" y="126" width="260" height="260"/><polygon points="256,72 440,256 256,440 72,256"/></g><polygon class="gem" points="256,196 316,256 256,316 196,256"/></svg>Azad Bilik</a><nav><a href="/qalereya/">Qalereya</a><a href="https://kitabxana.az">Kitabxana</a></nav></div>
-    <h1>Ədəbiyyat xəritəsi</h1>
-    <p class="sub" lang="en">Where Azerbaijani writers were born and died</p>
+    <div class="top"><a class="brand" href="/"><svg viewBox="0 0 512 512" aria-hidden="true"><g class="star"><rect x="126" y="126" width="260" height="260"/><polygon points="256,72 440,256 256,440 72,256"/></g><polygon class="gem" points="256,196 316,256 256,316 196,256"/></svg>Azad Bilik</a><nav><a href="/qalereya/" data-i18n="gallery" data-lang-href>Qalereya</a><a href="https://kitabxana.az" data-i18n="library" id="kx">Kitabxana</a><span class="langs" role="group" aria-label="Dil · Язык · Language"><button type="button" data-lang="az">AZ</button><button type="button" data-lang="ru">RU</button><button type="button" data-lang="en">EN</button></span></nav></div>
+    <h1 data-i18n="title">Ədəbiyyat xəritəsi</h1>
+    <p class="sub" data-i18n="sub">Azərbaycan yazıçılarının doğulduğu və vəfat etdiyi yerlər</p>
   </div>
   <div class="controls">
-    <div class="seg" role="group" aria-label="Yer · Place">
-      <button type="button" data-mode="birth" aria-pressed="true">Doğulduğu yer <span lang="en">· Born</span></button>
-      <button type="button" data-mode="death" aria-pressed="false">Vəfat etdiyi yer <span lang="en">· Died</span></button>
+    <div class="seg" role="group" data-i18n-label="place">
+      <button type="button" data-mode="birth" aria-pressed="true" data-i18n="born">Doğulduğu yer</button>
+      <button type="button" data-mode="death" aria-pressed="false" data-i18n="died">Vəfat etdiyi yer</button>
     </div>
     <div>
-      <div class="hist-label"><span>Əsr <span lang="en">· Century</span></span><button type="button" id="all" hidden>Hamısı <span lang="en">· All</span></button></div>
+      <div class="hist-label"><span data-i18n="century">Əsr</span><button type="button" id="all" hidden data-i18n="all">Hamısı</button></div>
       <div class="hist" id="hist"></div>
       <div class="hist-axis" id="axis"></div>
     </div>
@@ -151,10 +151,36 @@ const centuryOf = (a) => {
   const m = a.period?.match(/\b[IVX]+\b/);
   return m ? fromRoman(m[0]) : null;
 };
-const label = (p) => p.az || p.en || p.ru;
+// One language at a time: ?lang=, else the visitor's last choice on azadbilik.org, else Azerbaijani
+const LANGS = ['az', 'ru', 'en'];
+let lang = (() => {
+  const q = new URLSearchParams(location.search).get('lang');
+  if (LANGS.includes(q)) return q;
+  try { const s = localStorage.getItem('lang'); if (LANGS.includes(s)) return s; } catch {}
+  return 'az';
+})();
+const T = {
+  az: { doc: 'Ədəbiyyat xəritəsi · Azad Bilik', title: 'Ədəbiyyat xəritəsi', sub: 'Azərbaycan yazıçılarının doğulduğu və vəfat etdiyi yerlər', map: 'Xəritə', place: 'Yer', born: 'Doğulduğu yer', died: 'Vəfat etdiyi yer', century: 'Əsr', all: 'Hamısı', gallery: 'Qalereya', library: 'Kitabxana', allPlaces: 'Bütün yerlər',
+    cent: (c) => `${roman(c)} əsr`, authors: (n) => `${n} müəllif`, places: (n) => `${n} yer`, works: (n) => `${n} əsər kitabxana.az-da`,
+    origin: { name: 'adından', mumtaz: 'S. Mümtaza görə', source: 'əslən buradan' }, wrong: 'Səhv tapdınız?',
+    note: (n, t) => `${n} müəllif, saytdakı ${t} müəllifdən. Yerlər Wikidata-dandır; doğulduğu yeri bilinməyən el şairlərinin bir qismi gəldiyi yerdə göstərilir: adından (Şəkili, Dərbəndli) və ya Salman Mümtazın «El şairləri»ndəki qeydinə görə. Yalnız ləqəbi ilə tanınanların çoxunun yeri məlum deyil.` },
+  ru: { doc: 'Литературная карта · Azad Bilik', title: 'Литературная карта', sub: 'Где родились и умерли азербайджанские писатели', map: 'Карта', place: 'Место', born: 'Место рождения', died: 'Место смерти', century: 'Век', all: 'Все', gallery: 'Галерея', library: 'Библиотека', allPlaces: 'Все места',
+    cent: (c) => `${roman(c)} век`, authors: (n) => `${n} ${plural(n, 'автор', 'автора', 'авторов')}`, places: (n) => `${n} ${plural(n, 'место', 'места', 'мест')}`, works: (n) => `${n} ${plural(n, 'произведение', 'произведения', 'произведений')} на kitabxana.az`,
+    origin: { name: 'по имени', mumtaz: 'по С. Мумтазу', source: 'родом отсюда' }, wrong: 'Нашли ошибку?',
+    note: (n, t) => `${n} из ${t} авторов сайта. Места взяты из Викиданных; часть народных поэтов, чьё место рождения неизвестно, показана там, откуда они родом: по имени (Шекили — «из Шеки») или по заметке Салмана Мумтаза в «Эл шаирлери». У большинства известных лишь по прозвищу место неизвестно.` },
+  en: { doc: 'Literary map · Azad Bilik', title: 'Literary map', sub: 'Where Azerbaijani writers were born and died', map: 'Map', place: 'Place', born: 'Born', died: 'Died', century: 'Century', all: 'All', gallery: 'Gallery', library: 'Library', allPlaces: 'All places',
+    cent: (c) => `${c}${[, 'st', 'nd', 'rd'][c % 10 * (c % 100 > 3 && c % 100 < 21 ? 0 : 1)] ?? 'th'} century`, authors: (n) => `${n} author${n === 1 ? '' : 's'}`, places: (n) => `${n} place${n === 1 ? '' : 's'}`, works: (n) => `${n} work${n === 1 ? '' : 's'} on kitabxana.az`,
+    origin: { name: 'by name', mumtaz: 'per S. Mümtaz', source: 'family origin' }, wrong: 'Found a mistake?',
+    note: (n, t) => `${n} of the site's ${t} authors. Places are from Wikidata; folk poets with no recorded birthplace are shown where they came from, by their name (Şəkili, “of Shaki”) or Salman Mümtaz's note in «El şairləri». Most of those known by a single name have no known place.` },
+};
+const t = (k) => T[lang][k];
+function plural(n, one, few, many) { const r = new Intl.PluralRules('ru').select(n); return r === 'one' ? one : r === 'few' ? few : many; }
+const kitabxana = (path = '') => `https://kitabxana.az${lang === 'az' ? '' : '/' + lang}${path}`;
+const label = (p) => p[lang] || p.az || p.en || p.ru;
+const nameOf = (a) => a[lang] || a.az;
 const years = (a) => a.born || a.died ? `${a.born ?? '?'}–${a.died ?? ''}` : (a.period ?? '');
 // A folk poet placed by where they came from, not by a recorded birthplace
-const origin = (a) => ({ name: 'adından <span lang="en">· by name</span>', mumtaz: 'S. Mümtaza görə <span lang="en">· per S. Mümtaz</span>', source: 'əslən buradan <span lang="en">· family origin</span>' })[a.birth?.from] ?? '';
+const origin = (a) => t('origin')[a.birth?.from] ?? '';
 const meta = (...xs) => xs.filter(Boolean).join(' · ');
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
 
@@ -184,8 +210,33 @@ map.on('style.load', () => {
     if (l.type === 'background') map.setPaintProperty(l.id, 'background-color', css('--land'));
     if (l.type === 'fill' && /water|ocean|lake/.test(l.id)) map.setPaintProperty(l.id, 'fill-color', css('--water'));
     if (l.type === 'symbol' && l.layout?.['text-field'])
-      map.setLayoutProperty(l.id, 'text-field', ['coalesce', ['get', 'name:az'], ['get', 'name:latin'], ['get', 'name']]);
+      map.setLayoutProperty(l.id, 'text-field', ['coalesce', ['get', `name:${lang}`], ['get', lang === 'ru' ? 'name' : 'name:latin'], ['get', 'name']]);
   }
+});
+
+function applyLang() {
+  document.documentElement.lang = lang;
+  document.title = t('doc');
+  document.querySelectorAll('[data-i18n]').forEach((el) => el.textContent = t(el.dataset.i18n));
+  document.querySelectorAll('[data-i18n-label]').forEach((el) => el.setAttribute('aria-label', t(el.dataset.i18nLabel)));
+  document.querySelectorAll('[data-lang]').forEach((b) => b.setAttribute('aria-pressed', b.dataset.lang === lang));
+  document.querySelector('[data-lang-href]').href = `/qalereya/${lang === 'az' ? '' : '?lang=' + lang}`;
+  document.getElementById('kx').href = kitabxana();
+}
+applyLang();
+document.querySelectorAll('[data-lang]').forEach((b) => b.onclick = () => {
+  lang = b.dataset.lang;
+  try { localStorage.setItem('lang', lang); } catch {}
+  const u = new URL(location.href);
+  if (lang === 'az') u.searchParams.delete('lang'); else u.searchParams.set('lang', lang);
+  history.replaceState(null, '', u);
+  applyLang();
+  if (!authors.length) return;
+  for (const l of map.getStyle().layers)
+    if (l.type === 'symbol' && l.layout?.['text-field'] && l.source !== 'places')
+      map.setLayoutProperty(l.id, 'text-field', ['coalesce', ['get', `name:${lang}`], ['get', lang === 'ru' ? 'name' : 'name:latin'], ['get', 'name']]);
+  drawHistogram(); render();
+  if (focus && card.isOpen()) openCard(focus);
 });
 
 map.on('load', async () => {
@@ -259,10 +310,10 @@ function renderList(gs, sel) {
   const n = gs.reduce((s, g) => s + g.authors.length, 0);
   if (sel) {
     const other = mode === 'birth' ? 'death' : 'birth';
-    el.innerHTML = `<button type="button" class="back" id="back">← Bütün yerlər <span lang="en">· All places</span></button>
-      <h2>${esc(sel.name)} <small>${sel.authors.length} müəllif</small></h2>
+    el.innerHTML = `<button type="button" class="back" id="back">← ${t('allPlaces')}</button>
+      <h2>${esc(sel.name)} <small>${t('authors')(sel.authors.length)}</small></h2>
       <ol>${sel.authors.sort((a, b) => (a.born ?? a.died ?? 9999) - (b.born ?? b.died ?? 9999)).map((a) => `<li${a.slug === focus ? ' class="focus"' : ''}><button type="button" data-slug="${a.slug}" aria-pressed="${a.slug === focus}">
-        <span class="name">${esc(a.az)}</span>
+        <span class="name">${esc(nameOf(a))}</span>
         <span class="meta">${meta(esc(years(a)), a[other] && a[other].id !== sel.id && `${other === 'death' ? '†' : '*'} ${esc(label(a[other]))}`, origin(a))}</span></button></li>`).join('')}</ol>`;
     document.getElementById('back').onclick = () => select(null);
     el.querySelectorAll('button[data-slug]').forEach((b) => {
@@ -272,11 +323,10 @@ function renderList(gs, sel) {
     });
     return;
   }
-  el.innerHTML = `<h2>${century ? `${roman(century)} əsr` : 'Bütün yerlər'} <small>${n} müəllif · ${gs.length} yer</small></h2>
+  el.innerHTML = `<h2>${century ? t('cent')(century) : t('allPlaces')} <small>${t('authors')(n)} · ${t('places')(gs.length)}</small></h2>
     <ol>${gs.slice(0, 60).map((g) => `<li><button type="button" data-id="${g.id}"><span class="name">${esc(g.name)}</span><span class="num">${g.authors.length}</span>
-      <span class="meta">${esc(g.authors.slice(0, 3).map((a) => a.az).join(', '))}${g.authors.length > 3 ? '…' : ''}</span></button></li>`).join('')}</ol>
-    <p class="note">${authors.length} müəllif, saytdakı ${TOTAL} müəllifdən. Yerlər Wikidata-dandır; doğulduğu yeri bilinməyən el şairlərinin bir qismi gəldiyi yerdə göstərilir: adından (Şəkili, Dərbəndli) və ya Salman Mümtazın «El şairləri»ndəki qeydinə görə. Yalnız ləqəbi ilə tanınanların çoxunun yeri məlum deyil. <a href="https://github.com/azadbilik/xerite/issues">Səhv tapdınız?</a>
-      <span lang="en">${authors.length} of the site's ${TOTAL} authors. Places are from Wikidata; folk poets with no recorded birthplace are shown where they came from, by their name (Şəkili, “of Shaki”) or Salman Mümtaz's note in «El şairləri». Most of those known by a single name have no known place.</span></p>`;
+      <span class="meta">${esc(g.authors.slice(0, 3).map(nameOf).join(', '))}${g.authors.length > 3 ? '…' : ''}</span></button></li>`).join('')}</ol>
+    <p class="note">${t('note')(authors.length, TOTAL)} <a href="https://github.com/azadbilik/xerite/issues">${t('wrong')}</a></p>`;
   el.querySelectorAll('button[data-id]').forEach((b) => b.onclick = () => select(b.dataset.id));
 }
 
@@ -304,9 +354,9 @@ function openCard(slug) {
   const other = mode === 'birth' ? 'death' : 'birth';
   const at = a[other] && a[other].id !== place ? a[other] : a[mode];
   const where = [a.birth && `<li>* ${esc(label(a.birth))}${a.birth.from ? ` <small>${origin(a)}</small>` : ''}</li>`, a.death && `<li>† ${esc(label(a.death))}</li>`].filter(Boolean).join('');
-  card.setLngLat([at.lng, at.lat]).setHTML(`<p class="card-name">${esc(a.az)}</p>
+  card.setLngLat([at.lng, at.lat]).setHTML(`<p class="card-name">${esc(nameOf(a))}</p>
     ${years(a) ? `<p class="card-years">${esc(years(a))}</p>` : ''}<ul class="card-places">${where}</ul>
-    <a class="card-link" href="https://kitabxana.az/authors/${a.slug}">${a.works} əsər kitabxana.az-da <span aria-hidden="true">→</span><span lang="en">${a.works} works on kitabxana.az</span></a>`).addTo(map);
+    <a class="card-link" href="${kitabxana('/authors/' + a.slug)}">${t('works')(a.works)} <span aria-hidden="true">→</span></a>`).addTo(map);
   // Both ends in view when the card sits far from the chosen place
   const g = groups().find((x) => x.id === place);
   if (g && !map.getBounds().contains([at.lng, at.lat]))
@@ -331,7 +381,7 @@ function drawHistogram() {
   const count = (c) => authors.filter((a) => a.century === c && a[mode]).length;
   const max = Math.max(...range.map(count));
   const hist = document.getElementById('hist');
-  hist.innerHTML = range.map((c) => `<button type="button" data-c="${c}" aria-pressed="${century === c}" aria-label="${roman(c)} əsr: ${count(c)}" title="${roman(c)} əsr · ${count(c)}"><span class="bar" style="height:${Math.sqrt(count(c) / max) * 100}%"></span></button>`).join('');
+  hist.innerHTML = range.map((c) => `<button type="button" data-c="${c}" aria-pressed="${century === c}" aria-label="${t('cent')(c)}: ${count(c)}" title="${t('cent')(c)} · ${count(c)}"><span class="bar" style="height:${Math.sqrt(count(c) / max) * 100}%"></span></button>`).join('');
   document.getElementById('axis').innerHTML = range.map((c) => `<span>${c % 2 === 0 || range.length < 9 ? roman(c) : ''}</span>`).join('');
   hist.querySelectorAll('button').forEach((b) => b.onclick = () => { const c = +b.dataset.c; century = century === c ? null : c; place = null; drawHistogram(); render(); });
 }
