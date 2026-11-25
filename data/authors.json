@@ -1,0 +1,7176 @@
+[
+ {
+  "slug": "abbas-abdulla",
+  "az": "Abbas Abdulla",
+  "en": "Abbas Abdulla",
+  "ru": "Аббас Абдулла",
+  "born": 1940,
+  "died": 2019,
+  "period": "XX-XXI əsr",
+  "type": "POET",
+  "works": 61,
+  "wikidata": "Q6961024",
+  "match": "site",
+  "birth": {
+   "id": "Q12841224",
+   "az": "Kəpənəkçi",
+   "en": "Kvemo-Bolnisi",
+   "ru": "Квемо-Болниси",
+   "lat": 41.4,
+   "lng": 44.5356
+  },
+  "death": null
+ },
+ {
+  "slug": "abdulla-bey-asi",
+  "az": "Abdulla bəy Asi",
+  "en": "Abdullah bey Asi",
+  "ru": "Абдулла-бек Аси",
+  "born": 1841,
+  "died": 1874,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 62,
+  "wikidata": "Q8011180",
+  "match": "site",
+  "birth": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  },
+  "death": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  }
+ },
+ {
+  "slug": "abdulla-bey-divanbeyoglu",
+  "az": "Abdulla bəy Divanbəyoğlu",
+  "en": "Abdulla bey Divanbeyoglu",
+  "ru": "Абдулла-бек Диванбекоглу",
+  "born": 1883,
+  "died": 1936,
+  "period": "XIX-XX əsr",
+  "type": "WRITER",
+  "works": 1,
+  "wikidata": "Q16364130",
+  "match": "site",
+  "birth": {
+   "id": "Q4846326",
+   "az": "Hüseynbəyli",
+   "en": "Hüseynbəyli",
+   "ru": "Гусейнбейли",
+   "lat": 41.1134,
+   "lng": 45.3639
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "afaq-mesud",
+  "az": "Afaq Məsud",
+  "en": "Afag Masud",
+  "ru": "Афаг Масуд",
+  "born": 1957,
+  "died": null,
+  "period": "XX-XXI əsr",
+  "type": "WRITER",
+  "works": 219,
+  "wikidata": "Q4688782",
+  "match": "site",
+  "birth": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  },
+  "death": null
+ },
+ {
+  "slug": "ag-asiq-allahverdi",
+  "az": "Ağ Aşıq Allahverdi",
+  "en": "Agh Ashiq Allahverdi",
+  "ru": "Аг Ашуг Аллахверди",
+  "born": 1754,
+  "died": 1860,
+  "period": "XVIII-XIX əsr",
+  "type": "POET",
+  "works": 46,
+  "wikidata": "Q6498967",
+  "match": "site",
+  "birth": {
+   "id": "Q1820789",
+   "az": "Nəqədə",
+   "en": "Naqadeh",
+   "ru": "Негеде",
+   "lat": 36.9553,
+   "lng": 45.3881
+  },
+  "death": {
+   "id": "Q739670",
+   "az": "Kərkibaş",
+   "en": "Vanevan",
+   "ru": "Ваневан",
+   "lat": 40.2,
+   "lng": 45.6833
+  }
+ },
+ {
+  "slug": "aga-haci-molla-tagizade",
+  "az": "Ağa Hacı Molla Tağızadə",
+  "en": "Mulla Agha Taghizade",
+  "ru": "Молла-ага Тагизаде",
+  "born": 1830,
+  "died": 1892,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 13,
+  "wikidata": "Q12836947",
+  "match": "site",
+  "birth": {
+   "id": "Q388224",
+   "az": "Şamaxı",
+   "en": "Shamakhi",
+   "ru": "Шемахы",
+   "lat": 40.6339,
+   "lng": 48.6392
+  },
+  "death": {
+   "id": "Q388224",
+   "az": "Şamaxı",
+   "en": "Shamakhi",
+   "ru": "Шемахы",
+   "lat": 40.6339,
+   "lng": 48.6392
+  }
+ },
+ {
+  "slug": "aga-mesih-sirvani",
+  "az": "Ağa Məsih Şirvani",
+  "en": "Agha Masih Shirvani",
+  "ru": "Ага Масих Ширвани",
+  "born": null,
+  "died": 1766,
+  "period": "XVIII əsr",
+  "type": "POET",
+  "works": 8,
+  "wikidata": "Q7495226",
+  "match": "site",
+  "birth": {
+   "id": "Q388224",
+   "az": "Şamaxı",
+   "en": "Shamakhi",
+   "ru": "Шемахы",
+   "lat": 40.6339,
+   "lng": 48.6392
+  },
+  "death": {
+   "id": "Q388224",
+   "az": "Şamaxı",
+   "en": "Shamakhi",
+   "ru": "Шемахы",
+   "lat": 40.6339,
+   "lng": 48.6392
+  }
+ },
+ {
+  "slug": "agababa-zuhuri",
+  "az": "Ağababa Zühuri",
+  "en": "Agababa Zuhuri",
+  "ru": "Агабаба Зюхури",
+  "born": 1848,
+  "died": 1910,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 1,
+  "wikidata": "Q16365151",
+  "match": "site",
+  "birth": {
+   "id": "Q388224",
+   "az": "Şamaxı",
+   "en": "Shamakhi",
+   "ru": "Шемахы",
+   "lat": 40.6339,
+   "lng": 48.6392
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "agabeyim",
+  "az": "Ağabəyim ağa",
+  "en": "Aghabaim Agha",
+  "ru": "Агабеим-ага",
+  "born": 1782,
+  "died": 1832,
+  "period": "XVIII-XIX əsr",
+  "type": "POET",
+  "works": 3,
+  "wikidata": "Q4056513",
+  "match": "site",
+  "birth": {
+   "id": "Q1636212",
+   "az": "Qarabağ xanlığı",
+   "en": "Karabakh Khanate",
+   "ru": "Карабахское ханство",
+   "lat": 39.7583,
+   "lng": 46.7483
+  },
+  "death": {
+   "id": "Q170573",
+   "az": "Qum",
+   "en": "Qom",
+   "ru": "Кум",
+   "lat": 34.64,
+   "lng": 50.8764
+  }
+ },
+ {
+  "slug": "agadadas-muniri",
+  "az": "Ağadadaş Müniri",
+  "en": "Aghadadash Muniri",
+  "ru": "Агададаш Мюнири",
+  "born": 1863,
+  "died": 1940,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 81,
+  "wikidata": "Q12836972",
+  "match": "site",
+  "birth": {
+   "id": "Q3294097",
+   "az": "Hövsan",
+   "en": "Hövsan",
+   "ru": "Говсан",
+   "lat": 40.3715,
+   "lng": 50.0873
+  },
+  "death": {
+   "id": "Q2671322",
+   "az": "Buzovna",
+   "en": "Buzovna",
+   "ru": "Бузовна",
+   "lat": 40.5199,
+   "lng": 50.1027
+  }
+ },
+ {
+  "slug": "agadadas-sureyya",
+  "az": "Ağadadaş Sürəyya",
+  "en": "Aghadadash Sureyya",
+  "ru": "Агададаш Сюрейа",
+  "born": 1850,
+  "died": 1900,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 7,
+  "wikidata": "Q8011274",
+  "match": "site",
+  "birth": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "agdabanli-qurban",
+  "az": "Ağdabanlı Qurban",
+  "en": "Aghdabanli Qurban",
+  "ru": "Агдабанлы Гурбан",
+  "born": 1859,
+  "died": 1934,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 63,
+  "wikidata": "Q12837031",
+  "match": "site",
+  "birth": {
+   "id": "Q4723757",
+   "az": "Dəmirçidam",
+   "en": "Dəmirçidam",
+   "ru": "Демирчидам",
+   "lat": 40.2212,
+   "lng": 46.0734
+  },
+  "death": {
+   "id": "Q4723757",
+   "az": "Dəmirçidam",
+   "en": "Dəmirçidam",
+   "ru": "Демирчидам",
+   "lat": 40.2212,
+   "lng": 46.0734
+  }
+ },
+ {
+  "slug": "anar",
+  "az": "Anar",
+  "en": "Anar",
+  "ru": "Анар",
+  "born": 1938,
+  "died": null,
+  "period": "XX əsr",
+  "type": "WRITER",
+  "works": 30,
+  "wikidata": "Q633750",
+  "match": "site",
+  "birth": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  },
+  "death": null
+ },
+ {
+  "slug": "aqil-abbas",
+  "az": "Aqil Abbas",
+  "en": "Agil Abbas",
+  "ru": "Агиль Аббас",
+  "born": 1953,
+  "died": null,
+  "period": "XX-XXI əsr",
+  "type": "WRITER",
+  "works": 2,
+  "wikidata": "Q4054391",
+  "match": "site",
+  "birth": {
+   "id": "Q4541852",
+   "az": "Boyat",
+   "en": "Boyat",
+   "ru": "Боят",
+   "lat": 40.0417,
+   "lng": 47.1298
+  },
+  "death": null
+ },
+ {
+  "slug": "arif-sirvani",
+  "az": "Arif Şirvani",
+  "en": "Arif Shirvani",
+  "ru": "Ариф Ширвани",
+  "born": 1786,
+  "died": 1866,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 9,
+  "wikidata": "Q12836010",
+  "match": "site",
+  "birth": {
+   "id": "Q1800656",
+   "az": "Lahıc",
+   "en": "Lahıc",
+   "ru": "Лагич",
+   "lat": 40.8449,
+   "lng": 48.383
+  },
+  "death": {
+   "id": "Q1953",
+   "az": "İrəvan",
+   "en": "Yerevan",
+   "ru": "Ереван",
+   "lat": 40.1814,
+   "lng": 44.5144
+  }
+ },
+ {
+  "slug": "asiq-ali",
+  "az": "Aşıq Alı",
+  "en": "Ashiq Ali",
+  "ru": "Ашуг Али",
+  "born": 1801,
+  "died": 1911,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 235,
+  "wikidata": "Q4073559",
+  "match": "site",
+  "birth": {
+   "id": "Q2650168",
+   "az": "Qızılvəng",
+   "en": "Makenis",
+   "ru": "Макенис",
+   "lat": 40.1239,
+   "lng": 45.6108
+  },
+  "death": {
+   "id": "Q2650168",
+   "az": "Qızılvəng",
+   "en": "Makenis",
+   "ru": "Макенис",
+   "lat": 40.1239,
+   "lng": 45.6108
+  }
+ },
+ {
+  "slug": "asiq-besti",
+  "az": "Aşıq Bəsti",
+  "en": "Ashiq Basti",
+  "ru": "Ашуг Басти",
+  "born": 1836,
+  "died": 1936,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 62,
+  "wikidata": "Q12837110",
+  "match": "site",
+  "birth": {
+   "id": "Q6534687",
+   "az": "Lev",
+   "en": "Lev",
+   "ru": "Лев",
+   "lat": 40.2602,
+   "lng": 46.1006
+  },
+  "death": {
+   "id": "Q6534687",
+   "az": "Lev",
+   "en": "Lev",
+   "ru": "Лев",
+   "lat": 40.2602,
+   "lng": 46.1006
+  }
+ },
+ {
+  "slug": "asiq-camal",
+  "az": "Aşıq Camal",
+  "en": "Ashiq Jamal",
+  "ru": "Ашуг Джамал",
+  "born": 1850,
+  "died": 1907,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 18,
+  "wikidata": "Q128589631",
+  "match": "site",
+  "birth": {
+   "id": "Q4875325",
+   "az": "Baş Göynük",
+   "en": "Baş Göynük",
+   "ru": "Баш-Гёйнюк",
+   "lat": 41.3266,
+   "lng": 47.1138
+  },
+  "death": {
+   "id": "Q4848025",
+   "az": "Zəyəm",
+   "en": "Zəyəm",
+   "ru": "Зейем",
+   "lat": 41.4127,
+   "lng": 46.6861
+  }
+ },
+ {
+  "slug": "asiq-esed",
+  "az": "Aşıq Əsəd",
+  "en": "Ashiq Asad",
+  "ru": "Ашуг Асад",
+  "born": 1874,
+  "died": 1951,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 34,
+  "wikidata": "Q4073558",
+  "match": "site",
+  "birth": {
+   "id": "Q2649943",
+   "az": "Böyük Qaraqoyunlu",
+   "en": "Norabak",
+   "ru": "Норабак",
+   "lat": 40.15,
+   "lng": 45.8667
+  },
+  "death": {
+   "id": "Q1026084",
+   "az": "Tovuz",
+   "en": "Tovuz",
+   "ru": "Товуз",
+   "lat": 40.9924,
+   "lng": 45.6167
+  }
+ },
+ {
+  "slug": "asiq-hamayil",
+  "az": "Aşıq Hamayıl",
+  "en": "Ashiq Hamayil",
+  "ru": "Ашуг Гамайыл",
+  "born": 1850,
+  "died": null,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 1,
+  "wikidata": "Q20556898",
+  "match": "site",
+  "birth": {
+   "id": "Q406",
+   "az": "İstanbul",
+   "en": "Istanbul",
+   "ru": "Стамбул",
+   "lat": 41.01,
+   "lng": 28.9603
+  },
+  "death": null
+ },
+ {
+  "slug": "asiq-huseyn-bozalqanli",
+  "az": "Aşıq Hüseyn Bozalqanlı",
+  "en": "Ashiq Huseyn Bozalganli",
+  "ru": "Ашуг Гусейн Бозалганлы",
+  "born": 1863,
+  "died": 1941,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 36,
+  "wikidata": "Q12837115",
+  "match": "site",
+  "birth": {
+   "id": "Q4952788",
+   "az": "Bozalqanlı",
+   "en": "Bozalqanlı",
+   "ru": "Бозалганлы",
+   "lat": 40.9889,
+   "lng": 45.6396
+  },
+  "death": {
+   "id": "Q4952788",
+   "az": "Bozalqanlı",
+   "en": "Bozalqanlı",
+   "ru": "Бозалганлы",
+   "lat": 40.9889,
+   "lng": 45.6396
+  }
+ },
+ {
+  "slug": "asiq-huseyn-cavan",
+  "az": "Aşıq Hüseyn Cavan",
+  "en": "Ashig Huseyn Javan",
+  "ru": "Ашуг Гусейн Джаван",
+  "born": 1916,
+  "died": 1985,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 32,
+  "wikidata": "Q8013694",
+  "match": "site",
+  "birth": {
+   "id": "Q5667056",
+   "az": "Uti kəndi",
+   "en": "Oti Kandi",
+   "lat": 39.0411,
+   "lng": 47.2092
+  },
+  "death": null
+ },
+ {
+  "slug": "asiq-huseyn-semkirli",
+  "az": "Aşıq Hüseyn Şəmkirli",
+  "en": "Ashiq Huseyn Shamkirli",
+  "ru": "Ашуг Гусейн Шамкирли",
+  "born": 1811,
+  "died": 1891,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 48,
+  "wikidata": "Q8034058",
+  "match": "site",
+  "birth": {
+   "id": "Q390783",
+   "az": "Şəmkir",
+   "en": "Şəmkir",
+   "ru": "Шамкир",
+   "lat": 40.8297,
+   "lng": 46.0189
+  },
+  "death": null
+ },
+ {
+  "slug": "asiq-mirze-bilal",
+  "az": "Aşıq Mirzə Bilal",
+  "en": "Ashiq Mirza Bilal",
+  "ru": "Ашуг Мирза Билал",
+  "born": 1872,
+  "died": 1937,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 24,
+  "wikidata": "Q16365275",
+  "match": "site",
+  "birth": {
+   "id": "Q1983868",
+   "az": "Ağsu",
+   "en": "Aghsu",
+   "ru": "Ахсу",
+   "lat": 40.5708,
+   "lng": 48.3928
+  },
+  "death": null
+ },
+ {
+  "slug": "asiq-musa",
+  "az": "Aşıq Musa",
+  "en": "Ashiq Musa",
+  "ru": "Ашуг Муса",
+  "born": 1830,
+  "died": 1912,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 55,
+  "wikidata": "Q4073569",
+  "match": "site",
+  "birth": {
+   "id": "Q2530813",
+   "az": "Ağkilsə",
+   "en": "Azat",
+   "ru": "Азат",
+   "lat": 40.1833,
+   "lng": 45.8667
+  },
+  "death": {
+   "id": "Q2530813",
+   "az": "Ağkilsə",
+   "en": "Azat",
+   "ru": "Азат",
+   "lat": 40.1833,
+   "lng": 45.8667
+  }
+ },
+ {
+  "slug": "asiq-nabat",
+  "az": "Aşıq Nabat",
+  "en": "Ashiq Nabat",
+  "ru": "Ашуг Набат",
+  "born": 1914,
+  "died": 1973,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 45,
+  "wikidata": "Q12837126",
+  "match": "site",
+  "birth": {
+   "id": "Q5015661",
+   "az": "Xanlıqlar",
+   "en": "Xanlıqlar",
+   "lat": 39.4993,
+   "lng": 45.0264
+  },
+  "death": {
+   "id": "Q5013155",
+   "az": "Siyaqut",
+   "en": "Siyaqut",
+   "ru": "Сиягут",
+   "lat": 39.5383,
+   "lng": 45.0271
+  }
+ },
+ {
+  "slug": "asiq-necef-elimerdanli",
+  "az": "Aşıq Nəcəf Əlimərdanlı",
+  "en": "Ashiq Najaf Alimardanli",
+  "ru": "Ашуг Наджаф Алимарданлы",
+  "born": 1900,
+  "died": 1946,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 14,
+  "wikidata": "Q16365308",
+  "match": "site",
+  "birth": {
+   "id": "Q4991555",
+   "az": "Əlimərdanlı",
+   "en": "Əlimərdanlı",
+   "ru": "Алимарданлы",
+   "lat": 41.0395,
+   "lng": 45.6751
+  },
+  "death": {
+   "id": "Q388980",
+   "az": "Tovuz rayonu",
+   "en": "Tovuz District",
+   "ru": "Товузский район",
+   "lat": 40.9922,
+   "lng": 45.6289
+  }
+ },
+ {
+  "slug": "asiq-omer",
+  "az": "Aşıq Ömər",
+  "en": "Ashik Omer",
+  "ru": "Ашик Умер",
+  "born": 1621,
+  "died": 1707,
+  "period": "XVII–XVIII əsr",
+  "type": "POET",
+  "works": 15,
+  "wikidata": "Q794825",
+  "match": "site",
+  "birth": {
+   "id": "Q33345",
+   "az": "Evpatoriya",
+   "en": "Yevpatoriya",
+   "ru": "Евпатория",
+   "lat": 45.2,
+   "lng": 33.3583
+  },
+  "death": {
+   "id": "Q33345",
+   "az": "Evpatoriya",
+   "en": "Yevpatoriya",
+   "ru": "Евпатория",
+   "lat": 45.2,
+   "lng": 33.3583
+  }
+ },
+ {
+  "slug": "asiq-peri",
+  "az": "Aşıq Pəri",
+  "en": "Ashiq Pari",
+  "ru": "Ашуг Пери",
+  "born": 1811,
+  "died": 1847,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 18,
+  "wikidata": "Q8007847",
+  "match": "site",
+  "birth": {
+   "id": "Q4667165",
+   "az": "Aşağı Maralyan",
+   "en": "Aşağı Maralyan",
+   "ru": "Ашагы-Маралян",
+   "lat": 39.3466,
+   "lng": 47.2172
+  },
+  "death": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  }
+ },
+ {
+  "slug": "asiq-qasim",
+  "az": "Aşıq Qasım",
+  "en": "Ashiq Gasim",
+  "ru": "Ашуг Гасым",
+  "born": 1867,
+  "died": 1919,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 1,
+  "wikidata": "Q16365311",
+  "match": "site",
+  "birth": {
+   "id": "Q4133523",
+   "az": "Qaracəmirli",
+   "en": "Qaracəmirli",
+   "ru": "Гараджамирли",
+   "lat": 40.8443,
+   "lng": 46.2127
+  },
+  "death": {
+   "id": "Q4133523",
+   "az": "Qaracəmirli",
+   "en": "Qaracəmirli",
+   "ru": "Гараджамирли",
+   "lat": 40.8443,
+   "lng": 46.2127
+  }
+ },
+ {
+  "slug": "asiq-semsir",
+  "az": "Aşıq Şəmşir",
+  "en": "Ashig Shamshir",
+  "ru": "Ашуг Шамшир",
+  "born": 1893,
+  "died": 1980,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 525,
+  "wikidata": "Q12837142",
+  "match": "site",
+  "birth": {
+   "id": "Q4723757",
+   "az": "Dəmirçidam",
+   "en": "Dəmirçidam",
+   "ru": "Демирчидам",
+   "lat": 40.2212,
+   "lng": 46.0734
+  },
+  "death": {
+   "id": "Q457513",
+   "az": "Kəlbəcər rayonu",
+   "en": "Kalbajar District",
+   "ru": "Кельбаджарский район",
+   "lat": 40.1067,
+   "lng": 46.0383
+  }
+ },
+ {
+  "slug": "asiq-senlik",
+  "az": "Aşıq Şenlik",
+  "en": "Ashiq Shenlik",
+  "ru": "Ашуг Шенлик",
+  "born": 1850,
+  "died": 1913,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 49,
+  "wikidata": "Q6055574",
+  "match": "site",
+  "birth": {
+   "id": "Q272985",
+   "az": "Çıldır",
+   "en": "Çıldır",
+   "ru": "Чилдыр (район)",
+   "lat": 41.1289,
+   "lng": 43.1328
+  },
+  "death": {
+   "id": "Q698806",
+   "az": "Arpaçay ilçəsi",
+   "en": "Arpaçay",
+   "ru": "Арпачай",
+   "lat": 40.8483,
+   "lng": 43.3317
+  }
+ },
+ {
+  "slug": "asiq-valeh",
+  "az": "Aşıq Valeh",
+  "en": "Ashiq Valeh",
+  "ru": "Ашуг Валех",
+  "born": 1722,
+  "died": 1822,
+  "period": "XVIII-XIX əsr",
+  "type": "POET",
+  "works": 70,
+  "wikidata": "Q4073560",
+  "match": "site",
+  "birth": {
+   "id": "Q100329099",
+   "az": "Gülablı",
+   "en": "Gulably",
+   "ru": "Гюлаблы",
+   "lat": 39.877,
+   "lng": 46.9458
+  },
+  "death": {
+   "id": "Q100329099",
+   "az": "Gülablı",
+   "en": "Gulably",
+   "ru": "Гюлаблы",
+   "lat": 39.877,
+   "lng": 46.9458
+  }
+ },
+ {
+  "slug": "axundzade",
+  "az": "Mirzə Fətəli Axundzadə",
+  "en": "Mirza Fatali Akhundov",
+  "ru": "Мирза Фатали Ахундзаде",
+  "born": 1812,
+  "died": 1878,
+  "period": "XIX əsr",
+  "type": "PLAYWRIGHT",
+  "works": 204,
+  "wikidata": "Q315158",
+  "match": "site",
+  "birth": {
+   "id": "Q234783",
+   "az": "Şəki",
+   "en": "Shaki",
+   "ru": "Шеки",
+   "lat": 41.1919,
+   "lng": 47.1706
+  },
+  "death": {
+   "id": "Q994",
+   "az": "Tbilisi",
+   "en": "Tbilisi",
+   "ru": "Тбилиси",
+   "lat": 41.7225,
+   "lng": 44.7925
+  }
+ },
+ {
+  "slug": "bahar-sirvani",
+  "az": "Bahar Şirvani",
+  "en": "Bahar Shirvani",
+  "ru": "Бахар Ширвани",
+  "born": 1834,
+  "died": 1883,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 10,
+  "wikidata": "Q502466",
+  "match": "site",
+  "birth": {
+   "id": "Q388224",
+   "az": "Şamaxı",
+   "en": "Shamakhi",
+   "ru": "Шемахы",
+   "lat": 40.6339,
+   "lng": 48.6392
+  },
+  "death": {
+   "id": "Q80053",
+   "az": "Təbriz",
+   "en": "Tabriz",
+   "ru": "Тебриз",
+   "lat": 38.0739,
+   "lng": 46.2961
+  }
+ },
+ {
+  "slug": "bakixanov",
+  "az": "Abbasqulu ağa Bakıxanov",
+  "en": "Abbasgulu agha Bakikhanov",
+  "ru": "Аббас-Кули-ага Бакиханов",
+  "born": 1794,
+  "died": 1847,
+  "period": "XIX əsr",
+  "type": "WRITER",
+  "works": 126,
+  "wikidata": "Q1995066",
+  "match": "site",
+  "birth": {
+   "id": "Q3131176",
+   "az": "Əmircan",
+   "en": "Əmircan, Baku",
+   "ru": "Амирджан",
+   "lat": 40.4214,
+   "lng": 49.9892
+  },
+  "death": {
+   "id": "Q5806",
+   "az": "Məkkə",
+   "en": "Mecca",
+   "ru": "Мекка",
+   "lat": 21.4225,
+   "lng": 39.8261
+  }
+ },
+ {
+  "slug": "balas-azeroglu",
+  "az": "Balaş Azəroğlu",
+  "en": "Balash Azeroghlu",
+  "ru": "Балаш Азероглу",
+  "born": 1921,
+  "died": 2011,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 113,
+  "wikidata": "Q4811605",
+  "match": "site",
+  "birth": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "bayrameli-abbaszade",
+  "az": "Bayraməli Abbaszadə",
+  "en": "Bayram Ali Abbaszade",
+  "ru": "Байрамали Аббасзаде",
+  "born": 1869,
+  "died": 1926,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 1,
+  "wikidata": "Q8011465",
+  "match": "site",
+  "birth": {
+   "id": "Q5683983",
+   "az": "Duniq",
+   "en": "Duniq",
+   "lat": 37.8608,
+   "lng": 47.5992
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "bextiyar-vahabzade",
+  "az": "Bəxtiyar Vahabzadə",
+  "en": "Bakhtiyar Vahabzadeh",
+  "ru": "Бахтияр Вагабзаде",
+  "born": 1925,
+  "died": 2009,
+  "period": "XX-XXI əsr",
+  "type": "POET",
+  "works": 222,
+  "wikidata": "Q2320387",
+  "match": "site",
+  "birth": {
+   "id": "Q234783",
+   "az": "Şəki",
+   "en": "Shaki",
+   "ru": "Шеки",
+   "lat": 41.1919,
+   "lng": 47.1706
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "beylaqani",
+  "az": "Mücirəddin Beyləqani",
+  "en": "Mujir al-Din Baylaqani",
+  "ru": "Муджиреддин Бейлагани",
+  "born": 1130,
+  "died": 1194,
+  "period": "XII əsr",
+  "type": "POET",
+  "works": 506,
+  "wikidata": "Q4305759",
+  "match": "site",
+  "birth": {
+   "id": "Q642164",
+   "az": "Beyləqan",
+   "en": "Beylagan",
+   "ru": "Бейлаган",
+   "lat": 39.7692,
+   "lng": 47.6156
+  },
+  "death": {
+   "id": "Q80053",
+   "az": "Təbriz",
+   "en": "Tabriz",
+   "ru": "Тебриз",
+   "lat": 38.0739,
+   "lng": 46.2961
+  }
+ },
+ {
+  "slug": "biriya",
+  "az": "Məhəmməd Biriya",
+  "en": "Mohammad Biriya",
+  "ru": "Мохаммад Бирия",
+  "born": 1914,
+  "died": 1985,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 10,
+  "wikidata": "Q16370812",
+  "match": "site",
+  "birth": {
+   "id": "Q80053",
+   "az": "Təbriz",
+   "en": "Tabriz",
+   "ru": "Тебриз",
+   "lat": 38.0739,
+   "lng": 46.2961
+  },
+  "death": {
+   "id": "Q80053",
+   "az": "Təbriz",
+   "en": "Tabriz",
+   "ru": "Тебриз",
+   "lat": 38.0739,
+   "lng": 46.2961
+  }
+ },
+ {
+  "slug": "burhaneddin",
+  "az": "Qazi Bürhanəddin",
+  "en": "Kadi Burhan al-Din",
+  "ru": "Кади Бурханеддин",
+  "born": 1345,
+  "died": 1398,
+  "period": "XIV əsr",
+  "type": "POET",
+  "works": 1454,
+  "wikidata": "Q1392586",
+  "match": "site",
+  "birth": {
+   "id": "Q48338",
+   "az": "Kayseri",
+   "en": "Kayseri",
+   "ru": "Кайсери",
+   "lat": 38.7225,
+   "lng": 35.4875
+  },
+  "death": {
+   "id": "Q107401",
+   "az": "Sivas",
+   "en": "Sivas",
+   "ru": "Сивас",
+   "lat": 39.75,
+   "lng": 37.0167
+  }
+ },
+ {
+  "slug": "cabbarli",
+  "az": "Cəfər Cabbarlı",
+  "en": "Jafar Jabbarly",
+  "ru": "Джафар Джаббарлы",
+  "born": 1899,
+  "died": 1934,
+  "period": "XX əsr",
+  "type": "PLAYWRIGHT",
+  "works": 199,
+  "wikidata": "Q2394080",
+  "match": "site",
+  "birth": {
+   "id": "Q6093319",
+   "az": "Xızı",
+   "en": "Khizi",
+   "ru": "Хызы",
+   "lat": 40.9111,
+   "lng": 49.0694
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "cabir-novruz",
+  "az": "Cabir Novruz",
+  "en": "Jabir Novruz",
+  "ru": "Джабир Новруз",
+  "born": 1933,
+  "died": 2002,
+  "period": "XX-XXI əsr",
+  "type": "POET",
+  "works": 177,
+  "wikidata": "Q4159649",
+  "match": "site",
+  "birth": null,
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "cahansah-heqiqi",
+  "az": "Cahanşah Həqiqi",
+  "en": "Jahanshah Haqiqi",
+  "ru": "Джаханшах Хакики",
+  "born": 1397,
+  "died": 1467,
+  "period": "XV əsr",
+  "type": "POET",
+  "works": 14,
+  "wikidata": "Q561219",
+  "match": "site",
+  "birth": {
+   "id": "Q188022",
+   "az": "Mardin",
+   "en": "Mardin",
+   "ru": "Мардин",
+   "lat": 37.3131,
+   "lng": 40.735
+  },
+  "death": {
+   "id": "Q118995",
+   "az": "Muş",
+   "en": "Muş",
+   "ru": "Муш",
+   "lat": 38.7333,
+   "lng": 41.4911
+  }
+ },
+ {
+  "slug": "cavad",
+  "az": "Əhməd Cavad",
+  "en": "Ahmad Javad",
+  "ru": "Ахмед Джавад",
+  "born": 1892,
+  "died": 1937,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 191,
+  "wikidata": "Q2583170",
+  "match": "site",
+  "birth": {
+   "id": "Q4833449",
+   "az": "Aşağı Seyfəli",
+   "en": "Aşağı Seyfəli",
+   "ru": "Ашаги Сейфали",
+   "lat": 40.7468,
+   "lng": 46.1418
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "cavid",
+  "az": "Hüseyn Cavid",
+  "en": "Huseyn Javid",
+  "ru": "Гусейн Джавид",
+  "born": 1882,
+  "died": 1941,
+  "period": "XX əsr",
+  "type": "PLAYWRIGHT",
+  "works": 154,
+  "wikidata": "Q2997661",
+  "match": "site",
+  "birth": {
+   "id": "Q230104",
+   "az": "Naxçıvan",
+   "en": "Nakhchivan",
+   "ru": "Нахичевань",
+   "lat": 39.2089,
+   "lng": 45.4122
+  },
+  "death": {
+   "id": "Q1655792",
+   "az": "Tayşet rayonu",
+   "en": "Tayshetsky District",
+   "ru": "Тайшетский район",
+   "lat": 55.9333,
+   "lng": 98.0167
+  }
+ },
+ {
+  "slug": "cemenzeminli",
+  "az": "Yusif Vəzir Çəmənzəminli",
+  "en": "Yusif Vazir Chamanzaminli",
+  "ru": "Юсиф Везир Чеменземинли",
+  "born": 1887,
+  "died": 1943,
+  "period": "XX əsr",
+  "type": "WRITER",
+  "works": 154,
+  "wikidata": "Q574502",
+  "match": "site",
+  "birth": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  },
+  "death": {
+   "id": "Q16710041",
+   "az": "Unjlaq",
+   "en": "Unzhlag",
+   "ru": "Унжлаг",
+   "lat": 57.0456,
+   "lng": 44.8912
+  }
+ },
+ {
+  "slug": "cingiz-abdullayev",
+  "az": "Çingiz Abdullayev",
+  "en": "Chingiz Abdullayev",
+  "ru": "Чингиз Абдуллаев",
+  "born": 1959,
+  "died": null,
+  "period": "XX-XXI əsr",
+  "type": "WRITER",
+  "works": 69,
+  "wikidata": "Q272849",
+  "match": "site",
+  "birth": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  },
+  "death": null
+ },
+ {
+  "slug": "coban-efqan",
+  "az": "Çoban Əfqan",
+  "en": "Choban Afghan",
+  "ru": "Чобан Афган",
+  "born": 1866,
+  "died": 1924,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 39,
+  "wikidata": "Q12848598",
+  "match": "site",
+  "birth": {
+   "id": "Q4619958",
+   "az": "Qıraq Kəsəmən",
+   "en": "Qıraq Kəsəmən",
+   "ru": "Кырах-Кесаман",
+   "lat": 41.2143,
+   "lng": 45.4626
+  },
+  "death": null
+ },
+ {
+  "slug": "dede-omer-rovseni",
+  "az": "Dədə Ömər Rövşəni",
+  "en": "Dede Omar Rovsheni",
+  "ru": "Деде Омар Ровшени",
+  "born": 1407,
+  "died": 1487,
+  "period": "XV əsr",
+  "type": "POET",
+  "works": 1,
+  "wikidata": "Q6043644",
+  "match": "site",
+  "birth": {
+   "id": "Q170457",
+   "az": "Aydın",
+   "en": "Aydın",
+   "ru": "Айдын",
+   "lat": 37.8481,
+   "lng": 27.8453
+  },
+  "death": {
+   "id": "Q80053",
+   "az": "Təbriz",
+   "en": "Tabriz",
+   "ru": "Тебриз",
+   "lat": 38.0739,
+   "lng": 46.2961
+  }
+ },
+ {
+  "slug": "dide",
+  "az": "Mirzə Nəsrullah bəy Didə",
+  "en": "Mirza Nasrullah bey Dide",
+  "ru": "Мирза Насруллах-бек Курбанбеков (Диде)",
+  "born": 1797,
+  "died": 1870,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 21,
+  "wikidata": "Q8010054",
+  "match": "site",
+  "birth": {
+   "id": "Q388224",
+   "az": "Şamaxı",
+   "en": "Shamakhi",
+   "ru": "Шемахы",
+   "lat": 40.6339,
+   "lng": 48.6392
+  },
+  "death": {
+   "id": "Q388224",
+   "az": "Şamaxı",
+   "en": "Shamakhi",
+   "ru": "Шемахы",
+   "lat": 40.6339,
+   "lng": 48.6392
+  }
+ },
+ {
+  "slug": "ebdulqadir-maragayi",
+  "az": "Əbdülqadir Marağayi",
+  "en": "Abd al-Qadir al-Maraghi",
+  "ru": "Абдулгадир Мараги",
+  "born": 1353,
+  "died": 1435,
+  "period": "XIV-XV əsr",
+  "type": "POET",
+  "works": 3,
+  "wikidata": "Q2986906",
+  "match": "site",
+  "birth": {
+   "id": "Q605021",
+   "az": "Marağa",
+   "en": "Maragheh",
+   "ru": "Мераге",
+   "lat": 37.3919,
+   "lng": 46.2392
+  },
+  "death": {
+   "id": "Q45313",
+   "az": "Herat",
+   "en": "Herat",
+   "ru": "Герат",
+   "lat": 34.3419,
+   "lng": 62.2031
+  }
+ },
+ {
+  "slug": "ebdulxaliq-yusif",
+  "az": "Əbdülxalıq Yusif",
+  "en": "Abdulkhalig Yusif",
+  "ru": "Мирза Абдулхалиг Юсиф",
+  "born": 1853,
+  "died": 1924,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 11,
+  "wikidata": "Q16378383",
+  "match": "site",
+  "birth": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  },
+  "death": null
+ },
+ {
+  "slug": "ebulhesen-raci",
+  "az": "Əbülhəsən Raci",
+  "en": "Abulhasan Raji",
+  "ru": "Абульхасан Раджи",
+  "born": 1831,
+  "died": 1876,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 18,
+  "wikidata": "Q8008087",
+  "match": "site",
+  "birth": {
+   "id": "Q80053",
+   "az": "Təbriz",
+   "en": "Tabriz",
+   "ru": "Тебриз",
+   "lat": 38.0739,
+   "lng": 46.2961
+  },
+  "death": {
+   "id": "Q23406",
+   "az": "Qırmızı dəniz",
+   "en": "Red Sea",
+   "ru": "Красное море",
+   "lat": 22,
+   "lng": 38
+  }
+ },
+ {
+  "slug": "ebulqasim-nebati",
+  "az": "Əbülqasim Nəbati",
+  "en": "Abulgasim Nabati",
+  "ru": "Абулькасим Набати",
+  "born": 1812,
+  "died": 1873,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 33,
+  "wikidata": "Q6408698",
+  "match": "site",
+  "birth": {
+   "id": "Q5873283",
+   "az": "Üştibin",
+   "en": "Ushtabin",
+   "ru": "Уштибин",
+   "lat": 38.8567,
+   "lng": 46.4861
+  },
+  "death": {
+   "id": "Q5873283",
+   "az": "Üştibin",
+   "en": "Ushtabin",
+   "ru": "Уштибин",
+   "lat": 38.8567,
+   "lng": 46.4861
+  }
+ },
+ {
+  "slug": "ehmed-bey-agaoglu",
+  "az": "Əhməd bəy Ağaoğlu",
+  "en": "Ahmet Ağaoğlu",
+  "ru": "Ахмед-бек Агаоглу",
+  "born": 1869,
+  "died": 1939,
+  "period": "XIX-XX əsr",
+  "type": "WRITER",
+  "works": 1,
+  "wikidata": "Q401773",
+  "match": "site",
+  "birth": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  },
+  "death": {
+   "id": "Q406",
+   "az": "İstanbul",
+   "en": "Istanbul",
+   "ru": "Стамбул",
+   "lat": 41.01,
+   "lng": 28.9603
+  }
+ },
+ {
+  "slug": "ekrem-eylisli",
+  "az": "Əkrəm Əylisli",
+  "en": "Akram Aylisli",
+  "ru": "Акрам Айлисли",
+  "born": 1937,
+  "died": null,
+  "period": "XX əsr",
+  "type": "WRITER",
+  "works": 20,
+  "wikidata": "Q4059788",
+  "match": "site",
+  "birth": {
+   "id": "Q4814423",
+   "az": "Yuxarı Əylis",
+   "en": "Yuxarı Əylis",
+   "ru": "Юхары-Айлис",
+   "lat": 38.9503,
+   "lng": 45.9838
+  },
+  "death": null
+ },
+ {
+  "slug": "elcin",
+  "az": "Elçin",
+  "en": "Elchin",
+  "ru": "Эльчин",
+  "born": 1943,
+  "died": 2025,
+  "period": "XX-XXI əsr",
+  "type": "WRITER",
+  "works": 639,
+  "wikidata": "Q4533198",
+  "match": "site",
+  "birth": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  },
+  "death": null
+ },
+ {
+  "slug": "elcin-huseynbeyli",
+  "az": "Elçin Hüseynbəyli",
+  "en": "Elchin Huseynbeyli",
+  "ru": "Эльчин Гусейнбейли",
+  "born": 1961,
+  "died": null,
+  "period": "XX-XXI əsr",
+  "type": "WRITER",
+  "works": 9,
+  "wikidata": "Q12839177",
+  "match": "site",
+  "birth": {
+   "id": "Q105527817",
+   "az": "Mahmudlu",
+   "en": "Mahmudlu",
+   "lat": 39.3236,
+   "lng": 47.1657
+  },
+  "death": null
+ },
+ {
+  "slug": "elesger",
+  "az": "Aşıq Ələsgər",
+  "en": "Ashiq Alasgar",
+  "ru": "Ашуг Алескер",
+  "born": 1821,
+  "died": 1926,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 223,
+  "wikidata": "Q2636522",
+  "match": "site",
+  "birth": {
+   "id": "Q2530813",
+   "az": "Ağkilsə",
+   "en": "Azat",
+   "ru": "Азат",
+   "lat": 40.1833,
+   "lng": 45.8667
+  },
+  "death": {
+   "id": "Q2530813",
+   "az": "Ağkilsə",
+   "en": "Azat",
+   "ru": "Азат",
+   "lat": 40.1833,
+   "lng": 45.8667
+  }
+ },
+ {
+  "slug": "eli-fitret",
+  "az": "Əli Fitrət",
+  "en": "Ali Fitrat",
+  "ru": "Али Фитрет",
+  "born": 1890,
+  "died": 1948,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 1,
+  "wikidata": "Q6406099",
+  "match": "site",
+  "birth": {
+   "id": "Q80053",
+   "az": "Təbriz",
+   "en": "Tabriz",
+   "ru": "Тебриз",
+   "lat": 38.0739,
+   "lng": 46.2961
+  },
+  "death": null
+ },
+ {
+  "slug": "eli-kerim",
+  "az": "Əli Kərim",
+  "en": "Ali Kerim",
+  "ru": "Али Керим",
+  "born": 1931,
+  "died": 1969,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 157,
+  "wikidata": "Q12850020",
+  "match": "site",
+  "birth": {
+   "id": "Q1822209",
+   "az": "Göyçay",
+   "en": "Goychay",
+   "ru": "Гёйчай",
+   "lat": 40.6546,
+   "lng": 47.7293
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "eli-razi-semcizade",
+  "az": "Əli Razi Şəmçizadə",
+  "en": "Ali Razi Shemchizade",
+  "ru": "Али Рази Шемчизаде",
+  "born": 1886,
+  "died": 1939,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 2,
+  "wikidata": "Q16378838",
+  "match": "site",
+  "birth": {
+   "id": "Q131290",
+   "az": "Gəncə",
+   "en": "Ganja",
+   "ru": "Гянджа",
+   "lat": 40.6828,
+   "lng": 46.3606
+  },
+  "death": null
+ },
+ {
+  "slug": "eli-veliyev",
+  "az": "Əli Vəliyev",
+  "en": "Ali Valiyev",
+  "ru": "Али Велиев",
+  "born": 1901,
+  "died": 1983,
+  "period": "XX əsr",
+  "type": "WRITER",
+  "works": 16,
+  "wikidata": "Q15356758",
+  "match": "site",
+  "birth": {
+   "id": "Q2154981",
+   "az": "Ağdü",
+   "en": "Aghitu",
+   "ru": "Агиту",
+   "lat": 39.5153,
+   "lng": 46.0808
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "eliaga-kurcayli",
+  "az": "Əliağa Kürçaylı",
+  "en": "Aliagha Kurchayli",
+  "ru": "Алиага Кюрчайлы",
+  "born": 1928,
+  "died": 1980,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 344,
+  "wikidata": "Q8084546",
+  "match": "site",
+  "birth": {
+   "id": "Q6454153",
+   "az": "Kür Qaraqaşlı",
+   "en": "Kür Qaraqaşlı",
+   "ru": "Кюр-Каракашлы",
+   "lat": 39.5587,
+   "lng": 48.9877
+  },
+  "death": null
+ },
+ {
+  "slug": "elibala-hacizade",
+  "az": "Əlibala Hacızadə",
+  "en": "Alibala Hajizade",
+  "ru": "Алибала Гаджизаде",
+  "born": 1935,
+  "died": 2009,
+  "period": "XX-XXI əsr",
+  "type": "WRITER",
+  "works": 643,
+  "wikidata": "Q12850088",
+  "match": "site",
+  "birth": {
+   "id": "Q4833349",
+   "az": "Ağalıkənd",
+   "en": "Ağalıkənd",
+   "ru": "Агаликенд",
+   "lat": 39.3743,
+   "lng": 48.5796
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "elmira-axundova",
+  "az": "Elmira Axundova",
+  "en": "Elmira Akhundova",
+  "ru": "Эльмира Ахундова",
+  "born": 1953,
+  "died": null,
+  "period": "XX-XXI əsr",
+  "type": "WRITER",
+  "works": 16,
+  "wikidata": "Q24176171",
+  "match": "site",
+  "birth": {
+   "id": "Q651394",
+   "az": "Ramensk rayonu",
+   "en": "Ramensky District",
+   "ru": "Раменский район",
+   "lat": 55.5667,
+   "lng": 38.2333
+  },
+  "death": null
+ },
+ {
+  "slug": "endelib-qaracadagi",
+  "az": "Əndəlib Qaracadaği",
+  "en": "Andalib Garajadaghi",
+  "ru": "Андалиб Караджадаги",
+  "born": 1850,
+  "died": null,
+  "period": "XVIII-XIX əsr",
+  "type": "POET",
+  "works": 17,
+  "wikidata": "Q8007693",
+  "match": "site",
+  "birth": {
+   "id": "Q911727",
+   "az": "Əhər",
+   "en": "Ahar",
+   "ru": "Ахар",
+   "lat": 38.4775,
+   "lng": 47.0662
+  },
+  "death": {
+   "id": "Q1953",
+   "az": "İrəvan",
+   "en": "Yerevan",
+   "ru": "Ереван",
+   "lat": 40.1814,
+   "lng": 44.5144
+  }
+ },
+ {
+  "slug": "enver-memmedxanli",
+  "az": "Ənvər Məmmədxanlı",
+  "en": "Anvar Mammadkhanli",
+  "ru": "Энвер Мамедханлы",
+  "born": 1913,
+  "died": 1990,
+  "period": "XX əsr",
+  "type": "WRITER",
+  "works": 11,
+  "wikidata": "Q15301834",
+  "match": "site",
+  "birth": {
+   "id": "Q1822209",
+   "az": "Göyçay",
+   "en": "Goychay",
+   "ru": "Гёйчай",
+   "lat": 40.6546,
+   "lng": 47.7293
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "esger-aga-gorani",
+  "az": "Əsgər ağa Gorani",
+  "en": "Asgar agha Gorani",
+  "ru": "Аскер-ага Горани",
+  "born": 1857,
+  "died": 1910,
+  "period": "XIX-XX əsr",
+  "type": "WRITER",
+  "works": 3,
+  "wikidata": "Q12850325",
+  "match": "site",
+  "birth": {
+   "id": "Q4591968",
+   "az": "Goran",
+   "en": "Goran",
+   "ru": "Горан",
+   "lat": 40.6529,
+   "lng": 46.851
+  },
+  "death": {
+   "id": "Q131290",
+   "az": "Gəncə",
+   "en": "Ganja",
+   "ru": "Гянджа",
+   "lat": 40.6828,
+   "lng": 46.3606
+  }
+ },
+ {
+  "slug": "eziza-ceferzade",
+  "az": "Əzizə Cəfərzadə",
+  "en": "Aziza Jafarzade",
+  "ru": "Азиза Джафарзаде",
+  "born": 1921,
+  "died": 2003,
+  "period": "XX-XXI əsr",
+  "type": "WRITER",
+  "works": 23,
+  "wikidata": "Q12850474",
+  "match": "site",
+  "birth": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "falaki",
+  "az": "Fələki Şirvani",
+  "en": "Falaki Shirvani",
+  "ru": "Фелеки Ширвани",
+  "born": 1107,
+  "died": 1146,
+  "period": "XII əsr",
+  "type": "POET",
+  "works": 69,
+  "wikidata": "Q3652466",
+  "match": "site",
+  "birth": {
+   "id": "Q388224",
+   "az": "Şamaxı",
+   "en": "Shamakhi",
+   "ru": "Шемахы",
+   "lat": 40.6339,
+   "lng": 48.6392
+  },
+  "death": {
+   "id": "Q638064",
+   "az": "Şirvan",
+   "en": "Shirvan",
+   "ru": "Ширван",
+   "lat": 39.9319,
+   "lng": 48.9203
+  }
+ },
+ {
+  "slug": "fazil-xan-seyda",
+  "az": "Fazil xan Şeyda",
+  "en": "Fazil Khan Sheyda",
+  "ru": "Фазил-хан Шейда",
+  "born": 1784,
+  "died": 1852,
+  "period": "XVIII-XIX əsr",
+  "type": "POET",
+  "works": 3,
+  "wikidata": "Q5334496",
+  "match": "site",
+  "birth": {
+   "id": "Q720596",
+   "az": "Bicar",
+   "en": "Bijar",
+   "ru": "Биджар",
+   "lat": 35.8728,
+   "lng": 47.6028
+  },
+  "death": {
+   "id": "Q994",
+   "az": "Tbilisi",
+   "en": "Tbilisi",
+   "ru": "Тбилиси",
+   "lat": 41.7225,
+   "lng": 44.7925
+  }
+ },
+ {
+  "slug": "fegir-ordubadi",
+  "az": "Hacı ağa Fəqir Ordubadi",
+  "en": "Haji Agha Faqir Ordubadi",
+  "ru": "Хаджи-ага Фагир Ордубади",
+  "born": 1836,
+  "died": 1886,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 11,
+  "wikidata": "Q8010339",
+  "match": "site",
+  "birth": {
+   "id": "Q1000839",
+   "az": "Ordubad",
+   "en": "Ordubad",
+   "ru": "Ордубад",
+   "lat": 38.9047,
+   "lng": 46.0231
+  },
+  "death": {
+   "id": "Q1000839",
+   "az": "Ordubad",
+   "en": "Ordubad",
+   "ru": "Ордубад",
+   "lat": 38.9047,
+   "lng": 46.0231
+  }
+ },
+ {
+  "slug": "ferman-kerimzade",
+  "az": "Fərman Kərimzadə",
+  "en": "Farman Karimzade",
+  "ru": "Фарман Керимзаде",
+  "born": 1937,
+  "died": 1989,
+  "period": "XX-XXI əsr",
+  "type": "WRITER",
+  "works": 24,
+  "wikidata": "Q4219585",
+  "match": "site",
+  "birth": {
+   "id": "Q750689",
+   "az": "Vedi",
+   "en": "Vedi",
+   "ru": "Веди",
+   "lat": 39.91,
+   "lng": 44.73
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "fetelibeyli",
+  "az": "Əbdürrəhman bəy Fətəlibəyli",
+  "en": "Abdurrahman bey Fatalibeyli",
+  "ru": "Абдуррахман бек Фаталибейли",
+  "born": 1908,
+  "died": 1954,
+  "period": "XX əsr",
+  "type": "WRITER",
+  "works": 13,
+  "wikidata": "Q2072229",
+  "match": "site",
+  "birth": {
+   "id": "Q5015275",
+   "az": "Düdəngə",
+   "en": "Düdəngə",
+   "lat": 39.5717,
+   "lng": 44.9986
+  },
+  "death": {
+   "id": "Q1726",
+   "az": "Münxen",
+   "en": "Munich",
+   "ru": "Мюнхен",
+   "lat": 48.1375,
+   "lng": 11.575
+  }
+ },
+ {
+  "slug": "fezli",
+  "az": "Fəzli",
+  "en": "Fazli",
+  "ru": "Фазли",
+  "born": 1543,
+  "died": 1605,
+  "period": "XVI-XVII əsr",
+  "type": "POET",
+  "works": 3,
+  "wikidata": "Q16368055",
+  "match": "site",
+  "birth": {
+   "id": "Q199909",
+   "az": "Kərbəla",
+   "en": "Karbala",
+   "ru": "Кербела",
+   "lat": 32.6167,
+   "lng": 44.0333
+  },
+  "death": null
+ },
+ {
+  "slug": "fikret-qoca",
+  "az": "Fikrət Qoca",
+  "en": "Fikrat Goja",
+  "ru": "Фикрет Годжа",
+  "born": 1935,
+  "died": 2021,
+  "period": "XX-XXI əsr",
+  "type": "POET",
+  "works": 260,
+  "wikidata": "Q2028192",
+  "match": "site",
+  "birth": {
+   "id": "Q4542519",
+   "az": "Kotanarx",
+   "en": "Kotanarkh",
+   "ru": "Котанарх",
+   "lat": 40.5892,
+   "lng": 47.4875
+  },
+  "death": {
+   "id": "Q1983932",
+   "az": "Ağdaş",
+   "en": "Agdash",
+   "ru": "Агдаш",
+   "lat": 40.65,
+   "lng": 47.4833
+  }
+ },
+ {
+  "slug": "fikret-sadiq",
+  "az": "Fikrət Sadıq",
+  "en": "Fikret Sadig",
+  "ru": "Фикрет Садыг",
+  "born": 1930,
+  "died": 2016,
+  "period": "XX-XXI əsr",
+  "type": "POET",
+  "works": 542,
+  "wikidata": "Q12839498",
+  "match": "site",
+  "birth": {
+   "id": "Q388224",
+   "az": "Şamaxı",
+   "en": "Shamakhi",
+   "ru": "Шемахы",
+   "lat": 40.6339,
+   "lng": 48.6392
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "fuzuli",
+  "az": "Məhəmməd Füzuli",
+  "en": "Fuzuli",
+  "ru": "Физули",
+  "born": 1494,
+  "died": 1556,
+  "period": "XVI əsr",
+  "type": "POET",
+  "works": 1151,
+  "wikidata": "Q178379",
+  "match": "site",
+  "birth": null,
+  "death": {
+   "id": "Q199909",
+   "az": "Kərbəla",
+   "en": "Karbala",
+   "ru": "Кербела",
+   "lat": 32.6167,
+   "lng": 44.0333
+  }
+ },
+ {
+  "slug": "habibi",
+  "az": "Həbibi",
+  "en": "Habibi",
+  "ru": "Хабиби",
+  "born": 1470,
+  "died": 1520,
+  "period": "XV-XVI əsr",
+  "type": "POET",
+  "works": 48,
+  "wikidata": "Q4494385",
+  "match": "site",
+  "birth": {
+   "id": "Q4992150",
+   "az": "Bərgüşad",
+   "en": "Bərgüşad",
+   "lat": 40.393,
+   "lng": 47.8533
+  },
+  "death": {
+   "id": "Q406",
+   "az": "İstanbul",
+   "en": "Istanbul",
+   "ru": "Стамбул",
+   "lat": 41.01,
+   "lng": 28.9603
+  }
+ },
+ {
+  "slug": "haci-abbas-agah",
+  "az": "Hacı Abbas Agah",
+  "en": "Haji Abbas Agah",
+  "ru": "Гаджи Аббас Агах",
+  "born": 1841,
+  "died": 1892,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 1,
+  "wikidata": "Q12840107",
+  "match": "name",
+  "birth": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  },
+  "death": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  }
+ },
+ {
+  "slug": "haci-kerim-sanili",
+  "az": "Hacı Kərim Sanılı",
+  "en": "Haji Karim Sanili",
+  "ru": "Гаджи Керим Санылы",
+  "born": 1878,
+  "died": 1937,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 4,
+  "wikidata": "Q12840121",
+  "match": "site",
+  "birth": {
+   "id": "Q586758",
+   "az": "Qazax",
+   "en": "Gazakh",
+   "ru": "Газах",
+   "lat": 41.0933,
+   "lng": 45.3661
+  },
+  "death": null
+ },
+ {
+  "slug": "haci-rza-serraf",
+  "az": "Hacı Rza Sərraf",
+  "en": "Haji Reza Sarraf",
+  "ru": "Хаджи Реза Сарраф",
+  "born": 1854,
+  "died": 1907,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 12,
+  "wikidata": "Q8008596",
+  "match": "site",
+  "birth": {
+   "id": "Q80053",
+   "az": "Təbriz",
+   "en": "Tabriz",
+   "ru": "Тебриз",
+   "lat": 38.0739,
+   "lng": 46.2961
+  },
+  "death": {
+   "id": "Q80053",
+   "az": "Təbriz",
+   "en": "Tabriz",
+   "ru": "Тебриз",
+   "lat": 38.0739,
+   "lng": 46.2961
+  }
+ },
+ {
+  "slug": "hacibeyov",
+  "az": "Üzeyir Hacıbəyov",
+  "en": "Uzeyir Hajibeyov",
+  "ru": "Узеир Гаджибеков",
+  "born": 1885,
+  "died": 1948,
+  "period": "XX əsr",
+  "type": "PLAYWRIGHT",
+  "works": 300,
+  "wikidata": "Q317397",
+  "match": "site",
+  "birth": {
+   "id": "Q1983875",
+   "az": "Ağcabədi",
+   "en": "Aghjabadi",
+   "ru": "Агджабеди",
+   "lat": 40.0489,
+   "lng": 47.4502
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "hadi",
+  "az": "Məhəmməd Hadi",
+  "en": "Mahammad Hadi",
+  "ru": "Мухаммед Хади",
+  "born": 1879,
+  "died": 1920,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 212,
+  "wikidata": "Q2072018",
+  "match": "site",
+  "birth": {
+   "id": "Q388224",
+   "az": "Şamaxı",
+   "en": "Shamakhi",
+   "ru": "Шемахы",
+   "lat": 40.6339,
+   "lng": 48.6392
+  },
+  "death": {
+   "id": "Q131290",
+   "az": "Gəncə",
+   "en": "Ganja",
+   "ru": "Гянджа",
+   "lat": 40.6828,
+   "lng": 46.3606
+  }
+ },
+ {
+  "slug": "haqverdiyev",
+  "az": "Əbdürrəhim bəy Haqverdiyev",
+  "en": "Abdurrahim bey Hagverdiyev",
+  "ru": "Абдуррагим-бек Ахвердов",
+  "born": 1870,
+  "died": 1933,
+  "period": "XIX-XX əsr",
+  "type": "WRITER",
+  "works": 152,
+  "wikidata": "Q2405007",
+  "match": "site",
+  "birth": {
+   "id": "Q100265986",
+   "az": "Ağbulaq",
+   "en": "Ağbulaq, Shusha",
+   "ru": "Агбулаг",
+   "lat": 39.8004,
+   "lng": 46.5965
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "hasenali-xan-qaradagi",
+  "az": "Həsənəli xan Qaradaği",
+  "en": "Hasan Ali Khan Garadaghi",
+  "ru": "Гасаналиага-хан Карадагский",
+  "born": 1848,
+  "died": 1929,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 21,
+  "wikidata": "Q4213740",
+  "match": "site",
+  "birth": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  },
+  "death": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  }
+ },
+ {
+  "slug": "hebib-sahir",
+  "az": "Həbib Sahir",
+  "en": "Habib Saher",
+  "ru": "Габиб Сахир",
+  "born": 1895,
+  "died": 1985,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 111,
+  "wikidata": "Q6414298",
+  "match": "site",
+  "birth": {
+   "id": "Q80053",
+   "az": "Təbriz",
+   "en": "Tabriz",
+   "ru": "Тебриз",
+   "lat": 38.0739,
+   "lng": 46.2961
+  },
+  "death": {
+   "id": "Q3616",
+   "az": "Tehran",
+   "en": "Tehran",
+   "ru": "Тегеран",
+   "lat": 35.6889,
+   "lng": 51.3897
+  }
+ },
+ {
+  "slug": "hekime-billuri",
+  "az": "Həkimə Billuri",
+  "en": "Hokuma Billuri",
+  "ru": "Акима Биллури",
+  "born": 1926,
+  "died": 2000,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 138,
+  "wikidata": "Q16368747",
+  "match": "site",
+  "birth": {
+   "id": "Q146699",
+   "az": "Zəncan",
+   "en": "Zanjan",
+   "ru": "Зенджан",
+   "lat": 36.6667,
+   "lng": 48.4833
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "heyran",
+  "az": "Heyran xanım",
+  "en": "Heyran Khanum",
+  "ru": "Хейран-ханум",
+  "born": 1790,
+  "died": 1848,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 9,
+  "wikidata": "Q4728570",
+  "match": "site",
+  "birth": {
+   "id": "Q230104",
+   "az": "Naxçıvan",
+   "en": "Nakhchivan",
+   "ru": "Нахичевань",
+   "lat": 39.2089,
+   "lng": 45.4122
+  },
+  "death": {
+   "id": "Q794",
+   "az": "İran",
+   "en": "Iran",
+   "ru": "Иран",
+   "lat": 32,
+   "lng": 53
+  }
+ },
+ {
+  "slug": "huseyn-arif",
+  "az": "Hüseyn Arif",
+  "en": null,
+  "ru": "Гусейн Ариф",
+  "born": 1924,
+  "died": 1992,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 273,
+  "wikidata": "Q16368779",
+  "match": "site",
+  "birth": {
+   "id": "Q4618477",
+   "az": "Yenigün",
+   "en": "Yenigün",
+   "ru": "Енигюн",
+   "lat": 41.1199,
+   "lng": 45.4672
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "huseyn-ibrahimov",
+  "az": "Hüseyn İbrahimov",
+  "en": "Huseyn Ibrahimov",
+  "ru": "Гусейн Ибрагимов",
+  "born": 1919,
+  "died": 2008,
+  "period": "XX əsr",
+  "type": "WRITER",
+  "works": 53,
+  "wikidata": "Q4195356",
+  "match": "site",
+  "birth": {
+   "id": "Q3056885",
+   "az": "Şahtaxtı",
+   "en": "Şahtaxtı",
+   "ru": "Шахтахты",
+   "lat": 39.3716,
+   "lng": 45.0954
+  },
+  "death": {
+   "id": "Q230104",
+   "az": "Naxçıvan",
+   "en": "Nakhchivan",
+   "ru": "Нахичевань",
+   "lat": 39.2089,
+   "lng": 45.4122
+  }
+ },
+ {
+  "slug": "huseynzade",
+  "az": "Əli bəy Hüseynzadə",
+  "en": "Ali bey Huseynzade",
+  "ru": "Али-бек Гусейнзаде",
+  "born": 1864,
+  "died": 1940,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 10,
+  "wikidata": "Q2081158",
+  "match": "site",
+  "birth": {
+   "id": "Q1017678",
+   "az": "Salyan",
+   "en": "Salyan",
+   "ru": "Сальян",
+   "lat": 39.5961,
+   "lng": 48.9847
+  },
+  "death": {
+   "id": "Q326339",
+   "az": "Üsküdar",
+   "en": "Üsküdar",
+   "ru": "Ускюдар",
+   "lat": 41.0167,
+   "lng": 29.0167
+  }
+ },
+ {
+  "slug": "ildirim",
+  "az": "Almas İldırım",
+  "en": "Almas Ildyrym",
+  "ru": "Алмас Илдырым",
+  "born": 1907,
+  "died": 1952,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 88,
+  "wikidata": "Q1979286",
+  "match": "site",
+  "birth": {
+   "id": "Q4026864",
+   "az": "Qala",
+   "en": "Qala",
+   "ru": "Кала",
+   "lat": 40.4438,
+   "lng": 50.1875
+  },
+  "death": {
+   "id": "Q174060",
+   "az": "Elazığ",
+   "en": "Elazığ",
+   "ru": "Элязыг",
+   "lat": 38.6667,
+   "lng": 39.2167
+  }
+ },
+ {
+  "slug": "ilyas-efendiyev",
+  "az": "İlyas Əfəndiyev",
+  "en": "Ilyas Afandiyev",
+  "ru": "Ильяс Эфендиев",
+  "born": 1914,
+  "died": 1996,
+  "period": "XX əsr",
+  "type": "PLAYWRIGHT",
+  "works": 103,
+  "wikidata": "Q4533188",
+  "match": "site",
+  "birth": {
+   "id": "Q1996181",
+   "az": "Füzuli",
+   "en": "Fuzuli",
+   "ru": "Физули",
+   "lat": 39.6003,
+   "lng": 47.1431
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "irec-mirze",
+  "az": "İrəc Mirzə",
+  "en": "Iraj Mirza",
+  "ru": "Ирадж Мирза",
+  "born": 1874,
+  "died": 1926,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 226,
+  "wikidata": "Q983413",
+  "match": "site",
+  "birth": {
+   "id": "Q80053",
+   "az": "Təbriz",
+   "en": "Tabriz",
+   "ru": "Тебриз",
+   "lat": 38.0739,
+   "lng": 46.2961
+  },
+  "death": {
+   "id": "Q3616",
+   "az": "Tehran",
+   "en": "Tehran",
+   "ru": "Тегеран",
+   "lat": 35.6889,
+   "lng": 51.3897
+  }
+ },
+ {
+  "slug": "isa-huseynov",
+  "az": "İsa Hüseynov (Muğanna)",
+  "en": "Isa Mughanna",
+  "ru": "Иса Гусейнов",
+  "born": 1928,
+  "died": 2014,
+  "period": "XX-XXI əsr",
+  "type": "WRITER",
+  "works": 28,
+  "wikidata": "Q12849173",
+  "match": "site",
+  "birth": {
+   "id": "Q6944532",
+   "az": "Muğanlı",
+   "en": "Muğanlı, Agstafa",
+   "ru": "Муганлы",
+   "lat": 41.3452,
+   "lng": 45.1958
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "isi-melikzade",
+  "az": "İsi Məlikzadə",
+  "en": "Isi Malikzade",
+  "ru": "Иси Меликзаде",
+  "born": 1934,
+  "died": 1995,
+  "period": "XX əsr",
+  "type": "WRITER",
+  "works": 10,
+  "wikidata": "Q12849205",
+  "match": "site",
+  "birth": {
+   "id": "Q1983875",
+   "az": "Ağcabədi",
+   "en": "Aghjabadi",
+   "ru": "Агджабеди",
+   "lat": 40.0489,
+   "lng": 47.4502
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "islam-seferli",
+  "az": "İslam Səfərli",
+  "en": "Islam Safarli",
+  "ru": "Ислам Сафарли",
+  "born": 1923,
+  "died": 1974,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 197,
+  "wikidata": "Q8084534",
+  "match": "site",
+  "birth": {
+   "id": "Q4617137",
+   "az": "Şəkərabad",
+   "en": "Şəkərabad",
+   "lat": 39.193,
+   "lng": 45.4379
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "ismayil-sixli",
+  "az": "İsmayıl Şıxlı",
+  "en": "Ismayil Shykhly",
+  "ru": "Исмаил Шихлы",
+  "born": 1919,
+  "died": 1995,
+  "period": "XX əsr",
+  "type": "WRITER",
+  "works": 134,
+  "wikidata": "Q4524645",
+  "match": "site",
+  "birth": {
+   "id": "Q4199007",
+   "az": "İkinci Şıxlı",
+   "en": "İkinci Şıxlı",
+   "ru": "Икинджи Шихлы",
+   "lat": 41.3139,
+   "lng": 45.0967
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "izzeddin-hasanoglu",
+  "az": "İzzəddin Həsənoğlu",
+  "en": "Izzeddin Hasanoghlu",
+  "ru": "Иззеддин Гасаноглы",
+  "born": 1250,
+  "died": 1400,
+  "period": "XIII-XIV əsr",
+  "type": "POET",
+  "works": 10,
+  "wikidata": "Q1975865",
+  "match": "site",
+  "birth": {
+   "id": "Q6178890",
+   "az": "Xorasan ostanı",
+   "en": "Khorasan Province",
+   "ru": "Хорасан",
+   "lat": 36.3,
+   "lng": 59.6
+  },
+  "death": null
+ },
+ {
+  "slug": "kamal-abdulla",
+  "az": "Kamal Abdulla",
+  "en": "Kamal Abdulla",
+  "ru": "Камал Абдулла",
+  "born": 1950,
+  "died": null,
+  "period": "XX-XXI əsr",
+  "type": "WRITER",
+  "works": 33,
+  "wikidata": "Q11733924",
+  "match": "site",
+  "birth": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  },
+  "death": null
+ },
+ {
+  "slug": "kemine",
+  "az": "Fatma xanım Kəminə",
+  "en": "Fatma Khanum Kamina",
+  "ru": "Фатма-ханым Кяминя",
+  "born": 1841,
+  "died": 1898,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 19,
+  "wikidata": "Q8011160",
+  "match": "site",
+  "birth": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  },
+  "death": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  }
+ },
+ {
+  "slug": "kisveri",
+  "az": "Kişvəri",
+  "en": "Kishvari",
+  "ru": "Кишвери",
+  "born": 1450,
+  "died": 1600,
+  "period": "XV əsr",
+  "type": "POET",
+  "works": 312,
+  "wikidata": "Q12840962",
+  "match": "site",
+  "birth": {
+   "id": "Q765806",
+   "az": "Salmas",
+   "en": "Salmas",
+   "ru": "Сельмас",
+   "lat": 38.2,
+   "lng": 44.7667
+  },
+  "death": {
+   "id": "Q80053",
+   "az": "Təbriz",
+   "en": "Tabriz",
+   "ru": "Тебриз",
+   "lat": 38.0739,
+   "lng": 46.2961
+  }
+ },
+ {
+  "slug": "kocerli",
+  "az": "Firidun bəy Köçərli",
+  "en": "Firidun bey Kocharli",
+  "ru": "Фиридун-бек Кочарлинский",
+  "born": 1863,
+  "died": 1920,
+  "period": "XIX-XX əsr",
+  "type": "CRITIC",
+  "works": 96,
+  "wikidata": "Q2028212",
+  "match": "site",
+  "birth": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  },
+  "death": {
+   "id": "Q131290",
+   "az": "Gəncə",
+   "en": "Ganja",
+   "ru": "Гянджа",
+   "lat": 40.6828,
+   "lng": 46.3606
+  }
+ },
+ {
+  "slug": "lezgi-ehmed",
+  "az": "Ləzgi Əhməd",
+  "en": "Lezgi Ahmed",
+  "ru": "Лезги Ахмед",
+  "born": null,
+  "died": 1800,
+  "period": null,
+  "type": "POET",
+  "works": 2,
+  "wikidata": "Q111416286",
+  "match": "site",
+  "birth": {
+   "id": "Q1711565",
+   "az": "Quruş",
+   "en": "Kurush",
+   "ru": "Куруш",
+   "lat": 41.2808,
+   "lng": 47.83
+  },
+  "death": null
+ },
+ {
+  "slug": "mahsati",
+  "az": "Məhsəti Gəncəvi",
+  "en": "Mahsati Ganjavi",
+  "ru": "Мехсети Гянджеви",
+  "born": 1089,
+  "died": 1181,
+  "period": "XII əsr",
+  "type": "POET",
+  "works": 290,
+  "wikidata": "Q291537",
+  "match": "site",
+  "birth": {
+   "id": "Q131290",
+   "az": "Gəncə",
+   "en": "Ganja",
+   "ru": "Гянджа",
+   "lat": 40.6828,
+   "lng": 46.3606
+  },
+  "death": {
+   "id": "Q131290",
+   "az": "Gəncə",
+   "en": "Ganja",
+   "ru": "Гянджа",
+   "lat": 40.6828,
+   "lng": 46.3606
+  }
+ },
+ {
+  "slug": "manaf-suleymanov",
+  "az": "Manaf Süleymanov",
+  "en": "Manaf Suleymanov",
+  "ru": "Манаф Сулейманов",
+  "born": 1912,
+  "died": 2001,
+  "period": "XX əsr",
+  "type": "WRITER",
+  "works": 10,
+  "wikidata": "Q6746621",
+  "match": "site",
+  "birth": {
+   "id": "Q1800656",
+   "az": "Lahıc",
+   "en": "Lahıc",
+   "ru": "Лагич",
+   "lat": 40.8449,
+   "lng": 48.383
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "maqsud-ibrahimbeyov",
+  "az": "Maqsud İbrahimbəyov",
+  "en": "Magsud Ibrahimbeyov",
+  "ru": "Максуд Ибрагимбеков",
+  "born": 1935,
+  "died": 2016,
+  "period": "XX-XXI əsr",
+  "type": "WRITER",
+  "works": 16,
+  "wikidata": "Q4195350",
+  "match": "site",
+  "birth": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "meczub",
+  "az": "Məczub Təbrizi",
+  "en": "Majzub Tabrizi",
+  "ru": "Меджзуб Табризи",
+  "born": null,
+  "died": 1682,
+  "period": "XVII əsr",
+  "type": "POET",
+  "works": 362,
+  "wikidata": "Q31302260",
+  "match": "site",
+  "birth": {
+   "id": "Q80053",
+   "az": "Təbriz",
+   "en": "Tabriz",
+   "ru": "Тебриз",
+   "lat": 38.0739,
+   "lng": 46.2961
+  },
+  "death": null
+ },
+ {
+  "slug": "medine-gulgun",
+  "az": "Mədinə Gülgün",
+  "en": "Madina Gulgun",
+  "ru": "Медина Гюльгюн",
+  "born": 1926,
+  "died": 1991,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 145,
+  "wikidata": "Q6727772",
+  "match": "site",
+  "birth": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "mehdi-huseyn",
+  "az": "Mehdi Hüseyn",
+  "en": "Mehdi Huseyn",
+  "ru": "Мехти Гусейн",
+  "born": 1909,
+  "died": 1965,
+  "period": "XX əsr",
+  "type": "WRITER",
+  "works": 80,
+  "wikidata": "Q4152759",
+  "match": "site",
+  "birth": {
+   "id": "Q4199007",
+   "az": "İkinci Şıxlı",
+   "en": "İkinci Şıxlı",
+   "ru": "Икинджи Шихлы",
+   "lat": 41.3139,
+   "lng": 45.0967
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "mehdiqulu-xan-vefa",
+  "az": "Mehdiqulu xan Vəfa",
+  "en": "Mehdigulu Khan Vafa",
+  "ru": "Мехтикули-хан Вафа",
+  "born": 1855,
+  "died": 1900,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 1,
+  "wikidata": "Q4292224",
+  "match": "site",
+  "birth": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  },
+  "death": {
+   "id": "Q994",
+   "az": "Tbilisi",
+   "en": "Tbilisi",
+   "ru": "Тбилиси",
+   "lat": 41.7225,
+   "lng": 44.7925
+  }
+ },
+ {
+  "slug": "mehemmed-bey-asiq",
+  "az": "Məhəmməd bəy Aşiq",
+  "en": "Mohammad Beg Ashiq",
+  "ru": "Мухаммед-бек Ашуг",
+  "born": 1800,
+  "died": 1861,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 34,
+  "wikidata": "Q8008752",
+  "match": "site",
+  "birth": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  },
+  "death": {
+   "id": "Q1000839",
+   "az": "Ordubad",
+   "en": "Ordubad",
+   "ru": "Ордубад",
+   "lat": 38.9047,
+   "lng": 46.0231
+  }
+ },
+ {
+  "slug": "memmed-araz",
+  "az": "Məmməd Araz",
+  "en": "Mammad Araz",
+  "ru": "Мамед Араз",
+  "born": 1933,
+  "died": 2004,
+  "period": "XX-XXI əsr",
+  "type": "POET",
+  "works": 292,
+  "wikidata": "Q1099784",
+  "match": "site",
+  "birth": {
+   "id": "Q5012980",
+   "az": "Nursu",
+   "en": "Nursu",
+   "ru": "Нурсу",
+   "lat": 39.3976,
+   "lng": 45.6723
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "memmed-aslan",
+  "az": "Məmməd Aslan",
+  "en": "Mammad Aslan",
+  "ru": "Мамед Аслан",
+  "born": 1939,
+  "died": 2015,
+  "period": "XX-XXI əsr",
+  "type": "POET",
+  "works": 298,
+  "wikidata": "Q16371010",
+  "match": "site",
+  "birth": {
+   "id": "Q4255421",
+   "az": "Laçın",
+   "en": "Laçın",
+   "ru": "Лачин",
+   "lat": 40.1262,
+   "lng": 46.2511
+  },
+  "death": {
+   "id": "Q147548",
+   "az": "Zaqatala",
+   "en": "Zagatala",
+   "ru": "Загатала",
+   "lat": 41.6336,
+   "lng": 46.6433
+  }
+ },
+ {
+  "slug": "memmed-ismayil",
+  "az": "Məmməd İsmayıl",
+  "en": "Mammad Ismayil",
+  "ru": "Мамед Исмаил",
+  "born": 1939,
+  "died": 2025,
+  "period": "XX-XXI əsr",
+  "type": "POET",
+  "works": 252,
+  "wikidata": "Q12842729",
+  "match": "site",
+  "birth": {
+   "id": "Q4991498",
+   "az": "Əsrik Cırdaxan",
+   "en": "Əsrik Cırdaxan",
+   "ru": "Асрик-Джирдахан",
+   "lat": 40.8555,
+   "lng": 45.6235
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "memmed-rahim",
+  "az": "Məmməd Rahim",
+  "en": null,
+  "ru": "Мамед Рагим",
+  "born": 1907,
+  "died": 1977,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 238,
+  "wikidata": "Q4386997",
+  "match": "site",
+  "birth": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "memmedquluzade",
+  "az": "Cəlil Məmmədquluzadə",
+  "en": "Jalil Mammadguluzadeh",
+  "ru": "Джалил Мамедкулизаде",
+  "born": 1869,
+  "died": 1932,
+  "period": "XIX-XX əsr",
+  "type": "WRITER",
+  "works": 1119,
+  "wikidata": "Q2656636",
+  "match": "site",
+  "birth": {
+   "id": "Q230104",
+   "az": "Naxçıvan",
+   "en": "Nakhchivan",
+   "ru": "Нахичевань",
+   "lat": 39.2089,
+   "lng": 45.4122
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "memo-bey-memai",
+  "az": "Məmo bəy Məmai",
+  "en": "Memo bey Memai",
+  "ru": "Мемо-бек Мемаи",
+  "born": 1849,
+  "died": 1918,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 5,
+  "wikidata": "Q8009996",
+  "match": "site",
+  "birth": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  },
+  "death": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  }
+ },
+ {
+  "slug": "mesedi-eyyub-baki",
+  "az": "Məşədi Əyyub Baki",
+  "en": "Mashhadi Ayyub Baki",
+  "ru": "Мешади Эйюб Баки",
+  "born": 1866,
+  "died": 1900,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 7,
+  "wikidata": "Q8011342",
+  "match": "site",
+  "birth": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  },
+  "death": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  }
+ },
+ {
+  "slug": "mesihi",
+  "az": "Məsihi",
+  "en": "Masihi",
+  "ru": "Месихи",
+  "born": 1580,
+  "died": 1655,
+  "period": "XVI-XVII əsr",
+  "type": "POET",
+  "works": 92,
+  "wikidata": "Q12826821",
+  "match": "site",
+  "birth": {
+   "id": "Q240475",
+   "az": "Kaşan",
+   "en": "Kashan",
+   "ru": "Кашан",
+   "lat": 33.9881,
+   "lng": 51.4425
+  },
+  "death": null
+ },
+ {
+  "slug": "mikayil-rzaquluzade",
+  "az": "Mikayıl Rzaquluzadə",
+  "en": null,
+  "ru": "Микаил Рзакулизаде",
+  "born": 1905,
+  "died": 1984,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 0,
+  "wikidata": "Q12841911",
+  "match": "site",
+  "birth": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "mir-celal",
+  "az": "Mir Cəlal Paşayev",
+  "en": "Mir Jalal Pashayev",
+  "ru": "Мир Джалал Пашаев",
+  "born": 1908,
+  "died": 1978,
+  "period": "XX əsr",
+  "type": "WRITER",
+  "works": 348,
+  "wikidata": "Q2598226",
+  "match": "site",
+  "birth": {
+   "id": "Q4753467",
+   "az": "Əndəbil",
+   "en": "Andabil",
+   "lat": 37.624,
+   "lng": 48.526
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "mir-hemze-nigari",
+  "az": "Mir Həmzə Nigari",
+  "en": "Mir Hamza Nigari",
+  "ru": "Мир Гамза Нигяри",
+  "born": 1805,
+  "died": 1885,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 19,
+  "wikidata": "Q8007777",
+  "match": "site",
+  "birth": {
+   "id": "Q24035916",
+   "az": "Cicimli",
+   "en": "Cicimli",
+   "lat": 39.5149,
+   "lng": 46.5175
+  },
+  "death": {
+   "id": "Q170532",
+   "az": "Amasya",
+   "en": "Amasya",
+   "ru": "Амасья",
+   "lat": 40.6787,
+   "lng": 35.8278
+  }
+ },
+ {
+  "slug": "mir-mehdi-xezani",
+  "az": "Mir Mehdi Xəzani",
+  "en": "Mir Mehdi Khazani",
+  "ru": "Мир Мехти Хазани",
+  "born": 1819,
+  "died": 1894,
+  "period": "XIX əsr",
+  "type": "WRITER",
+  "works": 37,
+  "wikidata": "Q8009415",
+  "match": "site",
+  "birth": {
+   "id": "Q4857363",
+   "az": "Məmər",
+   "en": "Məmər",
+   "ru": "Мамар",
+   "lat": 39.2522,
+   "lng": 46.6941
+  },
+  "death": {
+   "id": "Q2636177",
+   "az": "Tuğ",
+   "en": "Tugh",
+   "ru": "Туг",
+   "lat": 39.5867,
+   "lng": 46.967
+  }
+ },
+ {
+  "slug": "mirvarid-dilbazi",
+  "az": "Mirvarid Dilbazi",
+  "en": "Mirvarid Dilbazi",
+  "ru": "Мирварид Дильбази",
+  "born": 1912,
+  "died": 2001,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 267,
+  "wikidata": "Q4161627",
+  "match": "site",
+  "birth": {
+   "id": "Q4495504",
+   "az": "Xanlıqlar",
+   "en": "Xanlıqlar",
+   "ru": "Ханлыглар",
+   "lat": 41.07,
+   "lng": 45.3216
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "mirze-adigozel-bey",
+  "az": "Mirzə Adıgözəl bəy",
+  "en": "Mirza Adigozal bey",
+  "ru": "Мирза Адигезаль-бек",
+  "born": 1785,
+  "died": 1848,
+  "period": "XIX əsr",
+  "type": "WRITER",
+  "works": 14,
+  "wikidata": "Q4295576",
+  "match": "site",
+  "birth": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  },
+  "death": {
+   "id": "Q7386967",
+   "az": "Rəhimli",
+   "en": "Rəhimli",
+   "lat": 40.5843,
+   "lng": 46.7482
+  }
+ },
+ {
+  "slug": "mirze-bala-memmedzade",
+  "az": "Mirzə Bala Məmmədzadə",
+  "en": "Mirza Bala Mehmetzade",
+  "ru": "Мирза Бала Мамедзаде",
+  "born": 1898,
+  "died": 1959,
+  "period": "XIX-XX əsr",
+  "type": "WRITER",
+  "works": 3,
+  "wikidata": "Q4279823",
+  "match": "site",
+  "birth": {
+   "id": "Q4192310",
+   "az": "Zirə",
+   "en": "Zirə",
+   "ru": "Зиря",
+   "lat": 40.3701,
+   "lng": 50.2864
+  },
+  "death": {
+   "id": "Q406",
+   "az": "İstanbul",
+   "en": "Istanbul",
+   "ru": "Стамбул",
+   "lat": 41.01,
+   "lng": 28.9603
+  }
+ },
+ {
+  "slug": "mirze-baxis-nadim",
+  "az": "Mirzə Baxış Nadim",
+  "en": "Mirza Bakhish Nadim",
+  "ru": "Мирза Бахыш Надим",
+  "born": 1785,
+  "died": 1880,
+  "period": "XVIII-XIX əsr",
+  "type": "POET",
+  "works": 4,
+  "wikidata": "Q8009073",
+  "match": "site",
+  "birth": {
+   "id": "Q4668928",
+   "az": "Nəvai",
+   "en": "Nəvahı",
+   "ru": "Наваги",
+   "lat": 40.04,
+   "lng": 49.1018
+  },
+  "death": {
+   "id": "Q4668928",
+   "az": "Nəvai",
+   "en": "Nəvahı",
+   "ru": "Наваги",
+   "lat": 40.04,
+   "lng": 49.1018
+  }
+ },
+ {
+  "slug": "mirze-camal-cavansir",
+  "az": "Mirzə Camal Cavanşir",
+  "en": "Mirza Jamal Javanshir",
+  "ru": "Мирза Джамал Джеваншир",
+  "born": 1773,
+  "died": 1853,
+  "period": "XVIII-XIX əsr",
+  "type": "WRITER",
+  "works": 20,
+  "wikidata": "Q3658732",
+  "match": "site",
+  "birth": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  },
+  "death": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  }
+ },
+ {
+  "slug": "mirze-ebulhesen-sehid",
+  "az": "Mirzə Əbülhəsən Şəhid",
+  "en": "Mirza Abulhasan Shahid",
+  "ru": "Мирза Абульгасан Шахид",
+  "born": 1829,
+  "died": null,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 1,
+  "wikidata": "Q12842129",
+  "match": "site",
+  "birth": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  },
+  "death": null
+ },
+ {
+  "slug": "mirze-eli-leli",
+  "az": "Mirzə Əli Ləli",
+  "en": "Mirza Ali Lali",
+  "ru": "Мирза Али Лали",
+  "born": 1845,
+  "died": 1907,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 8,
+  "wikidata": "Q8008216",
+  "match": "site",
+  "birth": {
+   "id": "Q80053",
+   "az": "Təbriz",
+   "en": "Tabriz",
+   "ru": "Тебриз",
+   "lat": 38.0739,
+   "lng": 46.2961
+  },
+  "death": {
+   "id": "Q994",
+   "az": "Tbilisi",
+   "en": "Tbilisi",
+   "ru": "Тбилиси",
+   "lat": 41.7225,
+   "lng": 44.7925
+  }
+ },
+ {
+  "slug": "mirze-hesen-yuzbasov-qarabagi",
+  "az": "Mirzə Həsən Yüzbaşov-Qarabaği",
+  "en": "Mirza Hasan Yuzbashov-Garabaghi",
+  "ru": "Мирза Гасан Юзбашев-Карабаги",
+  "born": 1841,
+  "died": 1904,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 6,
+  "wikidata": "Q8009762",
+  "match": "site",
+  "birth": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  },
+  "death": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  }
+ },
+ {
+  "slug": "mirze-huseyn-bey-salar",
+  "az": "Mirzə Hüseyn bəy Salar",
+  "en": "Mirza Huseyn bey Salar",
+  "ru": "Мирза Гусейн-бек Салар",
+  "born": 1824,
+  "died": 1876,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 1,
+  "wikidata": "Q16370135",
+  "match": "site",
+  "birth": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  },
+  "death": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  }
+ },
+ {
+  "slug": "mirze-ibrahimov",
+  "az": "Mirzə İbrahimov",
+  "en": "Mirza Ibrahimov",
+  "ru": "Мирза Ибрагимов",
+  "born": 1911,
+  "died": 1993,
+  "period": "XX əsr",
+  "type": "WRITER",
+  "works": 33,
+  "wikidata": "Q1755450",
+  "match": "site",
+  "birth": {
+   "id": "Q5685176",
+   "az": "Eyvəq (Sərab)",
+   "en": "Eyvaq",
+   "lat": 37.8667,
+   "lng": 47.1406
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "mirze-isa-xeyali",
+  "az": "Mirzə İsa Xəyali",
+  "en": "Mirza Isa Khayali",
+  "ru": "Мирза Иса Хаяли",
+  "born": 1850,
+  "died": 1917,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 2,
+  "wikidata": "Q10859132",
+  "match": "site",
+  "birth": {
+   "id": "Q274536",
+   "az": "Cənubi Azərbaycan",
+   "en": "Azerbaijan (Iran)",
+   "ru": "Иранский Азербайджан",
+   "lat": 37.6,
+   "lng": 47
+  },
+  "death": {
+   "id": "Q228811",
+   "az": "Lənkəran",
+   "en": "Lankaran",
+   "ru": "Ленкорань",
+   "lat": 38.7536,
+   "lng": 48.8511
+  }
+ },
+ {
+  "slug": "mirze-ismayil-mehzun",
+  "az": "Mirzə İsmayıl Məhzun",
+  "en": "Mirza Ismail Mahzun",
+  "ru": "Мирза Исмаил Махзун",
+  "born": 1828,
+  "died": 1894,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 1,
+  "wikidata": "Q12842115",
+  "match": "site",
+  "birth": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  },
+  "death": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  }
+ },
+ {
+  "slug": "mirze-rehim-fena",
+  "az": "Mirzə Rəhim Fəna",
+  "en": "Mirza Rahim Fana",
+  "ru": "Мирза Рагим Фена",
+  "born": 1844,
+  "died": 1931,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 2,
+  "wikidata": "Q8011215",
+  "match": "site",
+  "birth": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "mirze-sadiq-piran",
+  "az": "Mirzə Sadıq Piran",
+  "en": "Mirza Sadig Piran",
+  "ru": "Мирза Садиг Пиран",
+  "born": 1822,
+  "died": 1893,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 1,
+  "wikidata": "Q16370282",
+  "match": "site",
+  "birth": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  },
+  "death": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  }
+ },
+ {
+  "slug": "mirze-saleh-tebrizi",
+  "az": "Mirzə Saleh Təbrizi",
+  "en": "Mirza Saleh Tabrizi",
+  "ru": "Мирза Салех Тебризи",
+  "born": null,
+  "died": null,
+  "period": "XVII əsr",
+  "type": "POET",
+  "works": 1,
+  "wikidata": "Q16370288",
+  "match": "site",
+  "birth": {
+   "id": "Q80053",
+   "az": "Təbriz",
+   "en": "Tabriz",
+   "ru": "Тебриз",
+   "lat": 38.0739,
+   "lng": 46.2961
+  },
+  "death": null
+ },
+ {
+  "slug": "miskin-abdal",
+  "az": "Miskin Abdal",
+  "en": "Miskin Abdal",
+  "ru": "Мискин Абдал",
+  "born": 1430,
+  "died": 1535,
+  "period": "XV-XVI əsr",
+  "type": "POET",
+  "works": 45,
+  "wikidata": "Q6585163",
+  "match": "site",
+  "birth": {
+   "id": "Q2672981",
+   "az": "Sarıyaqub",
+   "en": "Jaghatsadzor",
+   "ru": "Джагацадзор",
+   "lat": 40.1467,
+   "lng": 45.8156
+  },
+  "death": {
+   "id": "Q2672981",
+   "az": "Sarıyaqub",
+   "en": "Jaghatsadzor",
+   "ru": "Джагацадзор",
+   "lat": 40.1467,
+   "lng": 45.8156
+  }
+ },
+ {
+  "slug": "miskin-veli",
+  "az": "Miskin Vəli",
+  "en": "Miskin Vali",
+  "ru": "Мискин Вели",
+  "born": 1894,
+  "died": 1995,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 229,
+  "wikidata": "Q16370391",
+  "match": "site",
+  "birth": {
+   "id": "Q3943258",
+   "az": "Miskinli",
+   "en": "Miskinli",
+   "lat": 40.5035,
+   "lng": 45.7656
+  },
+  "death": {
+   "id": "Q330749",
+   "az": "Gədəbəy rayonu",
+   "en": "Gadabay District",
+   "ru": "Кедабекский район",
+   "lat": 40.5656,
+   "lng": 45.8161
+  }
+ },
+ {
+  "slug": "mocuz",
+  "az": "Mirzə Əli Möcüz",
+  "en": "Mirza Ali Mojuz",
+  "ru": "Мирза Али Моджуз",
+  "born": 1873,
+  "died": 1934,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 48,
+  "wikidata": "Q4299394",
+  "match": "site",
+  "birth": {
+   "id": "Q765501",
+   "az": "Şəbüstər",
+   "en": "Shabestar",
+   "ru": "Шебестер",
+   "lat": 38.1803,
+   "lng": 45.7028
+  },
+  "death": {
+   "id": "Q605002",
+   "az": "Şahrud",
+   "en": "Shahrud",
+   "ru": "Имамшехр",
+   "lat": 36.4181,
+   "lng": 54.9764
+  }
+ },
+ {
+  "slug": "molla-cume",
+  "az": "Molla Cümə",
+  "en": "Molla Juma",
+  "ru": "Молла Джума",
+  "born": 1859,
+  "died": 1920,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 67,
+  "wikidata": "Q7224484",
+  "match": "site",
+  "birth": {
+   "id": "Q4833436",
+   "az": "Aşağı Layısqı",
+   "en": "Aşağı Layısqı",
+   "ru": "Ашагы-Лайски",
+   "lat": 41.2828,
+   "lng": 46.9724
+  },
+  "death": {
+   "id": "Q4833436",
+   "az": "Aşağı Layısqı",
+   "en": "Aşağı Layısqı",
+   "ru": "Ашагы-Лайски",
+   "lat": 41.2828,
+   "lng": 46.9724
+  }
+ },
+ {
+  "slug": "movlud-suleymanli",
+  "az": "Mövlud Süleymanlı",
+  "en": "Movlud Suleymanli",
+  "ru": "Мовлуд Сулейманлы",
+  "born": 1943,
+  "died": 2024,
+  "period": "XX-XXI əsr",
+  "type": "WRITER",
+  "works": 203,
+  "wikidata": "Q16106368",
+  "match": "site",
+  "birth": {
+   "id": "Q2017443",
+   "az": "Cücəkənd",
+   "en": "Dzyunashogh",
+   "ru": "Дзюнашох",
+   "lat": 41.1794,
+   "lng": 44.1811
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "musa-yaqub",
+  "az": "Musa Yaqub",
+  "en": "Musa Yagub",
+  "ru": "Муса Ягуб",
+  "born": 1937,
+  "died": 2021,
+  "period": "XX-XXI əsr",
+  "type": "POET",
+  "works": 364,
+  "wikidata": "Q16370505",
+  "match": "site",
+  "birth": {
+   "id": "Q4673947",
+   "az": "Buynuz",
+   "en": "Buynuz",
+   "ru": "Буйнуз",
+   "lat": 40.917,
+   "lng": 48.0627
+  },
+  "death": {
+   "id": "Q4673947",
+   "az": "Buynuz",
+   "en": "Buynuz",
+   "ru": "Буйнуз",
+   "lat": 40.917,
+   "lng": 48.0627
+  }
+ },
+ {
+  "slug": "musfiq",
+  "az": "Mikayıl Müşfiq",
+  "en": "Mikayil Mushfig",
+  "ru": "Микаил Мушфиг",
+  "born": 1908,
+  "died": 1938,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 147,
+  "wikidata": "Q1776611",
+  "match": "site",
+  "birth": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "mustafa-zerir",
+  "az": "Mustafa Zərir",
+  "en": "Mustafa Darir",
+  "ru": "Мустафа Дарир",
+  "born": 1301,
+  "died": 1350,
+  "period": "XIV əsr",
+  "type": "POET",
+  "works": 9,
+  "wikidata": "Q3328878",
+  "match": "site",
+  "birth": {
+   "id": "Q122803",
+   "az": "Ərzurum",
+   "en": "Erzurum",
+   "ru": "Эрзурум",
+   "lat": 39.9097,
+   "lng": 41.2756
+  },
+  "death": null
+ },
+ {
+  "slug": "mustaq",
+  "az": "Məhəmmədhüseyn xan Müştaq",
+  "en": "Muhammad Husayn Khan Mushtaq",
+  "ru": "Мухаммед Хусейн-хан Мюштаг",
+  "born": null,
+  "died": 1780,
+  "period": "XVIII əsr",
+  "type": "POET",
+  "works": 5,
+  "wikidata": "Q8034224",
+  "match": "site",
+  "birth": {
+   "id": "Q234783",
+   "az": "Şəki",
+   "en": "Shaki",
+   "ru": "Шеки",
+   "lat": 41.1919,
+   "lng": 47.1706
+  },
+  "death": {
+   "id": "Q234783",
+   "az": "Şəki",
+   "en": "Shaki",
+   "ru": "Шеки",
+   "lat": 41.1919,
+   "lng": 47.1706
+  }
+ },
+ {
+  "slug": "nasimi",
+  "az": "İmadəddin Nəsimi",
+  "en": "Nasimi",
+  "ru": "Насими",
+  "born": 1369,
+  "died": 1419,
+  "period": "XIV-XV əsr",
+  "type": "POET",
+  "works": 636,
+  "wikidata": "Q982506",
+  "match": "site",
+  "birth": {
+   "id": "Q6397066",
+   "az": "Şiraz",
+   "en": "Shiraz",
+   "ru": "Шираз",
+   "lat": 29.6103,
+   "lng": 52.5311
+  },
+  "death": {
+   "id": "Q41183",
+   "az": "Hələb",
+   "en": "Aleppo",
+   "ru": "Алеппо",
+   "lat": 36.2,
+   "lng": 37.16
+  }
+ },
+ {
+  "slug": "natavan",
+  "az": "Xurşidbanu Natəvan",
+  "en": "Khurshidbanu Natavan",
+  "ru": "Хуршидбану Натаван",
+  "born": 1832,
+  "died": 1897,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 21,
+  "wikidata": "Q2986900",
+  "match": "site",
+  "birth": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  },
+  "death": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  }
+ },
+ {
+  "slug": "natiq-resulzade",
+  "az": "Natiq Rəsulzadə",
+  "en": "Natig Rasulzadeh",
+  "ru": "Натиг Расулзаде",
+  "born": 1949,
+  "died": null,
+  "period": "XX-XXI əsr",
+  "type": "WRITER",
+  "works": 1,
+  "wikidata": "Q5361761",
+  "match": "site",
+  "birth": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  },
+  "death": null
+ },
+ {
+  "slug": "nava",
+  "az": "Cəfərqulu xan Nəva",
+  "en": "Jafargulu Khan Nava",
+  "ru": "Джафаркули-хан Нава",
+  "born": 1787,
+  "died": 1866,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 10,
+  "wikidata": "Q4159968",
+  "match": "site",
+  "birth": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  },
+  "death": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  }
+ },
+ {
+  "slug": "nebi-xezri",
+  "az": "Nəbi Xəzri",
+  "en": "Nabi Khazri",
+  "ru": "Наби Хазри",
+  "born": 1924,
+  "died": 2007,
+  "period": "XX-XXI əsr",
+  "type": "POET",
+  "works": 279,
+  "wikidata": "Q4311196",
+  "match": "site",
+  "birth": {
+   "id": "Q642109",
+   "az": "Xırdalan",
+   "en": "Khyrdalan",
+   "ru": "Хырдалан",
+   "lat": 40.4486,
+   "lng": 49.7564
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "necefqulu-bey-seyda",
+  "az": "Nəcəfqulu bəy Şeyda",
+  "en": "Najafgulu Bey Sheyda",
+  "ru": "Наджаф Кули-бек Шейда",
+  "born": 1858,
+  "died": 1936,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 7,
+  "wikidata": "Q12843490",
+  "match": "site",
+  "birth": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "nemanzade",
+  "az": "Ömər Faiq Nemanzadə",
+  "en": "Omar Faig Nemanzadeh",
+  "ru": "Омар Фаик Неманзаде",
+  "born": 1872,
+  "died": 1937,
+  "period": "XIX-XX əsr",
+  "type": "WRITER",
+  "works": 88,
+  "wikidata": "Q7089687",
+  "match": "site",
+  "birth": {
+   "id": "Q12862136",
+   "az": "Azğur",
+   "en": "Atskuri",
+   "ru": "Ацкури",
+   "lat": 41.7292,
+   "lng": 43.1594
+  },
+  "death": {
+   "id": "Q994",
+   "az": "Tbilisi",
+   "en": "Tbilisi",
+   "ru": "Тбилиси",
+   "lat": 41.7225,
+   "lng": 44.7925
+  }
+ },
+ {
+  "slug": "neriman-hesenzade",
+  "az": "Nəriman Həsənzadə",
+  "en": "Nariman Hasanzade",
+  "ru": "Нариман Гасанзаде",
+  "born": 1931,
+  "died": 2026,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 337,
+  "wikidata": "Q8084559",
+  "match": "site",
+  "birth": {
+   "id": "Q4620805",
+   "az": "Poylu",
+   "en": "Poylu",
+   "ru": "Пойлу",
+   "lat": 41.1567,
+   "lng": 45.4493
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "nerimanov",
+  "az": "Nəriman Nərimanov",
+  "en": "Nariman Narimanov",
+  "ru": "Нариман Нариманов",
+  "born": 1870,
+  "died": 1925,
+  "period": "XIX-XX əsr",
+  "type": "WRITER",
+  "works": 29,
+  "wikidata": "Q1956360",
+  "match": "site",
+  "birth": {
+   "id": "Q994",
+   "az": "Tbilisi",
+   "en": "Tbilisi",
+   "ru": "Тбилиси",
+   "lat": 41.7225,
+   "lng": 44.7925
+  },
+  "death": {
+   "id": "Q649",
+   "az": "Moskva",
+   "en": "Moscow",
+   "ru": "Москва",
+   "lat": 55.7506,
+   "lng": 37.6175
+  }
+ },
+ {
+  "slug": "nevvab",
+  "az": "Mir Möhsün Nəvvab",
+  "en": "Mir Mohsun Navvab",
+  "ru": "Мир Мохсун Навваб",
+  "born": 1833,
+  "died": 1918,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 15,
+  "wikidata": "Q4311350",
+  "match": "site",
+  "birth": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  },
+  "death": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  }
+ },
+ {
+  "slug": "nezmi",
+  "az": "Əli Nəzmi",
+  "en": "Ali Nazmi",
+  "ru": "Али Назми",
+  "born": 1878,
+  "died": 1946,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 12,
+  "wikidata": "Q4725095",
+  "match": "site",
+  "birth": {
+   "id": "Q4655334",
+   "az": "Sarov",
+   "en": "Sarov",
+   "ru": "Саров",
+   "lat": 40.7251,
+   "lng": 46.5913
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "nigar-refibeyli",
+  "az": "Nigar Rəfibəyli",
+  "en": "Nigar Rafibeyli",
+  "ru": "Нигяр Рафибейли",
+  "born": 1913,
+  "died": 1981,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 289,
+  "wikidata": "Q4391014",
+  "match": "site",
+  "birth": {
+   "id": "Q131290",
+   "az": "Gəncə",
+   "en": "Ganja",
+   "ru": "Гянджа",
+   "lat": 40.6828,
+   "lng": 46.3606
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "nisat-sirvani",
+  "az": "Nişat Şirvani",
+  "en": "Nishat Shirvani",
+  "ru": "Нишат Ширвани",
+  "born": 1690,
+  "died": 1740,
+  "period": "XVIII əsr",
+  "type": "POET",
+  "works": 18,
+  "wikidata": "Q8013176",
+  "match": "site",
+  "birth": {
+   "id": "Q388224",
+   "az": "Şamaxı",
+   "en": "Shamakhi",
+   "ru": "Шемахы",
+   "lat": 40.6339,
+   "lng": 48.6392
+  },
+  "death": null
+ },
+ {
+  "slug": "nizami",
+  "az": "Nizami Gəncəvi",
+  "en": "Nizami Ganjavi",
+  "ru": "Низами Гянджеви",
+  "born": 1141,
+  "died": 1209,
+  "period": "XII əsr",
+  "type": "POET",
+  "works": 520,
+  "wikidata": "Q234908",
+  "match": "site",
+  "birth": {
+   "id": "Q131290",
+   "az": "Gəncə",
+   "en": "Ganja",
+   "ru": "Гянджа",
+   "lat": 40.6828,
+   "lng": 46.3606
+  },
+  "death": {
+   "id": "Q131290",
+   "az": "Gəncə",
+   "en": "Ganja",
+   "ru": "Гянджа",
+   "lat": 40.6828,
+   "lng": 46.3606
+  }
+ },
+ {
+  "slug": "novres",
+  "az": "Mirzə Ələsgər Növrəs",
+  "en": "Mirza Alasgar Novras",
+  "ru": "Мирза Алескер Новрес",
+  "born": 1839,
+  "died": 1912,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 8,
+  "wikidata": "Q8010279",
+  "match": "site",
+  "birth": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  },
+  "death": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  }
+ },
+ {
+  "slug": "novres-iman",
+  "az": "Novrəs İman",
+  "en": "Novras Iman",
+  "ru": "Новрес Иман",
+  "born": 1903,
+  "died": 2000,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 127,
+  "wikidata": "Q16371931",
+  "match": "site",
+  "birth": {
+   "id": "Q2530813",
+   "az": "Ağkilsə",
+   "en": "Azat",
+   "ru": "Азат",
+   "lat": 40.1833,
+   "lng": 45.8667
+  },
+  "death": null
+ },
+ {
+  "slug": "nusret-kesemenli",
+  "az": "Nüsrət Kəsəmənli",
+  "en": "Nusrat Kasamanli",
+  "ru": "Нусрет Кесеменли",
+  "born": 1945,
+  "died": 2003,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 183,
+  "wikidata": "Q722120",
+  "match": "name",
+  "birth": {
+   "id": "Q4619958",
+   "az": "Qıraq Kəsəmən",
+   "en": "Qıraq Kəsəmən",
+   "ru": "Кырах-Кесаман",
+   "lat": 41.2143,
+   "lng": 45.4626
+  },
+  "death": {
+   "id": "Q80053",
+   "az": "Təbriz",
+   "en": "Tabriz",
+   "ru": "Тебриз",
+   "lat": 38.0739,
+   "lng": 46.2961
+  }
+ },
+ {
+  "slug": "ordubadi",
+  "az": "Məmməd Səid Ordubadi",
+  "en": "Mammed Said Ordubadi",
+  "ru": "Мамед Саид Ордубади",
+  "born": 1872,
+  "died": 1950,
+  "period": "XX əsr",
+  "type": "WRITER",
+  "works": 536,
+  "wikidata": "Q2063073",
+  "match": "site",
+  "birth": {
+   "id": "Q1000839",
+   "az": "Ordubad",
+   "en": "Ordubad",
+   "ru": "Ордубад",
+   "lat": 38.9047,
+   "lng": 46.0231
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "osman-sarivelli",
+  "az": "Osman Sarıvəlli",
+  "en": null,
+  "ru": "Осман Сарывелли",
+  "born": 1905,
+  "died": 1990,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 251,
+  "wikidata": "Q4408868",
+  "match": "site",
+  "birth": {
+   "id": "Q4199007",
+   "az": "İkinci Şıxlı",
+   "en": "İkinci Şıxlı",
+   "ru": "Икинджи Шихлы",
+   "lat": 41.3139,
+   "lng": 45.0967
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "ovhadi",
+  "az": "Əvhədi Marağalı",
+  "en": "Awhadi Maraghai",
+  "ru": "Аухади Марагаи",
+  "born": 1271,
+  "died": 1338,
+  "period": "XIII-XIV əsr",
+  "type": "POET",
+  "works": 1331,
+  "wikidata": "Q2393983",
+  "match": "site",
+  "birth": {
+   "id": "Q605021",
+   "az": "Marağa",
+   "en": "Maragheh",
+   "ru": "Мераге",
+   "lat": 37.3919,
+   "lng": 46.2392
+  },
+  "death": {
+   "id": "Q605021",
+   "az": "Marağa",
+   "en": "Maragheh",
+   "ru": "Мераге",
+   "lat": 37.3919,
+   "lng": 46.2392
+  }
+ },
+ {
+  "slug": "pervin-etisami",
+  "az": "Pərvin Etisami",
+  "en": "Parvin E'tesami",
+  "ru": "Парвин Этесами",
+  "born": 1907,
+  "died": 1941,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 223,
+  "wikidata": "Q271254",
+  "match": "site",
+  "birth": {
+   "id": "Q80053",
+   "az": "Təbriz",
+   "en": "Tabriz",
+   "ru": "Тебриз",
+   "lat": 38.0739,
+   "lng": 46.2961
+  },
+  "death": {
+   "id": "Q3616",
+   "az": "Tehran",
+   "en": "Tehran",
+   "ru": "Тегеран",
+   "lat": 35.6889,
+   "lng": 51.3897
+  }
+ },
+ {
+  "slug": "punhan",
+  "az": "Baba Pünhan",
+  "en": "Baba Punhan",
+  "ru": "Баба Пюнхан",
+  "born": 1948,
+  "died": 2004,
+  "period": "XX-XXI əsr",
+  "type": "POET",
+  "works": 289,
+  "wikidata": "Q4837369",
+  "match": "site",
+  "birth": {
+   "id": "Q4026908",
+   "az": "Kürdəxanı",
+   "en": "Kürdəxanı",
+   "ru": "Кюрдаханы",
+   "lat": 40.5515,
+   "lng": 49.9198
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "qabil",
+  "az": "Qabil",
+  "en": "Qabil",
+  "ru": "Габиль Имамвердиев",
+  "born": 1926,
+  "died": 2007,
+  "period": "XX-XXI əsr",
+  "type": "POET",
+  "works": 168,
+  "wikidata": "Q8084554",
+  "match": "site",
+  "birth": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "qasim-enver",
+  "az": "Qasım Ənvar",
+  "en": "Qasim Anvar",
+  "ru": "Касим Анвар",
+  "born": 1356,
+  "died": 1433,
+  "period": "XIV-XV əsr",
+  "type": "POET",
+  "works": 821,
+  "wikidata": "Q2561764",
+  "match": "site",
+  "birth": {
+   "id": "Q863240",
+   "az": "Sərab",
+   "en": "Sarab",
+   "ru": "Сераб",
+   "lat": 37.9408,
+   "lng": 47.5367
+  },
+  "death": {
+   "id": "Q5910842",
+   "en": "Khargerd",
+   "ru": "Харгерд",
+   "lat": 34.5358,
+   "lng": 60.1775
+  }
+ },
+ {
+  "slug": "qasim-qasimzade",
+  "az": "Qasım Qasımzadə",
+  "en": "Gasym Gasymzade",
+  "ru": "Гасым Гасымзаде",
+  "born": 1923,
+  "died": 1993,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 195,
+  "wikidata": "Q12844316",
+  "match": "site",
+  "birth": {
+   "id": "Q4833455",
+   "az": "Aşağı Xocamusaxlı",
+   "en": "Aşağı Xocamusaxlı",
+   "ru": "Ашагы-Ходжамусахлы",
+   "lat": 39.3146,
+   "lng": 46.5527
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "qatran",
+  "az": "Qətran Təbrizi",
+  "en": "Qatran Tabrizi",
+  "ru": "Катран Тебризи",
+  "born": 1009,
+  "died": 1072,
+  "period": "XI əsr",
+  "type": "POET",
+  "works": 527,
+  "wikidata": "Q3101199",
+  "match": "site",
+  "birth": {
+   "id": "Q5853389",
+   "az": "Şadbad-i Məşayiq",
+   "en": "Shadbad-e Mashayekh",
+   "ru": "Шадиабад",
+   "lat": 37.9892,
+   "lng": 46.3586
+  },
+  "death": {
+   "id": "Q80053",
+   "az": "Təbriz",
+   "en": "Tabriz",
+   "ru": "Тебриз",
+   "lat": 38.0739,
+   "lng": 46.2961
+  }
+ },
+ {
+  "slug": "qemkusar",
+  "az": "Əliqulu Qəmküsar",
+  "en": "Aligulu Gamgusar",
+  "ru": "Алигулу Гамгюсар",
+  "born": 1880,
+  "died": 1919,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 108,
+  "wikidata": "Q4133040",
+  "match": "site",
+  "birth": {
+   "id": "Q230104",
+   "az": "Naxçıvan",
+   "en": "Nakhchivan",
+   "ru": "Нахичевань",
+   "lat": 39.2089,
+   "lng": 45.4122
+  },
+  "death": {
+   "id": "Q994",
+   "az": "Tbilisi",
+   "en": "Tbilisi",
+   "ru": "Тбилиси",
+   "lat": 41.7225,
+   "lng": 44.7925
+  }
+ },
+ {
+  "slug": "qenizade",
+  "az": "Sultan Məcid Qənizadə",
+  "en": "Sultan Majid Ganizade",
+  "ru": "Султан Меджид Ганизаде",
+  "born": 1866,
+  "died": 1938,
+  "period": "XIX-XX əsr",
+  "type": "WRITER",
+  "works": 1,
+  "wikidata": "Q8084490",
+  "match": "site",
+  "birth": {
+   "id": "Q388224",
+   "az": "Şamaxı",
+   "en": "Shamakhi",
+   "ru": "Шемахы",
+   "lat": 40.6339,
+   "lng": 48.6392
+  },
+  "death": null
+ },
+ {
+  "slug": "qoncebeyim",
+  "az": "Qönçəbəyim",
+  "en": "Gonchabeyim",
+  "ru": "Гончабейим",
+  "born": 1827,
+  "died": null,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 4,
+  "wikidata": "Q4143168",
+  "match": "site",
+  "birth": {
+   "id": "Q230104",
+   "az": "Naxçıvan",
+   "en": "Nakhchivan",
+   "ru": "Нахичевань",
+   "lat": 39.2089,
+   "lng": 45.4122
+  },
+  "death": null
+ },
+ {
+  "slug": "qovsi",
+  "az": "Qövsi Təbrizi",
+  "en": "Qovsi Tabrizi",
+  "ru": "Ковси Табризи",
+  "born": 1568,
+  "died": 1640,
+  "period": "XVI-XVII əsr",
+  "type": "POET",
+  "works": 78,
+  "wikidata": "Q4225859",
+  "match": "site",
+  "birth": {
+   "id": "Q80053",
+   "az": "Təbriz",
+   "en": "Tabriz",
+   "ru": "Тебриз",
+   "lat": 38.0739,
+   "lng": 46.2961
+  },
+  "death": {
+   "id": "Q80053",
+   "az": "Təbriz",
+   "en": "Tabriz",
+   "ru": "Тебриз",
+   "lat": 38.0739,
+   "lng": 46.2961
+  }
+ },
+ {
+  "slug": "qul-qarani",
+  "az": "Qul Qaranı",
+  "en": "Gul Garani",
+  "ru": "Гул Гараны",
+  "born": 1750,
+  "died": 1900,
+  "period": "XVIII-XIX əsr",
+  "type": "POET",
+  "works": 6,
+  "wikidata": "Q137596048",
+  "match": "site",
+  "birth": {
+   "id": "Q3652493",
+   "az": "Saraçlı",
+   "en": "Mamkhuti",
+   "ru": "Мамхути",
+   "lat": 41.3833,
+   "lng": 44.7169
+  },
+  "death": null
+ },
+ {
+  "slug": "qulamrza-sebri-tebrizi",
+  "az": "Qulamrza Səbri Təbrizi",
+  "en": "Gholamreza Sabri Tabrizi",
+  "ru": "Гуламреза Сабри Тебризи",
+  "born": 1934,
+  "died": 2020,
+  "period": "XX-XXI əsr",
+  "type": "POET",
+  "works": 168,
+  "wikidata": "Q12844540",
+  "match": "site",
+  "birth": {
+   "id": "Q80053",
+   "az": "Təbriz",
+   "en": "Tabriz",
+   "ru": "Тебриз",
+   "lat": 38.0739,
+   "lng": 46.2961
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "qumri",
+  "az": "Mirzə Məhəmməd Tağı Qumri",
+  "en": "Mirza Mohammad Taghi Gumri",
+  "ru": "Мирза Мухаммед Таги Гумри",
+  "born": 1819,
+  "died": 1891,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 11,
+  "wikidata": "Q8009477",
+  "match": "site",
+  "birth": {
+   "id": "Q131416",
+   "az": "Dərbənd",
+   "en": "Derbent",
+   "ru": "Дербент",
+   "lat": 42.0578,
+   "lng": 48.2889
+  },
+  "death": {
+   "id": "Q131416",
+   "az": "Dərbənd",
+   "en": "Derbent",
+   "ru": "Дербент",
+   "lat": 42.0578,
+   "lng": 48.2889
+  }
+ },
+ {
+  "slug": "qurban-seid",
+  "az": "Qurban Səid",
+  "en": "Kurban Said",
+  "ru": "Курбан Саид",
+  "born": 1905,
+  "died": 1942,
+  "period": "XX əsr",
+  "type": "WRITER",
+  "works": 30,
+  "wikidata": "Q1792967",
+  "match": "site",
+  "birth": {
+   "id": "Q1899",
+   "az": "Kiyev",
+   "en": "Kyiv",
+   "ru": "Киев",
+   "lat": 50.45,
+   "lng": 30.5236
+  },
+  "death": null
+ },
+ {
+  "slug": "qutqasinli",
+  "az": "İsmayıl bəy Qutqaşınlı",
+  "en": "Ismayil bek Kutkashensky",
+  "ru": "Исмаил-бек Куткашенский",
+  "born": 1806,
+  "died": 1861,
+  "period": "XIX əsr",
+  "type": "WRITER",
+  "works": 1,
+  "wikidata": "Q4249538",
+  "match": "site",
+  "birth": {
+   "id": "Q244236",
+   "az": "Qəbələ",
+   "en": "Qabala",
+   "ru": "Габала",
+   "lat": 40.9814,
+   "lng": 47.8458
+  },
+  "death": {
+   "id": "Q388224",
+   "az": "Şamaxı",
+   "en": "Shamakhi",
+   "ru": "Шемахы",
+   "lat": 40.6339,
+   "lng": 48.6392
+  }
+ },
+ {
+  "slug": "ramiz-rovsen",
+  "az": "Ramiz Rövşən",
+  "en": "Ramiz Rovshan",
+  "ru": "Рамиз Ровшан",
+  "born": 1946,
+  "died": null,
+  "period": "XX-XXI əsr",
+  "type": "POET",
+  "works": 270,
+  "wikidata": "Q616949",
+  "match": "site",
+  "birth": {
+   "id": "Q3131176",
+   "az": "Əmircan",
+   "en": "Əmircan, Baku",
+   "ru": "Амирджан",
+   "lat": 40.4214,
+   "lng": 49.9892
+  },
+  "death": null
+ },
+ {
+  "slug": "refiq-zeka-xendan",
+  "az": "Rəfiq Zəka Xəndan",
+  "en": "Rafig Zaka Khandan",
+  "ru": "Рафик Зака Хандан",
+  "born": 1939,
+  "died": 1999,
+  "period": "XX əsr",
+  "type": "WRITER",
+  "works": 744,
+  "wikidata": "Q12845227",
+  "match": "site",
+  "birth": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "resid-efendiyev",
+  "az": "Rəşid bəy Əfəndiyev",
+  "en": "Rashid bey Afandiyev",
+  "ru": "Рашид-бек Эфендиев",
+  "born": 1863,
+  "died": 1942,
+  "period": "XIX-XX əsr",
+  "type": "WRITER",
+  "works": 8,
+  "wikidata": "Q4533194",
+  "match": "site",
+  "birth": {
+   "id": "Q234783",
+   "az": "Şəki",
+   "en": "Shaki",
+   "ru": "Шеки",
+   "lat": 41.1919,
+   "lng": 47.1706
+  },
+  "death": {
+   "id": "Q234783",
+   "az": "Şəki",
+   "en": "Shaki",
+   "ru": "Шеки",
+   "lat": 41.1919,
+   "lng": 47.1706
+  }
+ },
+ {
+  "slug": "resul-rza",
+  "az": "Rəsul Rza",
+  "en": "Rasul Rza",
+  "ru": "Расул Рза",
+  "born": 1910,
+  "died": 1981,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 193,
+  "wikidata": "Q4394274",
+  "match": "site",
+  "birth": {
+   "id": "Q1822209",
+   "az": "Göyçay",
+   "en": "Goychay",
+   "ru": "Гёйчай",
+   "lat": 40.6546,
+   "lng": 47.7293
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "resulzade",
+  "az": "Məhəmməd Əmin Rəsulzadə",
+  "en": "Mammad Amin Rasulzade",
+  "ru": "Мамед Эмин Расулзаде",
+  "born": 1884,
+  "died": 1955,
+  "period": "XX əsr",
+  "type": "WRITER",
+  "works": 72,
+  "wikidata": "Q361311",
+  "match": "site",
+  "birth": {
+   "id": "Q2059406",
+   "az": "Novxanı",
+   "en": "Novkhany",
+   "ru": "Новханы",
+   "lat": 40.5392,
+   "lng": 49.7835
+  },
+  "death": {
+   "id": "Q3640",
+   "az": "Ankara",
+   "en": "Ankara",
+   "ru": "Анкара",
+   "lat": 39.9358,
+   "lng": 32.8387
+  }
+ },
+ {
+  "slug": "rustem-ibrahimbeyov",
+  "az": "Rüstəm İbrahimbəyov",
+  "en": "Rustam Ibrahimbeyov",
+  "ru": "Рустам Ибрагимбеков",
+  "born": 1939,
+  "died": 2022,
+  "period": "XX-XXI əsr",
+  "type": "WRITER",
+  "works": 1,
+  "wikidata": "Q1601636",
+  "match": "site",
+  "birth": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  },
+  "death": {
+   "id": "Q649",
+   "az": "Moskva",
+   "en": "Moscow",
+   "ru": "Москва",
+   "lat": 55.7506,
+   "lng": 37.6175
+  }
+ },
+ {
+  "slug": "sabir",
+  "az": "Mirzə Ələkbər Sabir",
+  "en": "Mirza Alakbar Sabir",
+  "ru": "Мирза Алекпер Сабир",
+  "born": 1862,
+  "died": 1911,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 298,
+  "wikidata": "Q2651897",
+  "match": "site",
+  "birth": {
+   "id": "Q388224",
+   "az": "Şamaxı",
+   "en": "Shamakhi",
+   "ru": "Шемахы",
+   "lat": 40.6339,
+   "lng": 48.6392
+  },
+  "death": {
+   "id": "Q388224",
+   "az": "Şamaxı",
+   "en": "Shamakhi",
+   "ru": "Шемахы",
+   "lat": 40.6339,
+   "lng": 48.6392
+  }
+ },
+ {
+  "slug": "sabir-rustemxanli",
+  "az": "Sabir Rüstəmxanlı",
+  "en": "Sabir Rustamkhanli",
+  "ru": "Сабир Рустамханлы",
+  "born": 1946,
+  "died": null,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 284,
+  "wikidata": "Q5018584",
+  "match": "site",
+  "birth": {
+   "id": "Q5644103",
+   "az": "Hamarkənd",
+   "en": "Hamarkənd",
+   "ru": "Хамарканд",
+   "lat": 38.8652,
+   "lng": 48.2761
+  },
+  "death": null
+ },
+ {
+  "slug": "sabit-rehman",
+  "az": "Sabit Rəhman",
+  "en": "Sabit Rahman",
+  "ru": "Сабит Рахман",
+  "born": 1910,
+  "died": 1970,
+  "period": "XX əsr",
+  "type": "PLAYWRIGHT",
+  "works": 52,
+  "wikidata": "Q1978266",
+  "match": "site",
+  "birth": {
+   "id": "Q234783",
+   "az": "Şəki",
+   "en": "Shaki",
+   "ru": "Шеки",
+   "lat": 41.1919,
+   "lng": 47.1706
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "sadiq-bey-efsar",
+  "az": "Sadıq bəy Əfşar",
+  "en": "Sadiq Beg Afshar",
+  "ru": "Садык-бек Афшар",
+  "born": 1533,
+  "died": 1610,
+  "period": "XVI-XVII əsr",
+  "type": "POET",
+  "works": 46,
+  "wikidata": "Q4404551",
+  "match": "site",
+  "birth": {
+   "id": "Q80053",
+   "az": "Təbriz",
+   "en": "Tabriz",
+   "ru": "Тебриз",
+   "lat": 38.0739,
+   "lng": 46.2961
+  },
+  "death": {
+   "id": "Q42053",
+   "az": "İsfahan",
+   "en": "Isfahan",
+   "ru": "Исфахан",
+   "lat": 32.6525,
+   "lng": 51.6747
+  }
+ },
+ {
+  "slug": "sahtaxtli",
+  "az": "Məhəmməd ağa Şahtaxtlı",
+  "en": "Mammad agha Shahtakhtinski",
+  "ru": "Мухаммед-ага Шахтахтинский",
+  "born": 1846,
+  "died": 1931,
+  "period": "XIX-XX əsr",
+  "type": "WRITER",
+  "works": 2,
+  "wikidata": "Q2074808",
+  "match": "site",
+  "birth": {
+   "id": "Q3056885",
+   "az": "Şahtaxtı",
+   "en": "Şahtaxtı",
+   "ru": "Шахтахты",
+   "lat": 39.3716,
+   "lng": 45.0954
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "saib",
+  "az": "Saib Təbrizi",
+  "en": "Saib Tabrizi",
+  "ru": "Саиб Тебризи",
+  "born": 1592,
+  "died": 1676,
+  "period": "XVII əsr",
+  "type": "POET",
+  "works": 7743,
+  "wikidata": "Q2713416",
+  "match": "site",
+  "birth": {
+   "id": "Q80053",
+   "az": "Təbriz",
+   "en": "Tabriz",
+   "ru": "Тебриз",
+   "lat": 38.0739,
+   "lng": 46.2961
+  },
+  "death": {
+   "id": "Q42053",
+   "az": "İsfahan",
+   "en": "Isfahan",
+   "ru": "Исфахан",
+   "lat": 32.6525,
+   "lng": 51.6747
+  }
+ },
+ {
+  "slug": "saiq",
+  "az": "Abdulla Şaiq",
+  "en": "Abdulla Shaig",
+  "ru": "Абдулла Шаиг",
+  "born": 1881,
+  "died": 1959,
+  "period": "XX əsr",
+  "type": "WRITER",
+  "works": 359,
+  "wikidata": "Q2478889",
+  "match": "site",
+  "birth": {
+   "id": "Q994",
+   "az": "Tbilisi",
+   "en": "Tbilisi",
+   "ru": "Тбилиси",
+   "lat": 41.7225,
+   "lng": 44.7925
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "sair-memmedhuseyn",
+  "az": "Şair Məmmədhüseyn",
+  "en": "Shair Mammadhuseyn",
+  "ru": "Шаир Мамедгусейн",
+  "born": 1800,
+  "died": 1880,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 189,
+  "wikidata": "Q12849447",
+  "match": "site",
+  "birth": {
+   "id": "Q2536508",
+   "az": "Daşkənd",
+   "en": "Ayrk",
+   "ru": "Айрк",
+   "lat": 40.1264,
+   "lng": 45.7911
+  },
+  "death": {
+   "id": "Q2536508",
+   "az": "Daşkənd",
+   "en": "Ayrk",
+   "ru": "Айрк",
+   "lat": 40.1264,
+   "lng": 45.7911
+  }
+ },
+ {
+  "slug": "sakir",
+  "az": "Baba bəy Şakir",
+  "en": "Baba bey Shakir",
+  "ru": "Баба-бек Шакир",
+  "born": 1772,
+  "died": 1844,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 6,
+  "wikidata": "Q8008908",
+  "match": "site",
+  "birth": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  },
+  "death": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  }
+ },
+ {
+  "slug": "salam-qedirzade",
+  "az": "Salam Qədirzadə",
+  "en": "Salam Qadirzada",
+  "ru": "Салам Гадирзаде",
+  "born": 1923,
+  "died": 1987,
+  "period": "XX əsr",
+  "type": "WRITER",
+  "works": 1,
+  "wikidata": "Q12845436",
+  "match": "site",
+  "birth": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "salik",
+  "az": "Kazım ağa Salik",
+  "en": "Kazim Agha Salik",
+  "ru": "Кязым-ага Салик",
+  "born": 1781,
+  "died": 1842,
+  "period": "XVIII-XIX əsr",
+  "type": "POET",
+  "works": 10,
+  "wikidata": "Q8008965",
+  "match": "site",
+  "birth": {
+   "id": "Q4199007",
+   "az": "İkinci Şıxlı",
+   "en": "İkinci Şıxlı",
+   "ru": "Икинджи Шихлы",
+   "lat": 41.3139,
+   "lng": 45.0967
+  },
+  "death": {
+   "id": "Q389381",
+   "az": "Qazax rayonu",
+   "en": "Gazakh District",
+   "ru": "Газахский район",
+   "lat": 41.0933,
+   "lng": 45.3661
+  }
+ },
+ {
+  "slug": "salman-mumtaz",
+  "az": "Salman Mümtaz",
+  "en": "Salman Mumtaz",
+  "ru": "Салман Мумтаз",
+  "born": 1884,
+  "died": 1941,
+  "period": "XIX-XX əsr",
+  "type": "WRITER",
+  "works": 7,
+  "wikidata": "Q4307055",
+  "match": "site",
+  "birth": {
+   "id": "Q234783",
+   "az": "Şəki",
+   "en": "Shaki",
+   "ru": "Шеки",
+   "lat": 41.1919,
+   "lng": 47.1706
+  },
+  "death": {
+   "id": "Q3118",
+   "az": "Oryol",
+   "en": "Oryol",
+   "ru": "Орёл",
+   "lat": 52.9686,
+   "lng": 36.0694
+  }
+ },
+ {
+  "slug": "sam-mirze",
+  "az": "Sam Mirzə",
+  "en": "Sam Mirza",
+  "ru": "Сам Мирза",
+  "born": 1518,
+  "died": 1567,
+  "period": "XVI əsr",
+  "type": "POET",
+  "works": 711,
+  "wikidata": "Q6410269",
+  "match": "site",
+  "birth": {
+   "id": "Q18234383",
+   "az": "Səfəvilər",
+   "en": "Safavid Iran",
+   "ru": "Сефевидское государство",
+   "lat": 33,
+   "lng": 50
+  },
+  "death": {
+   "id": "Q18234383",
+   "az": "Səfəvilər",
+   "en": "Safavid Iran",
+   "ru": "Сефевидское государство",
+   "lat": 33,
+   "lng": 50
+  }
+ },
+ {
+  "slug": "sari-asiq",
+  "az": "Sarı Aşıq",
+  "en": "Sari Ashiq",
+  "ru": "Сары Ашуг",
+  "born": 1605,
+  "died": 1645,
+  "period": "XVII əsr",
+  "type": "POET",
+  "works": 9,
+  "wikidata": "Q8033875",
+  "match": "site",
+  "birth": {
+   "id": "Q301832",
+   "az": "Laçın rayonu",
+   "en": "Lachin District",
+   "ru": "Лачинский район",
+   "lat": 39.6333,
+   "lng": 46.55
+  },
+  "death": {
+   "id": "Q4791294",
+   "az": "Güləbird",
+   "en": "Güləbird",
+   "ru": "Гюлебирд",
+   "lat": 39.4831,
+   "lng": 46.6098
+  }
+ },
+ {
+  "slug": "sayat-nova",
+  "az": "Sayat Nova",
+  "en": "Sayat-Nova",
+  "ru": "Саят-Нова",
+  "born": 1712,
+  "died": 1795,
+  "period": "XVIII əsr",
+  "type": "POET",
+  "works": 1,
+  "wikidata": "Q366289",
+  "match": "site",
+  "birth": {
+   "id": "Q994",
+   "az": "Tbilisi",
+   "en": "Tbilisi",
+   "ru": "Тбилиси",
+   "lat": 41.7225,
+   "lng": 44.7925
+  },
+  "death": {
+   "id": "Q749366",
+   "az": "Ağpat",
+   "en": "Haghpat",
+   "ru": "Ахпат",
+   "lat": 41.095,
+   "lng": 44.7103
+  }
+ },
+ {
+  "slug": "sebusteri",
+  "az": "Şeyx Mahmud Şəbüstəri",
+  "en": "Mahmoud Shabestari",
+  "ru": "Махмуд Шабистари",
+  "born": 1287,
+  "died": 1320,
+  "period": "XIII-XIV əsr",
+  "type": "POET",
+  "works": 247,
+  "wikidata": "Q2738287",
+  "match": "site",
+  "birth": {
+   "id": "Q765501",
+   "az": "Şəbüstər",
+   "en": "Shabestar",
+   "ru": "Шебестер",
+   "lat": 38.1803,
+   "lng": 45.7028
+  },
+  "death": {
+   "id": "Q80053",
+   "az": "Təbriz",
+   "en": "Tabriz",
+   "ru": "Тебриз",
+   "lat": 38.0739,
+   "lng": 46.2961
+  }
+ },
+ {
+  "slug": "sedi-sani-qarabagi",
+  "az": "Sədi Sani Qarabaği",
+  "en": "Sadi Sani Garabaghi",
+  "ru": "Сади Сани Карабаги",
+  "born": 1854,
+  "died": 1879,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 4,
+  "wikidata": "Q8011315",
+  "match": "site",
+  "birth": {
+   "id": "Q4542338",
+   "az": "Cinli",
+   "en": "Dzhinli",
+   "ru": "Джинли",
+   "lat": 40.0336,
+   "lng": 46.8002
+  },
+  "death": {
+   "id": "Q170532",
+   "az": "Amasya",
+   "en": "Amasya",
+   "ru": "Амасья",
+   "lat": 40.6787,
+   "lng": 35.8278
+  }
+ },
+ {
+  "slug": "sehend",
+  "az": "Səhənd",
+  "en": "Sahand",
+  "ru": "Сэхэнд",
+  "born": 1926,
+  "died": 1979,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 20,
+  "wikidata": "Q6416178",
+  "match": "site",
+  "birth": {
+   "id": "Q605021",
+   "az": "Marağa",
+   "en": "Maragheh",
+   "ru": "Мераге",
+   "lat": 37.3919,
+   "lng": 46.2392
+  },
+  "death": {
+   "id": "Q3616",
+   "az": "Tehran",
+   "en": "Tehran",
+   "ru": "Тегеран",
+   "lat": 35.6889,
+   "lng": 51.3897
+  }
+ },
+ {
+  "slug": "sehhet",
+  "az": "Abbas Səhhət",
+  "en": "Abbas Sahhat",
+  "ru": "Аббас Сиххат",
+  "born": 1874,
+  "died": 1918,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 144,
+  "wikidata": "Q2996375",
+  "match": "site",
+  "birth": {
+   "id": "Q388224",
+   "az": "Şamaxı",
+   "en": "Shamakhi",
+   "ru": "Шемахы",
+   "lat": 40.6339,
+   "lng": 48.6392
+  },
+  "death": {
+   "id": "Q131290",
+   "az": "Gəncə",
+   "en": "Ganja",
+   "ru": "Гянджа",
+   "lat": 40.6828,
+   "lng": 46.3606
+  }
+ },
+ {
+  "slug": "sehriyar",
+  "az": "Məhəmmədhüseyn Şəhriyar",
+  "en": "Mohammad-Hossein Shahriar",
+  "ru": "Мухаммед Хусейн Шахрияр",
+  "born": 1906,
+  "died": 1988,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 194,
+  "wikidata": "Q535932",
+  "match": "site",
+  "birth": {
+   "id": "Q80053",
+   "az": "Təbriz",
+   "en": "Tabriz",
+   "ru": "Тебриз",
+   "lat": 38.0739,
+   "lng": 46.2961
+  },
+  "death": {
+   "id": "Q3616",
+   "az": "Tehran",
+   "en": "Tehran",
+   "ru": "Тегеран",
+   "lat": 35.6889,
+   "lng": 51.3897
+  }
+ },
+ {
+  "slug": "semed-behrengi",
+  "az": "Səməd Behrəngi",
+  "en": "Samad Behrangi",
+  "ru": "Самед Бехранги",
+  "born": 1939,
+  "died": 1968,
+  "period": "XX əsr",
+  "type": "WRITER",
+  "works": 1,
+  "wikidata": "Q340074",
+  "match": "site",
+  "birth": {
+   "id": "Q80053",
+   "az": "Təbriz",
+   "en": "Tabriz",
+   "ru": "Тебриз",
+   "lat": 38.0739,
+   "lng": 46.2961
+  },
+  "death": {
+   "id": "Q80053",
+   "az": "Təbriz",
+   "en": "Tabriz",
+   "ru": "Тебриз",
+   "lat": 38.0739,
+   "lng": 46.2961
+  }
+ },
+ {
+  "slug": "semed-mensur",
+  "az": "Səməd Mənsur",
+  "en": "Samad Mansur",
+  "ru": "Самед Мансур",
+  "born": 1879,
+  "died": 1927,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 11,
+  "wikidata": "Q8084499",
+  "match": "site",
+  "birth": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "serif-agayar",
+  "az": "Şərif Ağayar",
+  "en": "Sharif Aghayar",
+  "ru": "Шариф Агаяр",
+  "born": 1976,
+  "died": null,
+  "period": "XX-XXI əsr",
+  "type": "WRITER",
+  "works": 144,
+  "wikidata": "Q16378270",
+  "match": "site",
+  "birth": {
+   "id": "Q4790922",
+   "az": "Ağbulaq",
+   "en": "Ağbulaq",
+   "ru": "Агбулаг (Лачынский район)",
+   "lat": 39.7776,
+   "lng": 46.258
+  },
+  "death": null
+ },
+ {
+  "slug": "seyid-ezim",
+  "az": "Seyid Əzim Şirvani",
+  "en": "Seyid Azim Shirvani",
+  "ru": "Сеид Азим Ширвани",
+  "born": 1835,
+  "died": 1888,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 764,
+  "wikidata": "Q2500179",
+  "match": "site",
+  "birth": {
+   "id": "Q388224",
+   "az": "Şamaxı",
+   "en": "Shamakhi",
+   "ru": "Шемахы",
+   "lat": 40.6339,
+   "lng": 48.6392
+  },
+  "death": {
+   "id": "Q388224",
+   "az": "Şamaxı",
+   "en": "Shamakhi",
+   "ru": "Шемахы",
+   "lat": 40.6339,
+   "lng": 48.6392
+  }
+ },
+ {
+  "slug": "seyx-ibrahim-gulseni",
+  "az": "Şeyx İbrahim Gülşəni",
+  "en": "Sheikh Ibrahim Gulshani",
+  "ru": "Шейх Ибрагим Гюльшени",
+  "born": 1423,
+  "died": 1534,
+  "period": "XV-XVI əsr",
+  "type": "POET",
+  "works": 9,
+  "wikidata": "Q6455376",
+  "match": "site",
+  "birth": {
+   "id": "Q388224",
+   "az": "Şamaxı",
+   "en": "Shamakhi",
+   "ru": "Шемахы",
+   "lat": 40.6339,
+   "lng": 48.6392
+  },
+  "death": {
+   "id": "Q85",
+   "az": "Qahirə",
+   "en": "Cairo",
+   "ru": "Каир",
+   "lat": 30.0444,
+   "lng": 31.2358
+  }
+ },
+ {
+  "slug": "sidqi",
+  "az": "Məhəmməd Tağı Sidqi",
+  "en": "Mammad Taghi Sidgi",
+  "ru": "Мамед Таги Сидги",
+  "born": 1854,
+  "died": 1903,
+  "period": "XIX əsr",
+  "type": "WRITER",
+  "works": 44,
+  "wikidata": "Q4449623",
+  "match": "site",
+  "birth": {
+   "id": "Q1000839",
+   "az": "Ordubad",
+   "en": "Ordubad",
+   "ru": "Ордубад",
+   "lat": 38.9047,
+   "lng": 46.0231
+  },
+  "death": {
+   "id": "Q952969",
+   "az": "Qarabağlar",
+   "en": "Garabaghlar",
+   "ru": "Карабаглар",
+   "lat": 39.4256,
+   "lng": 45.1978
+  }
+ },
+ {
+  "slug": "sohrab-tahir",
+  "az": "Söhrab Tahir",
+  "en": "Sohrab Tahir",
+  "ru": "Сохраб Тахир",
+  "born": 1926,
+  "died": 2016,
+  "period": "XX-XXI əsr",
+  "type": "POET",
+  "works": 288,
+  "wikidata": "Q8033592",
+  "match": "site",
+  "birth": {
+   "id": "Q645855",
+   "az": "Astara",
+   "en": "Astara",
+   "ru": "Астара",
+   "lat": 38.4308,
+   "lng": 48.87
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "sukuhi",
+  "az": "Mirzə Mehdi Şükuhi",
+  "en": "Mirza Mehdi Shukuhi",
+  "ru": "Мирза Мехди Шюкюхи",
+  "born": 1829,
+  "died": 1896,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 13,
+  "wikidata": "Q8007973",
+  "match": "site",
+  "birth": {
+   "id": "Q80053",
+   "az": "Təbriz",
+   "en": "Tabriz",
+   "ru": "Тебриз",
+   "lat": 38.0739,
+   "lng": 46.2961
+  },
+  "death": {
+   "id": "Q605021",
+   "az": "Marağa",
+   "en": "Maragheh",
+   "ru": "Мераге",
+   "lat": 37.3919,
+   "lng": 46.2392
+  }
+ },
+ {
+  "slug": "suleyman-rehimov",
+  "az": "Süleyman Rəhimov",
+  "en": "Suleyman Rahimov",
+  "ru": "Сулейман Рагимов",
+  "born": 1900,
+  "died": 1983,
+  "period": "XX əsr",
+  "type": "WRITER",
+  "works": 97,
+  "wikidata": "Q4387016",
+  "match": "site",
+  "birth": {
+   "id": "Q4530030",
+   "az": "Əyin",
+   "en": "Əyin",
+   "ru": "Эйин",
+   "lat": 39.3485,
+   "lng": 46.4874
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "suleyman-rustem",
+  "az": "Süleyman Rüstəm",
+  "en": "Suleyman Rustam",
+  "ru": "Сулейман Рустам",
+  "born": 1906,
+  "died": 1989,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 505,
+  "wikidata": "Q2072051",
+  "match": "site",
+  "birth": {
+   "id": "Q2059406",
+   "az": "Novxanı",
+   "en": "Novkhany",
+   "ru": "Новханы",
+   "lat": 40.5392,
+   "lng": 49.7835
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "suleyman-sani",
+  "az": "Süleyman Sani Axundov",
+  "en": "Suleyman Sani Akhundov",
+  "ru": "Сулейман Сани Ахундов",
+  "born": 1875,
+  "died": 1939,
+  "period": "XIX-XX əsr",
+  "type": "PLAYWRIGHT",
+  "works": 72,
+  "wikidata": "Q1981434",
+  "match": "site",
+  "birth": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "talibov",
+  "az": "Əbdürrəhim Talıbov",
+  "en": "Abdurrahim Talibov",
+  "ru": "Абдуррахим Талибов",
+  "born": 1834,
+  "died": 1911,
+  "period": "XIX-XX əsr",
+  "type": "WRITER",
+  "works": 6,
+  "wikidata": "Q4808415",
+  "match": "site",
+  "birth": {
+   "id": "Q80053",
+   "az": "Təbriz",
+   "en": "Tabriz",
+   "ru": "Тебриз",
+   "lat": 38.0739,
+   "lng": 46.2961
+  },
+  "death": {
+   "id": "Q132931",
+   "az": "Buynaksk",
+   "en": "Buynaksk",
+   "ru": "Буйнакск",
+   "lat": 42.8167,
+   "lng": 47.1167
+  }
+ },
+ {
+  "slug": "teymur-elcin",
+  "az": "Teymur Elçin",
+  "en": "Teymur Elchin",
+  "ru": "Теймур Эльчин",
+  "born": 1924,
+  "died": 1992,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 8,
+  "wikidata": "Q7708572",
+  "match": "site",
+  "birth": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "tofiq-bayram",
+  "az": "Tofiq Bayram",
+  "en": "Tofiq Bayram",
+  "ru": "Тофик Байрам",
+  "born": 1934,
+  "died": 1991,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 184,
+  "wikidata": "Q16375126",
+  "match": "site",
+  "birth": {
+   "id": "Q3131176",
+   "az": "Əmircan",
+   "en": "Əmircan, Baku",
+   "ru": "Амирджан",
+   "lat": 40.4214,
+   "lng": 49.9892
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "tufarqanli",
+  "az": "Aşıq Abbas Tufarqanlı",
+  "en": "Ashiq Abbas Tufarqanli",
+  "ru": "Ашуг Аббас Туфарганлы",
+  "born": 1600,
+  "died": null,
+  "period": "XVI-XVII əsr",
+  "type": "POET",
+  "works": 84,
+  "wikidata": "Q6877886",
+  "match": "site",
+  "birth": {
+   "id": "Q793611",
+   "az": "Azərşəhr",
+   "en": "Azarshahr",
+   "ru": "Азершехр",
+   "lat": 37.7589,
+   "lng": 45.9783
+  },
+  "death": {
+   "id": "Q793611",
+   "az": "Azərşəhr",
+   "en": "Azarshahr",
+   "ru": "Азершехр",
+   "lat": 37.7589,
+   "lng": 45.9783
+  }
+ },
+ {
+  "slug": "ummugulsum",
+  "az": "Ümmügülsüm",
+  "en": "Ümmügülsüm",
+  "ru": "Уммугюльсум",
+  "born": 1899,
+  "died": 1944,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 11,
+  "wikidata": "Q12848750",
+  "match": "site",
+  "birth": {
+   "id": "Q2059406",
+   "az": "Novxanı",
+   "en": "Novkhany",
+   "ru": "Новханы",
+   "lat": 40.5392,
+   "lng": 49.7835
+  },
+  "death": {
+   "id": "Q388224",
+   "az": "Şamaxı",
+   "en": "Shamakhi",
+   "ru": "Шемахы",
+   "lat": 40.6339,
+   "lng": 48.6392
+  }
+ },
+ {
+  "slug": "usta-abdulla",
+  "az": "Usta Abdulla",
+  "en": "Usta Abdulla",
+  "ru": "Уста Абдулла",
+  "born": 1865,
+  "died": 1943,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 79,
+  "wikidata": "Q12847021",
+  "match": "site",
+  "birth": {
+   "id": "Q745934",
+   "az": "Zod",
+   "en": "Sotk",
+   "ru": "Сотк",
+   "lat": 40.2031,
+   "lng": 45.8647
+  },
+  "death": {
+   "id": "Q131290",
+   "az": "Gəncə",
+   "en": "Ganja",
+   "ru": "Гянджа",
+   "lat": 40.6828,
+   "lng": 46.3606
+  }
+ },
+ {
+  "slug": "vahid",
+  "az": "Əliağa Vahid",
+  "en": "Aliagha Vahid",
+  "ru": "Алиага Вахид",
+  "born": 1894,
+  "died": 1965,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 631,
+  "wikidata": "Q2047262",
+  "match": "site",
+  "birth": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "vaqif",
+  "az": "Molla Pənah Vaqif",
+  "en": "Molla Panah Vagif",
+  "ru": "Молла Панах Вагиф",
+  "born": 1717,
+  "died": 1797,
+  "period": "XVIII əsr",
+  "type": "POET",
+  "works": 110,
+  "wikidata": "Q995873",
+  "match": "site",
+  "birth": {
+   "id": "Q4535490",
+   "az": "Yuxarı Salahlı",
+   "en": "Yukhary Salahly",
+   "ru": "Юхары-Салахлы",
+   "lat": 41.2423,
+   "lng": 45.2658
+  },
+  "death": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  }
+ },
+ {
+  "slug": "vaqif-aslan",
+  "az": "Vaqif Aslan",
+  "en": "Vagif Aslan",
+  "ru": "Вагиф Аслан",
+  "born": 1950,
+  "died": null,
+  "period": "XX-XXI əsr",
+  "type": "POET",
+  "works": 785,
+  "wikidata": "Q110101145",
+  "match": "site",
+  "birth": {
+   "id": "Q2035188",
+   "az": "Kiş",
+   "en": "Kiş",
+   "ru": "Киш",
+   "lat": 41.2509,
+   "lng": 47.1898
+  },
+  "death": null
+ },
+ {
+  "slug": "vaqif-bayatli-oder",
+  "az": "Vaqif Bayatlı Odər",
+  "en": "Vagif Bayatly Oder",
+  "ru": "Вагиф Баятлы Одер",
+  "born": 1948,
+  "died": null,
+  "period": "XX-XXI əsr",
+  "type": "POET",
+  "works": 263,
+  "wikidata": "Q7908484",
+  "match": "site",
+  "birth": {
+   "id": "Q4720019",
+   "az": "Böyük Mərcanlı",
+   "en": "Böyük Mərcanlı",
+   "ru": "Бёюк Марджанлы",
+   "lat": 39.3685,
+   "lng": 47.2531
+  },
+  "death": null
+ },
+ {
+  "slug": "vaqif-semedoglu",
+  "az": "Vaqif Səmədoğlu",
+  "en": "Vagif Samadoghlu",
+  "ru": "Вагиф Самедоглу",
+  "born": 1939,
+  "died": 2015,
+  "period": "XX-XXI əsr",
+  "type": "POET",
+  "works": 390,
+  "wikidata": "Q16629544",
+  "match": "site",
+  "birth": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "vazeh",
+  "az": "Mirzə Şəfi Vazeh",
+  "en": "Mirza Shafi Vazeh",
+  "ru": "Мирза Шафи Вазех",
+  "born": 1794,
+  "died": 1852,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 11,
+  "wikidata": "Q973869",
+  "match": "site",
+  "birth": {
+   "id": "Q131290",
+   "az": "Gəncə",
+   "en": "Ganja",
+   "ru": "Гянджа",
+   "lat": 40.6828,
+   "lng": 46.3606
+  },
+  "death": {
+   "id": "Q994",
+   "az": "Tbilisi",
+   "en": "Tbilisi",
+   "ru": "Тбилиси",
+   "lat": 41.7225,
+   "lng": 44.7925
+  }
+ },
+ {
+  "slug": "vezirov",
+  "az": "Nəcəf bəy Vəzirov",
+  "en": "Najaf bey Vazirov",
+  "ru": "Наджаф-бек Везиров",
+  "born": 1854,
+  "died": 1926,
+  "period": "XIX-XX əsr",
+  "type": "PLAYWRIGHT",
+  "works": 129,
+  "wikidata": "Q2072622",
+  "match": "site",
+  "birth": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  },
+  "death": {
+   "id": "Q5013199",
+   "az": "Çuxuryurd",
+   "en": "Çuxuryurd",
+   "ru": "Чухурюрд",
+   "lat": 40.7135,
+   "lng": 48.632
+  }
+ },
+ {
+  "slug": "vidadi",
+  "az": "Molla Vəli Vidadi",
+  "en": "Molla Vali Vidadi",
+  "ru": "Молла Вели Видади",
+  "born": 1709,
+  "died": 1809,
+  "period": "XVIII əsr",
+  "type": "POET",
+  "works": 47,
+  "wikidata": "Q2665280",
+  "match": "site",
+  "birth": {
+   "id": "Q390783",
+   "az": "Şəmkir",
+   "en": "Şəmkir",
+   "ru": "Шамкир",
+   "lat": 40.8297,
+   "lng": 46.0189
+  },
+  "death": {
+   "id": "Q4199007",
+   "az": "İkinci Şıxlı",
+   "en": "İkinci Şıxlı",
+   "ru": "Икинджи Шихлы",
+   "lat": 41.3139,
+   "lng": 45.0967
+  }
+ },
+ {
+  "slug": "vidadi-babanli",
+  "az": "Vidadi Babanlı",
+  "en": "Vidadi Babanli",
+  "ru": "Видади Бабанлы",
+  "born": 1927,
+  "died": 2025,
+  "period": "XX-XXI əsr",
+  "type": "WRITER",
+  "works": 3,
+  "wikidata": "Q7927656",
+  "match": "site",
+  "birth": {
+   "id": "Q4845968",
+   "az": "Birinci Şıxlı",
+   "en": "Birinci Şıxlı",
+   "ru": "Биринджи Шихлы",
+   "lat": 41.2832,
+   "lng": 45.1772
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "vuqar-ehmed",
+  "az": "Vüqar Əhməd",
+  "en": "Vugar Ahmad",
+  "ru": "Вугар Ахмед",
+  "born": 1963,
+  "died": null,
+  "period": "XX-XXI əsr",
+  "type": "POET",
+  "works": 51,
+  "wikidata": "Q12847356",
+  "match": "site",
+  "birth": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  },
+  "death": null
+ },
+ {
+  "slug": "vurgun",
+  "az": "Səməd Vurğun",
+  "en": "Samad Vurgun",
+  "ru": "Самед Вургун",
+  "born": 1906,
+  "died": 1956,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 283,
+  "wikidata": "Q983507",
+  "match": "site",
+  "birth": {
+   "id": "Q4535490",
+   "az": "Yuxarı Salahlı",
+   "en": "Yukhary Salahly",
+   "ru": "Юхары-Салахлы",
+   "lat": 41.2423,
+   "lng": 45.2658
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "xaqani",
+  "az": "Xaqani Şirvani",
+  "en": "Khaqani Shirvani",
+  "ru": "Хагани Ширвани",
+  "born": 1121,
+  "died": 1199,
+  "period": "XII əsr",
+  "type": "POET",
+  "works": 1364,
+  "wikidata": "Q368862",
+  "match": "site",
+  "birth": {
+   "id": "Q638064",
+   "az": "Şirvan",
+   "en": "Shirvan",
+   "ru": "Ширван",
+   "lat": 39.9319,
+   "lng": 48.9203
+  },
+  "death": {
+   "id": "Q80053",
+   "az": "Təbriz",
+   "en": "Tabriz",
+   "ru": "Тебриз",
+   "lat": 38.0739,
+   "lng": 46.2961
+  }
+ },
+ {
+  "slug": "xelil-rza",
+  "az": "Xəlil Rza Ulutürk",
+  "en": "Khalil Rza Uluturk",
+  "ru": "Халил Рза Улутюрк",
+  "born": 1932,
+  "died": 1994,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 1,
+  "wikidata": "Q2081173",
+  "match": "site",
+  "birth": {
+   "id": "Q4810442",
+   "az": "Pirəbbə",
+   "en": "Pirəbbə",
+   "lat": 39.4971,
+   "lng": 49.0087
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "xeste-bayrameli",
+  "az": "Xəstə Bayraməli",
+  "en": "Khasta Bayramali",
+  "ru": "Хесте Байрамали",
+  "born": 1899,
+  "died": 1952,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 20,
+  "wikidata": "Q16376191",
+  "match": "site",
+  "birth": {
+   "id": "Q2643326",
+   "az": "Nərimanlı",
+   "en": "Shatvan",
+   "ru": "Шатван",
+   "lat": 40.1831,
+   "lng": 45.8256
+  },
+  "death": {
+   "id": "Q2643326",
+   "az": "Nərimanlı",
+   "en": "Shatvan",
+   "ru": "Шатван",
+   "lat": 40.1831,
+   "lng": 45.8256
+  }
+ },
+ {
+  "slug": "xeste-hasan",
+  "az": "Xəstə Hasan",
+  "en": "Khasta Hasan",
+  "ru": "Хесте Гасан",
+  "born": 1799,
+  "died": 1859,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 29,
+  "wikidata": "Q139381937",
+  "match": "site",
+  "birth": null,
+  "death": {
+   "id": "Q500888",
+   "az": "Axalkələk",
+   "en": "Akhalkalaki",
+   "ru": "Ахалкалаки",
+   "lat": 41.4056,
+   "lng": 43.4861
+  }
+ },
+ {
+  "slug": "xeste-qasim",
+  "az": "Xəstə Qasım",
+  "en": "Khasta Qasim",
+  "ru": "Хесте Касум",
+  "born": 1684,
+  "died": 1760,
+  "period": "XVIII əsr",
+  "type": "POET",
+  "works": 85,
+  "wikidata": "Q4497394",
+  "match": "site",
+  "birth": {
+   "id": "Q4361548",
+   "az": "Tikmədaş",
+   "en": "Tekmeh Dash",
+   "lat": 37.7258,
+   "lng": 46.9378
+  },
+  "death": {
+   "id": "Q388224",
+   "az": "Şamaxı",
+   "en": "Shamakhi",
+   "ru": "Шемахы",
+   "lat": 40.6339,
+   "lng": 48.6392
+  }
+ },
+ {
+  "slug": "xetai",
+  "az": "Şah İsmayıl Xətai",
+  "en": "Shah Ismail Khatai",
+  "ru": "Шах Исмаил Хатаи",
+  "born": 1487,
+  "died": 1524,
+  "period": "XV-XVI əsr",
+  "type": "POET",
+  "works": 291,
+  "wikidata": "Q214559",
+  "match": "site",
+  "birth": {
+   "id": "Q180103",
+   "az": "Ərdəbil",
+   "en": "Ardabil",
+   "ru": "Ардебиль",
+   "lat": 38.25,
+   "lng": 48.3
+  },
+  "death": {
+   "id": "Q80053",
+   "az": "Təbriz",
+   "en": "Tabriz",
+   "ru": "Тебриз",
+   "lat": 38.0739,
+   "lng": 46.2961
+  }
+ },
+ {
+  "slug": "xeyyat-mirze",
+  "az": "Xəyyat Mirzə",
+  "en": "Khayyat Mirza",
+  "ru": "Хайят Мирза",
+  "born": 1885,
+  "died": 1922,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 11,
+  "wikidata": "Q12847741",
+  "match": "site",
+  "birth": {
+   "id": "Q4952788",
+   "az": "Bozalqanlı",
+   "en": "Bozalqanlı",
+   "ru": "Бозалганлы",
+   "lat": 40.9889,
+   "lng": 45.6396
+  },
+  "death": {
+   "id": "Q4952788",
+   "az": "Bozalqanlı",
+   "en": "Bozalqanlı",
+   "ru": "Бозалганлы",
+   "lat": 40.9889,
+   "lng": 45.6396
+  }
+ },
+ {
+  "slug": "yehya-bey-dilqem",
+  "az": "Yəhya bəy Dilqəm",
+  "en": "Yahya Beg Dilgam",
+  "ru": "Яхья-бек Дилгям",
+  "born": 1830,
+  "died": 1865,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 21,
+  "wikidata": "Q12848207",
+  "match": "site",
+  "birth": {
+   "id": "Q5321314",
+   "az": "Dəllər Cırdaxan",
+   "en": "Dəllər Cırdaxan",
+   "ru": "Далляр Джырдахан",
+   "lat": 40.8963,
+   "lng": 46.076
+  },
+  "death": {
+   "id": "Q5321314",
+   "az": "Dəllər Cırdaxan",
+   "en": "Dəllər Cırdaxan",
+   "ru": "Далляр Джырдахан",
+   "lat": 40.8963,
+   "lng": 46.076
+  }
+ },
+ {
+  "slug": "yusif-ezimzade",
+  "az": "Yusif Əzimzadə",
+  "en": "Yusif Azimzade",
+  "ru": "Юсиф Азимзаде",
+  "born": 1917,
+  "died": 1984,
+  "period": "XX əsr",
+  "type": "WRITER",
+  "works": 6,
+  "wikidata": "Q12848162",
+  "match": "site",
+  "birth": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "yusif-semedoglu",
+  "az": "Yusif Səmədoğlu",
+  "en": "Yusif Samadoghlu",
+  "ru": "Юсиф Самедоглу",
+  "born": 1935,
+  "died": 1998,
+  "period": "XX əsr",
+  "type": "WRITER",
+  "works": 17,
+  "wikidata": "Q12848147",
+  "match": "site",
+  "birth": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "zahid-xelil",
+  "az": "Zahid Xəlil",
+  "en": "Zahid Khalil",
+  "ru": "Захид Халил",
+  "born": 1942,
+  "died": null,
+  "period": "XX-XXI əsr",
+  "type": "WRITER",
+  "works": 31,
+  "wikidata": "Q12848227",
+  "match": "site",
+  "birth": {
+   "id": "Q175459",
+   "az": "Yevlax",
+   "en": "Yevlakh",
+   "ru": "Евлах",
+   "lat": 40.6172,
+   "lng": 47.15
+  },
+  "death": null
+ },
+ {
+  "slug": "zakir",
+  "az": "Qasım bəy Zakir",
+  "en": "Gasim bey Zakir",
+  "ru": "Касум-бек Закир",
+  "born": 1784,
+  "died": 1857,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 299,
+  "wikidata": "Q4184678",
+  "match": "site",
+  "birth": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  },
+  "death": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  }
+ },
+ {
+  "slug": "zelimxan-yaqub",
+  "az": "Zəlimxan Yaqub",
+  "en": "Zelimkhan Yaqub",
+  "ru": "Зелимхан Ягуб",
+  "born": 1950,
+  "died": 2016,
+  "period": "XX-XXI əsr",
+  "type": "POET",
+  "works": 2672,
+  "wikidata": "Q16376956",
+  "match": "site",
+  "birth": {
+   "id": "Q12841224",
+   "az": "Kəpənəkçi",
+   "en": "Kvemo-Bolnisi",
+   "ru": "Квемо-Болниси",
+   "lat": 41.4,
+   "lng": 44.5356
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "zeynal-cabbarzade",
+  "az": "Zeynal Cabbarzadə",
+  "en": "Zeynal Jabbarzade",
+  "ru": "Зейнал Джаббарзаде",
+  "born": 1920,
+  "died": 1977,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 124,
+  "wikidata": "Q15476923",
+  "match": "site",
+  "birth": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "zeynal-xelil",
+  "az": "Zeynal Xəlil",
+  "en": "Zeynal Khalil",
+  "ru": "Зейнал Халил",
+  "born": 1914,
+  "died": 1973,
+  "period": "XX əsr",
+  "type": "POET",
+  "works": 123,
+  "wikidata": "Q8084528",
+  "match": "site",
+  "birth": {
+   "id": "Q131290",
+   "az": "Gəncə",
+   "en": "Ganja",
+   "ru": "Гянджа",
+   "lat": 40.6828,
+   "lng": 46.3606
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
+ },
+ {
+  "slug": "zeynalabdin-maragayi",
+  "az": "Zeynalabdin Marağayi",
+  "en": "Zeyn al-Abedin Maraghei",
+  "ru": "Зейн-оль-Абедин Мерагеи",
+  "born": 1840,
+  "died": 1910,
+  "period": "XIX-XX əsr",
+  "type": "WRITER",
+  "works": 107,
+  "wikidata": "Q6410507",
+  "match": "site",
+  "birth": {
+   "id": "Q605021",
+   "az": "Marağa",
+   "en": "Maragheh",
+   "ru": "Мераге",
+   "lat": 37.3919,
+   "lng": 46.2392
+  },
+  "death": {
+   "id": "Q605021",
+   "az": "Marağa",
+   "en": "Maragheh",
+   "ru": "Мераге",
+   "lat": 37.3919,
+   "lng": 46.2392
+  }
+ },
+ {
+  "slug": "zikri-erdebili",
+  "az": "Zikri Ərdəbili",
+  "en": "Zikri Ardabili",
+  "ru": "Зикри Ардебили",
+  "born": 1790,
+  "died": 1900,
+  "period": "XVIII-XIX əsr",
+  "type": "POET",
+  "works": 9,
+  "wikidata": "Q8007546",
+  "match": "site",
+  "birth": {
+   "id": "Q180103",
+   "az": "Ərdəbil",
+   "en": "Ardabil",
+   "ru": "Ардебиль",
+   "lat": 38.25,
+   "lng": 48.3
+  },
+  "death": null
+ },
+ {
+  "slug": "zulfuqar-ehmedzade",
+  "az": "Zülfüqar Əhmədzadə",
+  "en": "Zulfugar Ahmadzade",
+  "ru": "Зульфугар Ахмедзаде",
+  "born": 1898,
+  "died": 1942,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 1,
+  "wikidata": "Q4073059",
+  "match": "site",
+  "birth": {
+   "id": "Q4616983",
+   "az": "Pensər",
+   "en": "Pensər",
+   "ru": "Пенсар",
+   "lat": 38.6086,
+   "lng": 48.8185
+  },
+  "death": {
+   "id": "Q49771",
+   "az": "Mariinsk",
+   "en": "Mariinsk",
+   "ru": "Мариинск",
+   "lat": 56.2167,
+   "lng": 87.75
+  }
+ }
+]
