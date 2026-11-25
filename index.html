@@ -156,7 +156,7 @@ const origin = (a) => ({ name: 'adından <span lang="en">· by name</span>', mum
 const meta = (...xs) => xs.filter(Boolean).join(' · ');
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
 
-const TOTAL = 471;
+const TOTAL = 472;
 let authors = [], mode = 'birth', century = null, place = null;
 // ?author=<slug> (linked from kitabxana.az): open on that author's place, their name marked
 let focus = new URLSearchParams(location.search).get('author');

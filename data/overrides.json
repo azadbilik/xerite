@@ -124,6 +124,16 @@
   "from": "Q8083806",
   "basis": "name"
  },
+ "mucrim-kerim": {
+  "birth": {
+   "id": "Q4809473",
+   "az": "Kərimli",
+   "en": "Kərimli",
+   "ru": "Керимли",
+   "lat": 40.9753,
+   "lng": 47.4833
+  }
+ },
  "naxcivanli-allahverdi": {
   "from": "Q230104",
   "basis": "name"

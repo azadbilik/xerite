@@ -4621,6 +4621,28 @@
   }
  },
  {
+  "slug": "mucrim-kerim",
+  "az": "Vardanlı Mücrim Kərim",
+  "en": "Mujrim Karim of Vardan",
+  "ru": "Муджрим Керим из Вардана",
+  "born": null,
+  "died": null,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 23,
+  "wikidata": "Q8009236",
+  "match": "override",
+  "birth": {
+   "id": "Q4809473",
+   "az": "Kərimli",
+   "en": "Kərimli",
+   "ru": "Керимли",
+   "lat": 40.9753,
+   "lng": 47.4833
+  },
+  "death": null
+ },
+ {
   "slug": "musa-yaqub",
   "az": "Musa Yaqub",
   "en": "Musa Yagub",
