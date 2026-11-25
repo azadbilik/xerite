@@ -73,7 +73,18 @@
   .list li a, .list li button { display: grid; grid-template-columns: 1fr auto; gap: .1rem 1rem; width: 100%; text-align: left; padding: .45rem 1.5rem; text-decoration: none; }
   .list li a:hover, .list li button:hover { background: var(--rule); }
   .list .name { font-weight: 500; }
-  .list li.focus a { background: var(--rule); box-shadow: inset 2px 0 var(--accent); }
+  .list li.focus button { background: var(--rule); box-shadow: inset 2px 0 var(--accent); }
+
+  .card .maplibregl-popup-content { padding: .85rem 2rem .9rem 1rem; border: 1px solid var(--rule); border-radius: 4px; }
+  .card .maplibregl-popup-close-button { font-size: 1.1rem; width: 1.75rem; height: 1.75rem; color: var(--muted); }
+  .card .maplibregl-popup-close-button:hover { background: none; color: var(--ink); }
+  .card-name { font: 400 1.125rem/1.2 var(--serif); letter-spacing: -.01em; }
+  .card-years { margin-top: .15rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .card-places { list-style: none; padding: 0; margin-top: .5rem; display: grid; gap: .1rem; }
+  .card-places small { color: var(--muted); font-size: .75rem; }
+  .card-link { display: block; margin-top: .65rem; padding-top: .55rem; border-top: 1px solid var(--rule); font-weight: 500; text-decoration: none; }
+  .card-link:hover { color: var(--accent); }
+  .card-link [lang="en"] { display: block; font-weight: 400; font-size: .75rem; }
   .list .meta { grid-column: 1; font-size: .8125rem; color: var(--muted); }
   .list .num { grid-row: 1 / span 2; grid-column: 2; align-self: center; font-size: .8125rem; color: var(--muted); font-variant-numeric: tabular-nums; }
   .back { margin: 0 1.5rem .5rem; font-size: .8125rem; color: var(--muted); }
@@ -195,7 +206,10 @@ map.on('load', async () => {
   });
   map.on('mouseleave', 'places', () => { map.getCanvas().style.cursor = ''; tip.remove(); });
   map.on('click', 'places', (e) => select(e.features[0].properties.id));
-  map.on('click', (e) => { if (!map.queryRenderedFeatures(e.point, { layers: ['places'] }).length && place) select(null); });
+  map.on('click', (e) => {
+    if (map.queryRenderedFeatures(e.point, { layers: ['places'] }).length) return;
+    if (card.isOpen()) card.remove(); else if (place) select(null);
+  });
 
   const a = focus && authors.find((x) => x.slug === focus);
   if (!a) focus = null;
@@ -204,7 +218,7 @@ map.on('load', async () => {
     document.querySelectorAll('.seg button').forEach((x) => x.setAttribute('aria-pressed', x.dataset.mode === mode));
   }
   drawHistogram();
-  if (a) select(a[mode].id); else render();
+  if (a) { select(a[mode].id); openCard(a.slug); } else render();
 });
 
 function empty() { return { type: 'FeatureCollection', features: [] }; }
@@ -232,8 +246,9 @@ function render() {
   const sel = gs.find((g) => g.id === place);
   map.getSource('paths').setData({ type: 'FeatureCollection', features: (sel?.authors ?? [])
     .filter((a) => a[other] && a[other].id !== place)
-    .map((a) => ({ type: 'Feature', geometry: { type: 'LineString', coordinates: [[sel.lng, sel.lat], [a[other].lng, a[other].lat]] }, properties: {} })) });
+    .map((a) => ({ type: 'Feature', geometry: { type: 'LineString', coordinates: [[sel.lng, sel.lat], [a[other].lng, a[other].lat]] }, properties: { slug: a.slug } })) });
   renderList(gs, sel);
+  showLine(focus);
   document.getElementById('all').hidden = century == null;
 }
 
@@ -244,11 +259,15 @@ function renderList(gs, sel) {
     const other = mode === 'birth' ? 'death' : 'birth';
     el.innerHTML = `<button type="button" class="back" id="back">← Bütün yerlər <span lang="en">· All places</span></button>
       <h2>${esc(sel.name)} <small>${sel.authors.length} müəllif</small></h2>
-      <ol>${sel.authors.sort((a, b) => (a.born ?? a.died ?? 9999) - (b.born ?? b.died ?? 9999)).map((a) => `<li${a.slug === focus ? ' class="focus"' : ''}><a href="https://kitabxana.az/authors/${a.slug}"${a.slug === focus ? ' aria-current="true"' : ''}>
-        <span class="name">${esc(a.az)}</span><span class="num">${a.works}</span>
-        <span class="meta">${meta(esc(years(a)), a[other] && a[other].id !== sel.id && `${other === 'death' ? '†' : '*'} ${esc(label(a[other]))}`, origin(a))}</span></a></li>`).join('')}</ol>
-      <p class="note">Rəqəm: saytdakı əsərlərin sayı. <span lang="en">Number: works on kitabxana.az.</span></p>`;
+      <ol>${sel.authors.sort((a, b) => (a.born ?? a.died ?? 9999) - (b.born ?? b.died ?? 9999)).map((a) => `<li${a.slug === focus ? ' class="focus"' : ''}><button type="button" data-slug="${a.slug}" aria-pressed="${a.slug === focus}">
+        <span class="name">${esc(a.az)}</span>
+        <span class="meta">${meta(esc(years(a)), a[other] && a[other].id !== sel.id && `${other === 'death' ? '†' : '*'} ${esc(label(a[other]))}`, origin(a))}</span></button></li>`).join('')}</ol>`;
     document.getElementById('back').onclick = () => select(null);
+    el.querySelectorAll('button[data-slug]').forEach((b) => {
+      b.onmouseenter = b.onfocus = () => showLine(b.dataset.slug);
+      b.onmouseleave = b.onblur = () => showLine(focus);
+      b.onclick = () => openCard(b.dataset.slug);
+    });
     return;
   }
   el.innerHTML = `<h2>${century ? `${roman(century)} əsr` : 'Bütün yerlər'} <small>${n} müəllif · ${gs.length} yer</small></h2>
@@ -259,7 +278,41 @@ function renderList(gs, sel) {
   el.querySelectorAll('button[data-id]').forEach((b) => b.onclick = () => select(b.dataset.id));
 }
 
+// Only one author's line while their row is hovered or their card is open; all of the place's otherwise
+function showLine(slug) {
+  if (map.getLayer('paths')) map.setFilter('paths', slug ? ['==', ['get', 'slug'], slug] : null);
+}
+
+// A card on the map for one author: years, places, works, and the way to kitabxana.az
+const card = new maplibregl.Popup({ closeButton: true, closeOnClick: false, focusAfterOpen: false, className: 'card', maxWidth: '17rem', offset: 12 });
+card.on('close', () => { focus = null; markFocus(); showLine(null); });
+function markFocus() {
+  document.querySelectorAll('#list li:has(> button[data-slug])').forEach((li) => {
+    const on = li.firstElementChild.dataset.slug === focus;
+    li.classList.toggle('focus', on);
+    li.firstElementChild.setAttribute('aria-pressed', on);
+  });
+}
+function openCard(slug) {
+  const a = authors.find((x) => x.slug === slug);
+  if (!a) return;
+  focus = slug;
+  markFocus();
+  showLine(slug);
+  const other = mode === 'birth' ? 'death' : 'birth';
+  const at = a[other] && a[other].id !== place ? a[other] : a[mode];
+  const where = [a.birth && `<li>* ${esc(label(a.birth))}${a.birth.from ? ` <small>${origin(a)}</small>` : ''}</li>`, a.death && `<li>† ${esc(label(a.death))}</li>`].filter(Boolean).join('');
+  card.setLngLat([at.lng, at.lat]).setHTML(`<p class="card-name">${esc(a.az)}</p>
+    ${years(a) ? `<p class="card-years">${esc(years(a))}</p>` : ''}<ul class="card-places">${where}</ul>
+    <a class="card-link" href="https://kitabxana.az/authors/${a.slug}">${a.works} əsər kitabxana.az-da <span aria-hidden="true">→</span><span lang="en">${a.works} works on kitabxana.az</span></a>`).addTo(map);
+  // Both ends in view when the card sits far from the chosen place
+  const g = groups().find((x) => x.id === place);
+  if (g && !map.getBounds().contains([at.lng, at.lat]))
+    map.fitBounds([[Math.min(g.lng, at.lng), Math.min(g.lat, at.lat)], [Math.max(g.lng, at.lng), Math.max(g.lat, at.lat)]], { padding: pad(), maxZoom: map.getZoom(), duration: matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 600 });
+}
+
 function select(id) {
+  if (card.isOpen()) card.remove();
   place = id;
   render();
   const g = groups().find((x) => x.id === id);
