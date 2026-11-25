@@ -20,7 +20,7 @@ Years are taken from Wikidata only when it knows them to the year; a date record
 
 Link to one author with `?author=<slug>` (kitabxana's slug): the map opens on their place with their name marked. kitabxana.az links its author pages this way.
 
-Of 472 authors, 309 have a place (43 of them by origin). Most of the rest are folk poets known by a single name, with no dates or known place.
+Of 472 authors, 314 have a place (47 of them by origin). Most of the rest are folk poets known by a single name, with no dates or known place.
 
 To refresh the author list, export it from the kitabxana database:
 

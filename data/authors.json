@@ -1026,6 +1026,29 @@
   "death": null
  },
  {
+  "slug": "badarli-abdulla",
+  "az": "Badarlı Abdulla",
+  "en": "Abdulla of Badar",
+  "ru": "Абдулла из Бадара",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 8,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q4810172",
+   "az": "Padar",
+   "en": "Padar",
+   "ru": "Падар (Огузский район)",
+   "lat": 40.9612,
+   "lng": 47.5154,
+   "from": "mumtaz"
+  },
+  "death": null
+ },
+ {
   "slug": "bahar-sirvani",
   "az": "Bahar Şirvani",
   "en": "Bahar Shirvani",
@@ -1335,6 +1358,29 @@
    "lat": 38.7333,
    "lng": 41.4911
   }
+ },
+ {
+  "slug": "cakirli-abdulla",
+  "az": "Cakırlı Abdulla",
+  "en": "Abdulla of Cakirli",
+  "ru": "Абдулла из Джакырлы",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 1,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q4159705",
+   "az": "Cəyirli (Şəki)",
+   "en": "Cəyirli, Shaki",
+   "ru": "Джагирли",
+   "lat": 40.8872,
+   "lng": 47.2707,
+   "from": "mumtaz"
+  },
+  "death": null
  },
  {
   "slug": "cavad",
@@ -2421,12 +2467,12 @@
   "wikidata": null,
   "match": "origin",
   "birth": {
-   "id": "Q234783",
-   "az": "Şəki",
-   "en": "Shaki",
-   "ru": "Шеки",
-   "lat": 41.1919,
-   "lng": 47.1706,
+   "id": "Q4875325",
+   "az": "Baş Göynük",
+   "en": "Baş Göynük",
+   "ru": "Баш-Гёйнюк",
+   "lat": 41.3266,
+   "lng": 47.1138,
    "from": "name"
   },
   "death": null
@@ -3348,6 +3394,27 @@
    "lat": 41.1919,
    "lng": 47.1706,
    "from": "name"
+  },
+  "death": null
+ },
+ {
+  "slug": "malibeyli-qurban",
+  "az": "Mələkballı Qurban",
+  "en": "Qurban of Malakballi",
+  "ru": "Курбан из Мелекбаллы",
+  "born": 1790,
+  "died": 1865,
+  "period": null,
+  "type": "POET",
+  "works": 15,
+  "wikidata": "Q12842684",
+  "match": "site",
+  "birth": {
+   "id": "Q4991473",
+   "az": "Məlikballı",
+   "en": "Məlikballı",
+   "lat": 40.5447,
+   "lng": 47.5446
   },
   "death": null
  },
@@ -4542,6 +4609,29 @@
    "ru": "Дербент",
    "lat": 42.0578,
    "lng": 48.2889,
+   "from": "name"
+  },
+  "death": null
+ },
+ {
+  "slug": "molla-kerim-kesfi",
+  "az": "Vardanlı Molla Kərim Kəşfi",
+  "en": "Molla Karim Kashfi of Vardan",
+  "ru": "Молла Керим Кешфи из Вардана",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 2,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q4809473",
+   "az": "Kərimli",
+   "en": "Kərimli",
+   "ru": "Керимли",
+   "lat": 40.9753,
+   "lng": 47.4833,
    "from": "name"
   },
   "death": null
@@ -6510,11 +6600,12 @@
    "lng": 50
   },
   "death": {
-   "id": "Q5957347",
-   "az": "Qəhqəhə qalası",
-   "en": "Qahqaheh Castle",
-   "lat": 38.7571,
-   "lng": 47.5418
+   "id": "Q18234383",
+   "az": "Səfəvilər",
+   "en": "Safavid Iran",
+   "ru": "Сефевидское государство",
+   "lat": 33,
+   "lng": 50
   }
  },
  {
@@ -7116,6 +7207,29 @@
    "lat": 39.4256,
    "lng": 45.1978
   }
+ },
+ {
+  "slug": "sirvanli-molla-esedulla-faiq",
+  "az": "Şirvanlı Molla Əsədulla Faiq",
+  "en": "Molla Asadulla Faiq of Shirvan",
+  "ru": "Молла Асадулла Фаиг из Ширвана",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 1,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q29583554",
+   "az": "Karrar",
+   "en": "Karrar",
+   "ru": "Каррар",
+   "lat": 40.3069,
+   "lng": 48.2602,
+   "from": "mumtaz"
+  },
+  "death": null
  },
  {
   "slug": "sohrab-tahir",

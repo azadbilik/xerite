@@ -29,6 +29,14 @@
   "from": "Q80053",
   "basis": "name"
  },
+ "badarli-abdulla": {
+  "from": "Q4810172",
+  "basis": "mumtaz"
+ },
+ "cakirli-abdulla": {
+  "from": "Q4159705",
+  "basis": "mumtaz"
+ },
  "deli-beyir": {
   "from": "Q234783",
   "basis": "name"
@@ -50,7 +58,7 @@
   "basis": "name"
  },
  "goynuklu-mahmud-efendi": {
-  "from": "Q234783",
+  "from": "Q4875325",
   "basis": "name"
  },
  "hemam": {
@@ -114,6 +122,10 @@
  },
  "molla-ehmed-faiz": {
   "from": "Q131416",
+  "basis": "name"
+ },
+ "molla-kerim-kesfi": {
+  "from": "Q4809473",
   "basis": "name"
  },
  "molla-mehemmed-sefili": {
@@ -227,6 +239,10 @@
  "sekili-suleyman": {
   "from": "Q234783",
   "basis": "name"
+ },
+ "sirvanli-molla-esedulla-faiq": {
+  "from": "Q29583554",
+  "basis": "mumtaz"
  },
  "varxiyanli-hesen": {
   "from": "Q5005720",
