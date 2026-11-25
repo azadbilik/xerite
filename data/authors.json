@@ -545,6 +545,35 @@
   "death": null
  },
  {
+  "slug": "asiq-heyder",
+  "az": "Aşıq Heydər",
+  "en": "Ashiq Heydar",
+  "ru": "Ашуг Гейдар",
+  "born": 1867,
+  "died": 1949,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 83,
+  "wikidata": "Q18427627",
+  "match": "override",
+  "birth": {
+   "id": "Q2639765",
+   "az": "Düzkənd",
+   "en": "Alvar",
+   "ru": "Алвар",
+   "lat": 41.0508,
+   "lng": 43.7492
+  },
+  "death": {
+   "id": "Q2639765",
+   "az": "Düzkənd",
+   "en": "Alvar",
+   "ru": "Алвар",
+   "lat": 41.0508,
+   "lng": 43.7492
+  }
+ },
+ {
   "slug": "asiq-huseyn-bozalqanli",
   "az": "Aşıq Hüseyn Bozalqanlı",
   "en": "Ashiq Huseyn Bozalganli",
@@ -2357,6 +2386,29 @@
   "death": null
  },
  {
+  "slug": "goynuklu-mahmud-efendi",
+  "az": "Göynüklü Mahmud əfəndi",
+  "en": "Mahmud Efendi of Goynuk",
+  "ru": "Махмуд эфенди из Гёйнюка",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 1,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q234783",
+   "az": "Şəki",
+   "en": "Shaki",
+   "ru": "Шеки",
+   "lat": 41.1919,
+   "lng": 47.1706,
+   "from": "name"
+  },
+  "death": null
+ },
+ {
   "slug": "habibi",
   "az": "Həbibi",
   "en": "Habibi",
@@ -3800,6 +3852,29 @@
   }
  },
  {
+  "slug": "mir-ebdurrehim-qudsi",
+  "az": "Vəndli Mir Əbdürrəhim Qüdsi",
+  "en": "Mir Abdurrahim Qudsi of Vand",
+  "ru": "Мир Абдуррахим Кудси из Венда",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 5,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q4815983",
+   "az": "Vənənd",
+   "en": "Vənənd",
+   "ru": "Вененд",
+   "lat": 38.9442,
+   "lng": 45.9257,
+   "from": "mumtaz"
+  },
+  "death": null
+ },
+ {
   "slug": "mir-hemze-nigari",
   "az": "Mir Həmzə Nigari",
   "en": "Mir Hamza Nigari",
@@ -4467,7 +4542,7 @@
   "died": 2024,
   "period": "XX-XXI əsr",
   "type": "WRITER",
-  "works": 203,
+  "works": 213,
   "wikidata": "Q16106368",
   "match": "site",
   "birth": {
@@ -5623,6 +5698,35 @@
    "lng": 30.5236
   },
   "death": null
+ },
+ {
+  "slug": "qurbani",
+  "az": "Aşıq Qurbani",
+  "en": "Ashiq Qurbani",
+  "ru": "Ашуг Гурбани",
+  "born": 1477,
+  "died": 1550,
+  "period": "XVI əsr",
+  "type": "POET",
+  "works": 144,
+  "wikidata": "Q4073561",
+  "match": "override",
+  "birth": {
+   "id": "Q55704099",
+   "az": "Diri",
+   "en": "Diri",
+   "ru": "Дири",
+   "lat": 39.0353,
+   "lng": 46.7522
+  },
+  "death": {
+   "id": "Q55704099",
+   "az": "Diri",
+   "en": "Diri",
+   "ru": "Дири",
+   "lat": 39.0353,
+   "lng": 46.7522
+  }
  },
  {
   "slug": "qutqasinli",

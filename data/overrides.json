@@ -1,4 +1,22 @@
 {
+ "asiq-heyder": {
+  "birth": {
+   "id": "Q2639765",
+   "az": "Düzkənd",
+   "en": "Alvar",
+   "ru": "Алвар",
+   "lat": 41.0508,
+   "lng": 43.7492
+  },
+  "death": {
+   "id": "Q2639765",
+   "az": "Düzkənd",
+   "en": "Alvar",
+   "ru": "Алвар",
+   "lat": 41.0508,
+   "lng": 43.7492
+  }
+ },
  "asiq-novruz-sekili": {
   "from": "Q234783",
   "basis": "name"
@@ -25,6 +43,10 @@
  },
  "genceli-hesen": {
   "from": "Q131290",
+  "basis": "name"
+ },
+ "goynuklu-mahmud-efendi": {
+  "from": "Q234783",
   "basis": "name"
  },
  "hemam": {
@@ -58,6 +80,10 @@
   "from": "Q4213761",
   "basis": "mumtaz"
  },
+ "mir-ebdurrehim-qudsi": {
+  "from": "Q4815983",
+  "basis": "mumtaz"
+ },
  "molla-ehmed-faiz": {
   "from": "Q131416",
   "basis": "name"
@@ -85,6 +111,24 @@
  "qemnak": {
   "from": "Q234783",
   "basis": "name"
+ },
+ "qurbani": {
+  "birth": {
+   "id": "Q55704099",
+   "az": "Diri",
+   "en": "Diri",
+   "ru": "Дири",
+   "lat": 39.0353,
+   "lng": 46.7522
+  },
+  "death": {
+   "id": "Q55704099",
+   "az": "Diri",
+   "en": "Diri",
+   "ru": "Дири",
+   "lat": 39.0353,
+   "lng": 46.7522
+  }
  },
  "resul-dulger": {
   "from": "Q234783",
