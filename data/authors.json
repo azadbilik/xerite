@@ -1319,7 +1319,7 @@
   "type": "POET",
   "works": 177,
   "wikidata": "Q4159649",
-  "match": "site",
+  "match": "override",
   "birth": null,
   "death": {
    "id": "Q9248",
@@ -7991,8 +7991,16 @@
   "type": "POET",
   "works": 29,
   "wikidata": "Q139381937",
-  "match": "site",
-  "birth": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q212546",
+   "az": "Axalsıx",
+   "en": "Akhaltsikhe",
+   "ru": "Ахалцихе",
+   "lat": 41.6389,
+   "lng": 42.9861,
+   "from": "name"
+  },
   "death": {
    "id": "Q500888",
    "az": "Axalkələk",
