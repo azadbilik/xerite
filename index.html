@@ -97,6 +97,7 @@
   .card-places { list-style: none; padding: 0; margin-top: .5rem; display: grid; gap: .1rem; }
   .card-places small { color: var(--muted); font-size: .75rem; }
   .card-link { display: block; margin-top: .65rem; padding-top: .55rem; border-top: 1px solid var(--rule); font-weight: 500; text-decoration: none; }
+  .card-link-alt { margin-top: .4rem; padding-top: 0; border-top: 0; font-weight: 400; color: var(--muted); }
   .card-link:hover { color: var(--accent); }
   .list .meta { grid-column: 1; font-size: .8125rem; color: var(--muted); }
   .list .num { grid-row: 1 / span 2; grid-column: 2; align-self: center; font-size: .8125rem; color: var(--muted); font-variant-numeric: tabular-nums; }
@@ -179,15 +180,15 @@ let lang = (() => {
 const T = {
   az: { doc: 'Ədəbiyyat xəritəsi · Azad Bilik', title: 'Ədəbiyyat xəritəsi', sub: 'Azərbaycan yazıçılarının doğulduğu və vəfat etdiyi yerlər', map: 'Xəritə', place: 'Yer', born: 'Doğulduğu yer', died: 'Vəfat etdiyi yer', century: 'Əsr', all: 'Hamısı', gallery: 'Qalereya', maps: 'Xəritələr', library: 'Kitabxana', allPlaces: 'Bütün yerlər',
     cent: (c) => `${roman(c)} əsr`, authors: (n) => `${n} müəllif`, places: (n) => `${n} yer`, works: (n) => `${n} əsər kitabxana.az-da`,
-    origin: { name: 'adından', mumtaz: 'S. Mümtaza görə', source: 'əslən buradan' }, wrong: 'Səhv tapdınız?',
+    origin: { name: 'adından', mumtaz: 'S. Mümtaza görə', source: 'əslən buradan' }, wrong: 'Səhv tapdınız?', alsoMusic: 'Musiqi xəritəsində də var',
     note: (n, t) => `${n} müəllif, saytdakı ${t} müəllifdən. Yerlər Wikidata-dandır; doğulduğu yeri bilinməyən el şairlərinin bir qismi gəldiyi yerdə göstərilir: adından (Şəkili, Dərbəndli) və ya Salman Mümtazın «El şairləri»ndəki qeydinə görə. Yalnız ləqəbi ilə tanınanların çoxunun yeri məlum deyil.` },
   ru: { doc: 'Литературная карта · Azad Bilik', title: 'Литературная карта', sub: 'Где родились и умерли азербайджанские писатели', map: 'Карта', place: 'Место', born: 'Место рождения', died: 'Место смерти', century: 'Век', all: 'Все', gallery: 'Галерея', maps: 'Карты', library: 'Библиотека', allPlaces: 'Все места',
     cent: (c) => `${roman(c)} век`, authors: (n) => `${n} ${plural(n, 'автор', 'автора', 'авторов')}`, places: (n) => `${n} ${plural(n, 'место', 'места', 'мест')}`, works: (n) => `${n} ${plural(n, 'произведение', 'произведения', 'произведений')} на kitabxana.az`,
-    origin: { name: 'по имени', mumtaz: 'по С. Мумтазу', source: 'родом отсюда' }, wrong: 'Нашли ошибку?',
+    origin: { name: 'по имени', mumtaz: 'по С. Мумтазу', source: 'родом отсюда' }, wrong: 'Нашли ошибку?', alsoMusic: 'Есть и на музыкальной карте',
     note: (n, t) => `${n} из ${t} авторов сайта. Места взяты из Викиданных; часть народных поэтов, чьё место рождения неизвестно, показана там, откуда они родом: по имени (Шекили — «из Шеки») или по заметке Салмана Мумтаза в «Эл шаирлери». У большинства известных лишь по прозвищу место неизвестно.` },
   en: { doc: 'Literary map · Azad Bilik', title: 'Literary map', sub: 'Where Azerbaijani writers were born and died', map: 'Map', place: 'Place', born: 'Born', died: 'Died', century: 'Century', all: 'All', gallery: 'Gallery', maps: 'Maps', library: 'Library', allPlaces: 'All places',
     cent: (c) => `${c}${[, 'st', 'nd', 'rd'][c % 10 * (c % 100 > 3 && c % 100 < 21 ? 0 : 1)] ?? 'th'} century`, authors: (n) => `${n} author${n === 1 ? '' : 's'}`, places: (n) => `${n} place${n === 1 ? '' : 's'}`, works: (n) => `${n} work${n === 1 ? '' : 's'} on kitabxana.az`,
-    origin: { name: 'by name', mumtaz: 'per S. Mümtaz', source: 'family origin' }, wrong: 'Found a mistake?',
+    origin: { name: 'by name', mumtaz: 'per S. Mümtaz', source: 'family origin' }, wrong: 'Found a mistake?', alsoMusic: 'Also on the music map',
     note: (n, t) => `${n} of the site's ${t} authors. Places are from Wikidata; folk poets with no recorded birthplace are shown where they came from, by their name (Şəkili, “of Shaki”) or Salman Mümtaz's note in «El şairləri». Most of those known by a single name have no known place.` },
 };
 const t = (k) => T[lang][k];
@@ -213,6 +214,7 @@ const meta = (...xs) => xs.filter(Boolean).join(' · ');
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
 
 const TOTAL = 472;
+let musicians = new Set(); // Wikidata ids on the music map (azadbilik.org/musiqi/), for the cross-link on a card
 let authors = [], mode = 'birth', century = null, place = null;
 // ?author=<slug> (linked from kitabxana.az): open on that author's place, their name marked
 let focus = new URLSearchParams(location.search).get('author');
@@ -270,6 +272,10 @@ document.querySelectorAll('[data-lang]').forEach((b) => b.onclick = () => {
 });
 
 map.on('load', async () => {
+  fetch('/musiqi/data/musicians.json').then((r) => r.json()).then((xs) => {
+    musicians = new Set(xs.map((x) => x.qid));
+    if (focus && card.isOpen()) openCard(focus);
+  }).catch(() => {});
   authors = await fetch('data/authors.json').then((r) => r.json());
   for (const a of authors) a.century = centuryOf(a);
   map.addSource('places', { type: 'geojson', data: empty() });
@@ -388,7 +394,8 @@ function openCard(slug) {
   const where = [a.birth && `<li>* ${esc(label(a.birth))}${a.birth.from ? ` <small>${origin(a)}</small>` : ''}</li>`, a.death && `<li>† ${esc(label(a.death))}</li>`].filter(Boolean).join('');
   card.setLngLat([at.lng, at.lat]).setHTML(`<p class="card-name">${esc(nameOf(a))}</p>
     ${years(a) ? `<p class="card-years">${esc(years(a))}</p>` : ''}<ul class="card-places">${where}</ul>
-    <a class="card-link" href="${kitabxana('/authors/' + a.slug)}">${t('works')(a.works)} <span aria-hidden="true">→</span></a>`).addTo(map);
+    <a class="card-link" href="${kitabxana('/authors/' + a.slug)}">${t('works')(a.works)} <span aria-hidden="true">→</span></a>${a.wikidata && musicians.has(a.wikidata) ? `
+    <a class="card-link card-link-alt" href="/musiqi/?tab=people&person=${a.wikidata}${lang === 'az' ? '' : '&lang=' + lang}">${t('alsoMusic')} <span aria-hidden="true">→</span></a>` : ''}`).addTo(map);
   // Both ends in view when the card sits far from the chosen place
   const g = groups().find((x) => x.id === place);
   if (g && !map.getBounds().contains([at.lng, at.lat]))
