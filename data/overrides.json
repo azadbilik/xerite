@@ -1,4 +1,8 @@
 {
+ "asiq-donu": {
+  "from": "Q5013570",
+  "basis": "mumtaz"
+ },
  "asiq-heyder": {
   "birth": {
    "id": "Q2639765",
@@ -35,6 +39,10 @@
  },
  "cakirli-abdulla": {
   "from": "Q4159705",
+  "basis": "mumtaz"
+ },
+ "calutlu-dulger-oglu": {
+  "from": "Q4810146",
   "basis": "mumtaz"
  },
  "deli-beyir": {
@@ -146,6 +154,10 @@
    "lng": 47.4833
   }
  },
+ "muskurlu-mustafa": {
+  "from": "Q4658012",
+  "basis": "mumtaz"
+ },
  "naxcivanli-allahverdi": {
   "from": "Q230104",
   "basis": "name"
@@ -243,6 +255,16 @@
  "sirvanli-molla-esedulla-faiq": {
   "from": "Q29583554",
   "basis": "mumtaz"
+ },
+ "sirvanli-molla-ismayil-qasir": {
+  "birth": {
+   "id": "Q4120918",
+   "az": "Ləki",
+   "en": "Laki",
+   "ru": "Ляки",
+   "lat": 40.5519,
+   "lng": 47.4269
+  }
  },
  "varxiyanli-hesen": {
   "from": "Q5005720",

@@ -494,6 +494,28 @@
   }
  },
  {
+  "slug": "asiq-donu",
+  "az": "Aşıq Dönü",
+  "en": "Ashiq Donu",
+  "ru": "Ашуг Дёню",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 2,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q5013570",
+   "az": "Daşbulaq",
+   "en": "Daşbulaq",
+   "lat": 41.0789,
+   "lng": 47.039,
+   "from": "mumtaz"
+  },
+  "death": null
+ },
+ {
   "slug": "asiq-esed",
   "az": "Aşıq Əsəd",
   "en": "Ashiq Asad",
@@ -1378,6 +1400,28 @@
    "ru": "Джагирли",
    "lat": 40.8872,
    "lng": 47.2707,
+   "from": "mumtaz"
+  },
+  "death": null
+ },
+ {
+  "slug": "calutlu-dulger-oglu",
+  "az": "Calutlu Dülgər oğlu",
+  "en": "Dulgar Oglu of Calut",
+  "ru": "Дюльгер оглы из Джалута",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 1,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q4810146",
+   "az": "Calut",
+   "en": "Calut",
+   "lat": 41.0769,
+   "lng": 47.4235,
    "from": "mumtaz"
   },
   "death": null
@@ -4791,6 +4835,29 @@
   }
  },
  {
+  "slug": "muskurlu-mustafa",
+  "az": "Muskurlu Mustafa",
+  "en": "Mustafa of Muskur",
+  "ru": "Мустафа из Мускура",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 1,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q4658012",
+   "az": "Müskürlü",
+   "en": "Müskürlü",
+   "ru": "Мюскюрлы",
+   "lat": 40.5489,
+   "lng": 47.6552,
+   "from": "mumtaz"
+  },
+  "death": null
+ },
+ {
   "slug": "mustafa-zerir",
   "az": "Mustafa Zərir",
   "en": "Mustafa Darir",
@@ -6600,11 +6667,12 @@
    "lng": 50
   },
   "death": {
-   "id": "Q5957347",
-   "az": "Qəhqəhə qalası",
-   "en": "Qahqaheh Castle",
-   "lat": 38.7571,
-   "lng": 47.5418
+   "id": "Q18234383",
+   "az": "Səfəvilər",
+   "en": "Safavid Iran",
+   "ru": "Сефевидское государство",
+   "lat": 33,
+   "lng": 50
   }
  },
  {
@@ -7227,6 +7295,28 @@
    "lat": 40.3069,
    "lng": 48.2602,
    "from": "mumtaz"
+  },
+  "death": null
+ },
+ {
+  "slug": "sirvanli-molla-ismayil-qasir",
+  "az": "Şirvanlı Molla İsmayıl Qasır",
+  "en": "Molla Ismayil Qasir of Shirvan",
+  "ru": "Молла Исмаил Касир из Ширвана",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 7,
+  "wikidata": null,
+  "match": "override",
+  "birth": {
+   "id": "Q4120918",
+   "az": "Ləki",
+   "en": "Laki",
+   "ru": "Ляки",
+   "lat": 40.5519,
+   "lng": 47.4269
   },
   "death": null
  },
