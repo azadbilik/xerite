@@ -152,7 +152,7 @@ const centuryOf = (a) => {
 const label = (p) => p.az || p.en || p.ru;
 const years = (a) => a.born || a.died ? `${a.born ?? '?'}–${a.died ?? ''}` : (a.period ?? '');
 // A folk poet placed by where they came from, not by a recorded birthplace
-const origin = (a) => ({ name: 'adından <span lang="en">· by name</span>', mumtaz: 'S. Mümtaza görə <span lang="en">· per S. Mümtaz</span>' })[a.birth?.from] ?? '';
+const origin = (a) => ({ name: 'adından <span lang="en">· by name</span>', mumtaz: 'S. Mümtaza görə <span lang="en">· per S. Mümtaz</span>', source: 'əslən buradan <span lang="en">· family origin</span>' })[a.birth?.from] ?? '';
 const meta = (...xs) => xs.filter(Boolean).join(' · ');
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
 

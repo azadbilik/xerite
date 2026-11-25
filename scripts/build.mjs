@@ -109,7 +109,7 @@ function agrees(a, f) {
 
 // 4. Where a folk poet came from, for those with no birthplace on record: the place in their name
 // ("Şəkili", "Dərbəndli") or in Salman Mümtaz's note on them. Set by hand in overrides.json as
-// { "from": <Wikidata place>, "basis": "name" | "mumtaz" }; shown as an origin, not a birthplace.
+// { "from": <Wikidata place>, "basis": "name" | "mumtaz" | "source" (a biography: "əslən … kəndindən") }; shown as an origin, not a birthplace.
 const origins = new Map();
 const fromIds = [...new Set(Object.values(overrides).map((o) => o.from).filter(Boolean))];
 if (fromIds.length) {

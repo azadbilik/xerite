@@ -17,6 +17,10 @@
    "lng": 43.7492
   }
  },
+ "asiq-nesib": {
+  "from": "Q2642302",
+  "basis": "source"
+ },
  "asiq-novruz-sekili": {
   "from": "Q234783",
   "basis": "name"
@@ -88,6 +92,24 @@
    "ru": "Вененд",
    "lat": 38.9442,
    "lng": 45.9257
+  }
+ },
+ "mirze-xurrem": {
+  "birth": {
+   "id": "Q6035887",
+   "az": "Kürdəşt",
+   "en": "Kordasht",
+   "ru": "Кордешт",
+   "lat": 38.8756,
+   "lng": 46.2525
+  },
+  "death": {
+   "id": "Q911727",
+   "az": "Əhər",
+   "en": "Ahar",
+   "ru": "Ахар",
+   "lat": 38.4775,
+   "lng": 47.0662
   }
  },
  "molla-ehmed-faiz": {
@@ -194,6 +216,14 @@
  },
  "sekili-suleyman": {
   "from": "Q234783",
+  "basis": "name"
+ },
+ "varxiyanli-hesen": {
+  "from": "Q5005720",
+  "basis": "name"
+ },
+ "varxiyanli-mehemmed": {
+  "from": "Q5005720",
   "basis": "name"
  },
  "xoylu-kor-teqi": {

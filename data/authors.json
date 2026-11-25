@@ -754,6 +754,29 @@
   }
  },
  {
+  "slug": "asiq-nesib",
+  "az": "Aşıq Nəsib",
+  "en": "Ashiq Nasib",
+  "ru": "Ашуг Насиб",
+  "born": 1874,
+  "died": 1944,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 30,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q2642302",
+   "az": "Güllübulaq",
+   "en": "Byurakn",
+   "ru": "Бюракн",
+   "lat": 40.8686,
+   "lng": 43.7072,
+   "from": "source"
+  },
+  "death": null
+ },
+ {
   "slug": "asiq-novruz-sekili",
   "az": "Şəkili Aşıq Novruz",
   "en": "Ashiq Novruz of Shaki",
@@ -4357,6 +4380,35 @@
   "death": null
  },
  {
+  "slug": "mirze-xurrem",
+  "az": "Mirzə Xürrəm",
+  "en": "Mirza Khurram",
+  "ru": "Мирза Хуррам",
+  "born": null,
+  "died": 1825,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 1,
+  "wikidata": "Q12842107",
+  "match": "override",
+  "birth": {
+   "id": "Q6035887",
+   "az": "Kürdəşt",
+   "en": "Kordasht",
+   "ru": "Кордешт",
+   "lat": 38.8756,
+   "lng": 46.2525
+  },
+  "death": {
+   "id": "Q911727",
+   "az": "Əhər",
+   "en": "Ahar",
+   "ru": "Ахар",
+   "lat": 38.4775,
+   "lng": 47.0662
+  }
+ },
+ {
   "slug": "miskin-abdal",
   "az": "Miskin Abdal",
   "en": "Miskin Abdal",
@@ -5477,6 +5529,35 @@
    "from": "name"
   },
   "death": null
+ },
+ {
+  "slug": "qemerbeyim-seyda",
+  "az": "Qəmərbəyim Şeyda",
+  "en": "Gamarbeyim Sheyda",
+  "ru": "Гамарбейим Шейда",
+  "born": 1881,
+  "died": 1933,
+  "period": "XIX-XX əsr",
+  "type": "POET",
+  "works": 1,
+  "wikidata": "Q4133149",
+  "match": "site",
+  "birth": {
+   "id": "Q158903",
+   "az": "Şuşa",
+   "en": "Shusha",
+   "ru": "Шуша",
+   "lat": 39.7602,
+   "lng": 46.7504
+  },
+  "death": {
+   "id": "Q9248",
+   "az": "Bakı",
+   "en": "Baku",
+   "ru": "Баку",
+   "lat": 40.3667,
+   "lng": 49.8352
+  }
  },
  {
   "slug": "qemkusar",
@@ -7463,6 +7544,52 @@
    "lat": 40.3667,
    "lng": 49.8352
   }
+ },
+ {
+  "slug": "varxiyanli-hesen",
+  "az": "Varxiyanlı Həsən",
+  "en": "Hasan of Varkhiyan",
+  "ru": "Хасан из Вархиана",
+  "born": null,
+  "died": null,
+  "period": null,
+  "type": "POET",
+  "works": 1,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q5005720",
+   "az": "Bəhmədli",
+   "en": "Bəhmətli",
+   "ru": "Бахматли",
+   "lat": 41.4564,
+   "lng": 46.6363,
+   "from": "name"
+  },
+  "death": null
+ },
+ {
+  "slug": "varxiyanli-mehemmed",
+  "az": "Varxiyanlı Aşıq Məhəmməd",
+  "en": "Varkhiyanli Ashiq Mahammad",
+  "ru": "Вархиянлы Ашуг Мамед",
+  "born": null,
+  "died": null,
+  "period": "XIX əsr",
+  "type": "POET",
+  "works": 44,
+  "wikidata": null,
+  "match": "origin",
+  "birth": {
+   "id": "Q5005720",
+   "az": "Bəhmədli",
+   "en": "Bəhmətli",
+   "ru": "Бахматли",
+   "lat": 41.4564,
+   "lng": 46.6363,
+   "from": "name"
+  },
+  "death": null
  },
  {
   "slug": "vazeh",
