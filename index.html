@@ -44,6 +44,8 @@
     box-shadow: 0 1px 2px rgb(0 0 0 / .04), 0 8px 32px rgb(0 0 0 / .06);
   }
   .head { padding: 1.25rem 1.5rem 1rem; }
+  .top { display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
+  .top nav { display: flex; gap: 1rem; font-size: .8125rem; color: var(--muted); }
   .brand { display: inline-flex; align-items: center; gap: .5rem; font-size: .8125rem; font-weight: 600; text-decoration: none; }
   .brand svg { width: 1rem; height: 1rem; }
   .star { fill: currentColor; } .gem { fill: var(--accent); }
@@ -119,7 +121,7 @@
 
 <aside class="panel">
   <div class="head">
-    <a class="brand" href="/"><svg viewBox="0 0 512 512" aria-hidden="true"><g class="star"><rect x="126" y="126" width="260" height="260"/><polygon points="256,72 440,256 256,440 72,256"/></g><polygon class="gem" points="256,196 316,256 256,316 196,256"/></svg>Azad Bilik</a>
+    <div class="top"><a class="brand" href="/"><svg viewBox="0 0 512 512" aria-hidden="true"><g class="star"><rect x="126" y="126" width="260" height="260"/><polygon points="256,72 440,256 256,440 72,256"/></g><polygon class="gem" points="256,196 316,256 256,316 196,256"/></svg>Azad Bilik</a><nav><a href="/qalereya/">Qalereya</a><a href="https://kitabxana.az">Kitabxana</a></nav></div>
     <h1>Ədəbiyyat xəritəsi</h1>
     <p class="sub" lang="en">Where Azerbaijani writers were born and died</p>
   </div>
