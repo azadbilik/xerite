@@ -3856,23 +3856,29 @@
   "az": "Vəndli Mir Əbdürrəhim Qüdsi",
   "en": "Mir Abdurrahim Qudsi of Vand",
   "ru": "Мир Абдуррахим Кудси из Венда",
-  "born": null,
-  "died": null,
-  "period": null,
+  "born": 1773,
+  "died": 1861,
+  "period": "XVIII-XIX əsr",
   "type": "POET",
   "works": 5,
-  "wikidata": null,
-  "match": "origin",
+  "wikidata": "Q12844604",
+  "match": "override",
   "birth": {
    "id": "Q4815983",
    "az": "Vənənd",
    "en": "Vənənd",
    "ru": "Вененд",
    "lat": 38.9442,
-   "lng": 45.9257,
-   "from": "mumtaz"
+   "lng": 45.9257
   },
-  "death": null
+  "death": {
+   "id": "Q1000839",
+   "az": "Ordubad",
+   "en": "Ordubad",
+   "ru": "Ордубад",
+   "lat": 38.9047,
+   "lng": 46.0231
+  }
  },
  {
   "slug": "mir-hemze-nigari",
@@ -6401,12 +6407,11 @@
    "lng": 50
   },
   "death": {
-   "id": "Q18234383",
-   "az": "Səfəvilər",
-   "en": "Safavid Iran",
-   "ru": "Сефевидское государство",
-   "lat": 33,
-   "lng": 50
+   "id": "Q5957347",
+   "az": "Qəhqəhə qalası",
+   "en": "Qahqaheh Castle",
+   "lat": 38.7571,
+   "lng": 47.5418
   }
  },
  {

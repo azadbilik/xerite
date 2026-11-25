@@ -81,8 +81,14 @@
   "basis": "mumtaz"
  },
  "mir-ebdurrehim-qudsi": {
-  "from": "Q4815983",
-  "basis": "mumtaz"
+  "birth": {
+   "id": "Q4815983",
+   "az": "Vənənd",
+   "en": "Vənənd",
+   "ru": "Вененд",
+   "lat": 38.9442,
+   "lng": 45.9257
+  }
  },
  "molla-ehmed-faiz": {
   "from": "Q131416",
