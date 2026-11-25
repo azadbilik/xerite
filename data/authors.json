@@ -1319,7 +1319,7 @@
   "type": "POET",
   "works": 177,
   "wikidata": "Q4159649",
-  "match": "override",
+  "match": "site",
   "birth": null,
   "death": {
    "id": "Q9248",
@@ -6600,12 +6600,11 @@
    "lng": 50
   },
   "death": {
-   "id": "Q18234383",
-   "az": "Səfəvilər",
-   "en": "Safavid Iran",
-   "ru": "Сефевидское государство",
-   "lat": 33,
-   "lng": 50
+   "id": "Q5957347",
+   "az": "Qəhqəhə qalası",
+   "en": "Qahqaheh Castle",
+   "lat": 38.7571,
+   "lng": 47.5418
   }
  },
  {
