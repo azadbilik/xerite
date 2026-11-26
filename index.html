@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="/shared/theme.js"></script>
 <title>Ədəbiyyat xəritəsi · Azad Bilik</title>
 <meta name="description" content="Azərbaycan yazıçı və şairlərinin doğulduğu və vəfat etdiyi yerlər. Where Azerbaijani writers and poets were born and died.">
 <meta name="theme-color" content="#F4EFE6" media="(prefers-color-scheme: light)">
@@ -22,9 +23,12 @@
     color-scheme: light dark;
   }
   @media (prefers-color-scheme: dark) {
-    :root { --paper: #14100D; --ink: #F1EBE1; --muted: #A0968B; --rule: rgb(241 235 225 / .14);
+    :root:not([data-theme="light"]) { --paper: #14100D; --ink: #F1EBE1; --muted: #A0968B; --rule: rgb(241 235 225 / .14);
       --accent: #DA5A61; --panel: rgb(20 16 13 / .95); --water: #0C0A08; --land: #1C1713; }
   }
+  :root[data-theme="dark"] { --paper: #14100D; --ink: #F1EBE1; --muted: #A0968B; --rule: rgb(241 235 225 / .14);
+      --accent: #DA5A61; --panel: rgb(20 16 13 / .95); --water: #0C0A08; --land: #1C1713; }
+
   * { box-sizing: border-box; margin: 0; }
   html, body { height: 100%; }
   body { background: var(--paper); color: var(--ink); font: 400 .9375rem/1.5 var(--sans); -webkit-font-smoothing: antialiased; overflow: hidden; }
@@ -108,7 +112,9 @@
   .maplibregl-ctrl-attrib a { color: var(--muted); }
   .maplibregl-ctrl-group { background: var(--panel); border: 1px solid var(--rule); box-shadow: none !important; }
   .maplibregl-ctrl-group button + button { border-top-color: var(--rule); }
-  @media (prefers-color-scheme: dark) { .maplibregl-ctrl-group .maplibregl-ctrl-icon { filter: invert(1); } }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .maplibregl-ctrl-group .maplibregl-ctrl-icon { filter: invert(1); } }
+  :root[data-theme="dark"] .maplibregl-ctrl-group .maplibregl-ctrl-icon { filter: invert(1); }
+
   .maplibregl-popup-content { background: var(--paper); color: var(--ink); font: .8125rem var(--sans); padding: .4rem .6rem; border-radius: 3px; box-shadow: 0 2px 12px rgb(0 0 0 / .15); }
   .maplibregl-popup-tip { display: none; }
 
@@ -159,7 +165,7 @@
 
 <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
 <script>
-const dark = matchMedia('(prefers-color-scheme: dark)').matches;
+const dark = window.abTheme ? abTheme.dark() : matchMedia('(prefers-color-scheme: dark)').matches;
 const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
 const roman = (n) => [['XX', 20], ['X', 10], ['IX', 9], ['V', 5], ['IV', 4], ['I', 1]].reduce((s, [r, v]) => { while (n >= v) { s += r; n -= v; } return s; }, '');
 const fromRoman = (s) => { const v = { I: 1, V: 5, X: 10 }; return [...s].reduce((n, c, i, a) => v[c] < (v[a[i + 1]] ?? 0) ? n - v[c] : n + v[c], 0); };
